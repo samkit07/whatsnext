@@ -1,0 +1,270 @@
+{
+  "data": [
+    {
+      "name": "Engineering",
+      "duration": "4 years",
+      "eligibility": "MPC",
+      "entranceExams": [
+        "EAMCET",
+        "IIT",
+        "AIEEE",
+        "BITSAT"
+      ],
+      "fields": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "Civil Eng",
+        "Mechanical Eng",
+        "Chemical Eng",
+        "Aeronautical Eng",
+        "Aerospace Eng",
+        "Agricultural Eng",
+        "Automobile Eng",
+        "Bio-medical Eng",
+        "Bio-technology Eng",
+        "Ceramic Eng",
+        "Industrial Eng",
+        "Environmental Eng",
+        "Marine Eng",
+        "Mining Eng",
+        "Silk & Textile Eng"
+      ]
+    },
+    {
+      "name": "Medical",
+      "eligibility": "BiPC",
+      "fields": [
+        {
+          "name": "Medicine",
+          "entranceExams": [
+            "EAMCET",
+            "NEET"
+          ],
+          "duration": "5 years",
+          "fields": [
+            "MBBS-Allopathic",
+            "BUMS-Unani",
+            "BHMS-Homeopathy",
+            "BAMS-Ayurveda",
+            "BNYS-Naturopathy",
+            "Ag.BSc-Agricultural",
+            "BDS-Dental",
+            "BVSc-Veterinary",
+            "BPT-Physiotherapy"
+          ]
+        },
+        {
+          "name": "Allied Health Sciences ",
+          "duration": "2/3 years",
+          "fields": [
+            "B.Pharma Designing",
+            "BSc. Nursing",
+            "BOT-Occupational therapy",
+            "BSc-Anesthesia",
+            "BSc-Cardiac Tec",
+            "BSc-Medical Lab Tec",
+            "BSc-Radio Therapy Tec",
+            "BSc-Clinical Optometry",
+            "BSc-Nuclear Medicine",
+            "BSc-Operation Theatre",
+            "BSc-Physician assistant",
+            "BSc-Respiratory care",
+            "BMLT-Medical Lab Technology"
+          ]
+        },
+        {
+          "name": "Paramedical",
+          "fields": [
+            "Dialysis Technician",
+            "ECG Technician",
+            "X- Ray Technician",
+            "Operation Theatre Technician"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Degree",
+      "fields": [
+        {
+          "name": "Degree",
+          "duration": "3 years",
+          "subFields": [
+            {
+              "name": "BA",
+              "specialization": [
+                "BA –HEP",
+                "BA-HTP",
+                "BA-Linguistics",
+                "BA-Economics",
+                "BA- Psychology",
+                "BA-Fin arts",
+                "BA- Political Sci.",
+                "BA-Sociology",
+                "BA- Library Sci."
+              ]
+            },
+            {
+              "name": "B.Sc",
+              "specialization": [
+                "B.Sc- MPC",
+                "B.Sc- MEC",
+                "B.Sc-Appli. Math",
+                "B.Sc- BZC/CBZ",
+                "B.Sc-CPZ",
+                "B.Sc-Horticulture",
+                "B.Sc- Computer Sci.",
+                "B.Sc-Home Science",
+                "B.Sc-Bio-chemistry",
+                "B.Sc-Micro bio.",
+                "B.Sc-Bio-Tec..",
+                "B.Sc-AnthroP.",
+                "B.Sc-Dairy sci"
+              ]
+            },
+            {
+              "name": "B.Com",
+              "specialization": [
+                "B.Com-Regular",
+                "B.Com-Computers",
+                "B.Com-Bank Mana.",
+                "B.Com-Tax Proce."
+              ]
+            },
+            {
+              "name": "Other Degrees",
+              "specialization": [
+                "LLB",
+                "BAF(Bach.in Accou&Fin)",
+                "BFM(Bach.in Fin. Mane)",
+                "BMS(Bach.in Manag, Stu.)",
+                "BBA(Bach.in Busi. Admin)",
+                "BCA(Bach.in Com. Appli)",
+                "BBM(Bach.in Busi. Mane)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dual-Degree",
+          "duration": "4 years",
+          "subfields": [
+            "BA + Bed",
+            "BSc + Bed",
+            "BA + LLB",
+            "BCom + LLB ITT",
+            "BBM + LLB (100 hours)",
+            "BBA + LLB"
+          ]
+        },
+        {
+          "name": "Professional Courses",
+          "subfields": [
+            {"name": "ICWA"},
+            {"name":  "CS"},
+            {"name": "CA",
+
+              "examination": [
+                  {
+                    "name": "CPT"
+                  },
+                  {
+                    "name": "ATC",
+                    "eligibility": "CPT",
+                    "duration": "9 months"
+                  },
+                  {
+                    "name": "IPCC",
+                    "eligibility": "CPT"
+                  },
+                {
+                  "name": "ITT",
+                  "duration": "100 hours",
+                  "eligibility": "ATC OR IPCC"
+                },
+                {
+                  "name": "CA Final",
+                  "eligibility": "Article ship"
+                }
+              ]
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "name": "NDA",
+      "fields": [
+        "Army", "Navy", "Air force"
+      ]
+    },
+    {
+      "name": "Teaching",
+      "fields": [
+        {
+          "name": "D. Ed",
+          "duration": "2 years",
+          "ApplicablePost": "Primary School Teacher"
+        },
+        {
+          "name": "UDPED",
+          "duration": "2 years",
+          "ApplicablePost": "PET Teacher"
+        },
+        {
+          "name": "ECCED",
+          "duration": "",
+          "ApplicablePost": "Early Childhood care Education"
+        }
+        ]
+        },
+    {
+      "name": "Others(Diploma Courses)",
+      "fields": [{
+        "name":"Foreign Languages" ,
+        "subFields": []
+      },
+        {
+          "name":"Fire Safety",
+          "subFields": []
+        },
+        {
+          "name":"Journalism",
+          "subFields": []
+        },
+        {
+          "name": "Home Science",
+          "subFields": []
+        },
+        {
+          "name": "Tourism",
+          "subFields": []
+        },
+        {
+          "name": "Hotel management",
+          "subFields": []
+        },
+        {
+          "name": "Rural development",
+          "subFields": []
+        },
+        {
+          "name": "Designing",
+          "subFields": ["Fashion", "Interior", "Jewelery"]
+        },
+        {
+          "name": "Film making",
+          "subFields": ["Direction", "Screen Writing", "Cinematography",
+            "Sound designee", "Editing", "Action"]
+        },
+        {
+          "name": "Management",
+          "subFields": [  "Finance management", "Event management", "Hotel management"]
+        }
+      ]
+    }
+  ]
+}

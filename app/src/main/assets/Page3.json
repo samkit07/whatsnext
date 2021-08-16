@@ -1,0 +1,258 @@
+{
+    "What next(after Graduation)": [
+        {
+            "courseName": "Engineering",
+            "afterGrad": {
+                "study": [
+                    "M.Tech",
+                    {
+                        "MBA": {
+                            "eligibility": "Any Degree"
+                        }
+                    }
+                ],
+                "work": "Job"
+            }
+        },
+        {
+            "courseName": "Medical",
+            "afterGrad": {
+                "study": [
+                    "MD",
+                    "MS"
+                ],
+                "work": [
+                    "Job",
+                    "Practice"
+                ]
+            }
+        },
+        {
+            "courseName": "BA",
+            "afterGrad": {
+                "study": [
+                    {
+                        "MA": [
+                            {
+                                "course": "Telugu",
+                                "eligibility": "Any degree with one subject Telugu"
+                            },
+                            {
+                                "course": "English",
+                                "eligibility": "Any degree with one subject English"
+                            },
+                            {
+                                "course": "Hindi",
+                                "eligibility": "Any degree with one subject Hindi"
+                            },
+                            {
+                                "course": "Economics",
+                                "eligibility": "BA with Economics one of the sub."
+                            },
+                            {
+                                "course": "History",
+                                "eligibility": "BA with History one of the sub."
+                            },
+                            {
+                                "course": "Sociology",
+                                "eligibility": "BA"
+                            },
+                            {
+                                "course": "Political Sci",
+                                "eligibility": "BA"
+                            },
+                            {
+                                "course": "Public Admin..",
+                                "eligibility": "BA"
+                            },
+                            {
+                                "course": "Archaeology",
+                                "eligibility": "BA"
+                            },
+                            {
+                                "course": "MS Public rel",
+                                "eligibility": "BA"
+                            }
+                        ]
+                    },
+                    "B.Ed",
+                    {
+                        "MBA": {
+                            "eligibility": "Any Degree"
+                        }
+                    },
+                    "LLB",
+                    "Phd"
+                ],
+                "work": "Job"
+            }
+        },
+        {
+            "courseName": "B.Sc",
+            "afterGrad": {
+                "study": [
+                    {
+                        "MSc": [
+                            {
+                                "name": "Computers",
+                                "eligibility": [
+                                    "B.Sc Comp",
+                                    "B.Com Comp",
+                                    "BA Comp",
+                                    "BCA"
+                                ]
+                            },
+                            {
+                                "name": "Maths",
+                                "eligibility": [
+                                    "B.Sc",
+                                    "BA with one subject Maths"
+                                ]
+                            },
+                            {
+                                "name": "Chemistry",
+                                "eligibility": "B.Sc with Chemistry"
+                            },
+                            {
+                                "name": "Botany",
+                                "eligibility": "B.Sc with Botany"
+                            },
+                            {
+                                "name": "Zoology",
+                                "eligibility": "B.Sc with Zoology"
+                            },
+                            {
+                                "name": "Physics",
+                                "eligibility": "B.Sc with Physics"
+                            },
+                            {
+                                "name": "Home Sci.",
+                                "eligibility": "B.Sc with Botany + Zoology"
+                            },
+                            {
+                                "name": "Anthrop",
+                                "eligibility": "B.Sc with Zoology / BA"
+                            },
+                            {
+                                "name": "Psychology",
+                                "eligibility": "Any degree"
+                            },
+                            {
+                                "name": "Bio-Chemis",
+                                "eligibility": "B.Sc with one subject Chemi"
+                            },
+                            {
+                                "name": "Bio-Tecno",
+                                "eligibility": "B.Sc with one subject Bio-Tecnology"
+                            },
+                            {
+                                "name": "Micro biolo",
+                                "eligibility": "B.Sc with Zoology"
+                            },
+                            {
+                                "name": "Virology",
+                                "eligibility": "B.Sc with Zoology"
+                            }
+                        ]
+                    },
+                    "B.Ed",
+                    "LLB",
+                    "Phd"
+                ],
+                "work": "Job"
+            }
+        },
+        {
+            "courseName": "B.Com",
+            "afterGrad": {
+                "study": [
+                    {
+                        "M.Com": {
+                            "eligibility": "B.Com/ BA with Commerce one of the subject"
+                        }
+                    },
+                    {
+                        "MBA": {
+                            "eligibility": "Any Degree"
+                        }
+                    },
+                    "LLB",
+                    "Phd"
+                ],
+                "work": "Job"
+            }
+        },
+        {
+            "courseName": "LLB",
+            "afterGrad": {
+                "study": [
+                    "DTL",
+                    "DLL",
+                    {
+                        "LLM": {
+                            "eligibility": "BL / LLB"
+                        }
+                    }
+                ],
+                "work": "Job"
+            }
+        },
+        {
+            "courseName": "BCA",
+            "afterGrad": {
+                "study": [
+                    {
+                        "MCA": {
+                            "eligibility": "BA/B.Sc with Maths."
+                        }
+                    },
+                    {
+                        "MBA": {
+                            "eligibility": "Any Degree"
+                        }
+                    },
+                    "MSc.Comp",
+                    "Phd"
+                ],
+                "work": "Job"
+            }
+        },
+        {
+            "courseName": "BBA/BBM",
+            "afterGrad": {
+                "study": [
+                    {
+                        "MBA": {
+                            "eligibility": "Any Degree"
+                        }
+                    },
+                    "Phd"
+                ],
+                "work": "Job"
+            }
+        },
+        {
+            "courseName": "Teaching Students",
+            "afterGrad": [
+                {
+                    "study": "B.Ed/B.Ped",
+                    "work": "Job"
+                },
+                {
+                    "study": "M.Ed/",
+                    "work": "Job"
+                },
+                {
+                    "study": "Phd"
+                }
+            ]
+        },
+        {
+            "courseName": "Others",
+            "afterGrad": {
+                "study": "Post Graduation",
+                "work": "Job"
+            }
+        }
+    ]
+}
