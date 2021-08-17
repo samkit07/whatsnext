@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\What-Next-main\\WhatNext\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
+            "outputFile": "F:\\WhatNext\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Samkit\\.gradle\\caches\\transforms-3\\6c809ba1be2c04d50dbd65bedc7e1620\\transformed\\material-1.4.0\\res\\values-fr\\values-fr.xml",

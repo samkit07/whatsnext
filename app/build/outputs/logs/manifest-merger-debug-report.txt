@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
 MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Samkit\.gradle\caches\transforms-3\5d5aa10d24b096a1175f40626dee7ae6\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Samkit\.gradle\caches\transforms-3\6c809ba1be2c04d50dbd65bedc7e1620\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\Samkit\.gradle\caches\transforms-3\2de286b845160b1acfa90055a970924e\transformed\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
@@ -40,25 +40,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Samkit\.gradle\c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Samkit\.gradle\caches\transforms-3\68e276276738e853f9be4a09f975ed6c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Samkit\.gradle\caches\transforms-3\a7850051916a2a93c6a29dff2d7580ad\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Samkit\.gradle\caches\transforms-3\5437f30b2bb605224097b665096599e3\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:3:5-36
-		INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
-		INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml
+		INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
-		INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
+		INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
-		INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
+		INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:5:5-21:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Samkit\.gradle\caches\transforms-3\6c809ba1be2c04d50dbd65bedc7e1620\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Samkit\.gradle\caches\transforms-3\6c809ba1be2c04d50dbd65bedc7e1620\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\Samkit\.gradle\caches\transforms-3\2de286b845160b1acfa90055a970924e\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
@@ -70,37 +70,37 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sa
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\Samkit\.gradle\caches\transforms-3\669850d891e9fce8c3f85b3eb97c3846\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:11:9-46
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:11:9-46
 activity#com.example.what_next.MainActivity
-ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:12:9-20:20
+ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:12:9-20:20
 	android:exported
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:14:13-36
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:13:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml:18:27-74
 uses-sdk
-INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
-INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
+INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml
+INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml
 MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Samkit\.gradle\caches\transforms-3\5d5aa10d24b096a1175f40626dee7ae6\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Samkit\.gradle\caches\transforms-3\5d5aa10d24b096a1175f40626dee7ae6\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Samkit\.gradle\caches\transforms-3\6c809ba1be2c04d50dbd65bedc7e1620\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
@@ -173,13 +173,13 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Samkit\.gradle\caches\transfor
 MERGED from [androidx.print:print:1.0.0] C:\Users\Samkit\.gradle\caches\transforms-3\a7850051916a2a93c6a29dff2d7580ad\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Samkit\.gradle\caches\transforms-3\5437f30b2bb605224097b665096599e3\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Samkit\.gradle\caches\transforms-3\5437f30b2bb605224097b665096599e3\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
-INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
+INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml
+INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
-		INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
+		INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml
+		INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
-		ADDED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
-		INJECTED from F:\What-Next-main\WhatNext\app\src\main\AndroidManifest.xml
+		INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml
+		ADDED from F:\WhatNext\app\src\main\AndroidManifest.xml
+		INJECTED from F:\WhatNext\app\src\main\AndroidManifest.xml

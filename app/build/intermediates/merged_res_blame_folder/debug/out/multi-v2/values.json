@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\What-Next-main\\WhatNext\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "F:\\WhatNext\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Samkit\\.gradle\\caches\\transforms-3\\3f299e6812e2d7ef30539a3f89de9344\\transformed\\coordinatorlayout-1.1.0\\res\\values\\values.xml",
@@ -150,23 +150,6 @@
                     }
                 },
                 {
-                    "source": "F:\\What-Next-main\\WhatNext\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "46",
-                        "endOffsets": "58"
-                    },
-                    "to": {
-                        "startLines": "1187",
-                        "startColumns": "4",
-                        "startOffsets": "68828",
-                        "endColumns": "46",
-                        "endOffsets": "68870"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Samkit\\.gradle\\caches\\transforms-3\\2de286b845160b1acfa90055a970924e\\transformed\\constraintlayout-2.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,9,10,15,16,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,42,43,44,45,55,63,64,65,70,71,76,81,82,83,88,89,94,95,100,101,102,108,109,110,115,120,121,122,126,127,128,129,132,135,138,139,142,145,146,147,148,149,152,155,156,157,158,164,169,172,175,176,177,182,183,184,187,190,191,194,197,200,203,204,205,208,211,212,217,218,224,229,232,235,236,237,238,239,240,241,242,243,244,245,246,262,268,269,270,271,272,279,285,286,287,290,295,296,304,305,306,307,308,309,310,311,320,321,322,328,329,335,339,340,341,342,343,352,356,357,358,376,561,688,694,698,867,1017,1030,1046,1071,1094,1097,1100,1103,1132,1159,1176,1261,1269,1282,1298,1302,1332,1345,1349,1359,1369,1413,1426,1430,1433,1449,1490,1525,1532,1549",
@@ -222,25 +205,6 @@
                     }
                 },
                 {
-                    "source": "F:\\What-Next-main\\WhatNext\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "817"
-                    },
-                    "to": {
-                        "startLines": "4017",
-                        "startColumns": "4",
-                        "startOffsets": "265406",
-                        "endLines": "4029",
-                        "endColumns": "12",
-                        "endOffsets": "266121"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Samkit\\.gradle\\caches\\transforms-3\\f0f0ab695b7a47bf21942404509b22f7\\transformed\\recyclerview-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -257,6 +221,42 @@
                         "endLines": "393,743,744,745,753,754,755,1066,8544",
                         "endColumns": "55,58,47,55,74,75,71,65,24",
                         "endOffsets": "18701,40515,40563,40619,41305,41381,41453,61714,512013"
+                    }
+                },
+                {
+                    "source": "F:\\WhatNext\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "46",
+                        "endOffsets": "58"
+                    },
+                    "to": {
+                        "startLines": "1187",
+                        "startColumns": "4",
+                        "startOffsets": "68828",
+                        "endColumns": "46",
+                        "endOffsets": "68870"
+                    }
+                },
+                {
+                    "source": "F:\\WhatNext\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "817"
+                    },
+                    "to": {
+                        "startLines": "4017",
+                        "startColumns": "4",
+                        "startOffsets": "265406",
+                        "endLines": "4029",
+                        "endColumns": "12",
+                        "endOffsets": "266121"
                     }
                 },
                 {
@@ -279,7 +279,7 @@
                     }
                 },
                 {
-                    "source": "F:\\What-Next-main\\WhatNext\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "F:\\WhatNext\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "7,2,3,4,5,6,8",
                         "startColumns": "4,4,4,4,4,4,4",
