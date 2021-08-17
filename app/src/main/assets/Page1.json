@@ -1,0 +1,295 @@
+{
+	"data": [
+		{
+			"Education": [
+				{
+					"name": "intermediate",
+					"duration": "2 years",
+					"fields": [
+						{
+							"name": "Science",
+							"subFields": [
+								"MPC",
+								"BiPC",
+								"Library Science"
+							]
+						},
+						{
+							"name": "Arts",
+							"subFields": [
+								"CEC"
+							]
+						},
+						{
+							"name": "Commerce",
+							"subFields": [
+								"MEC",
+								"HEC"
+							]
+						}
+					]
+				},
+				{
+					"name": "others",
+					"duration": "",
+					"fields": [
+						{
+							"name": "Beauty & Cosmetology",
+							"subFields": []
+						},
+						{
+							"name": "Jewelry Designing",
+							"subFields": []
+						},
+						{
+							"name": "Fashion Designing",
+							"subFields": []
+						},
+						{
+							"name": "Photography",
+							"subFields": []
+						}
+					]
+				},
+				{
+					"name": "Polytechnic",
+					"duration": "3 years",
+					"fields": [
+						{
+							"name": "Mechanical",
+							"subFields": []
+						},
+						{
+							"name": "Computer Science",
+							"subFields": []
+						},
+						{
+							"name": "Civil",
+							"subFields": []
+						},
+						{
+							"name": "EEE",
+							"subFields": []
+						},
+						{
+							"name": "IT",
+							"subFields": []
+						},
+						{
+							"name": "Automobile",
+							"subFields": []
+						},
+						{
+							"name": "Electronics & Communication",
+							"subFields": []
+						},
+						{
+							"name": "Bio-Technology",
+							"subFields": []
+						},
+						{
+							"name": "Electrical",
+							"subFields": []
+						},
+						{
+							"name": "Chemical",
+							"subFields": []
+						},
+						{
+							"name": "Aeronautical",
+							"subFields": []
+						},
+						{
+							"name": "Agriculture",
+							"subFields": []
+						},
+						{
+							"name": "Architecture",
+							"subFields": []
+						},
+						{
+							"name": "Bio-Medical",
+							"subFields": []
+						},
+						{
+							"name": "Marine technology",
+							"subFields": []
+						},
+						{
+							"name": "Mining technology",
+							"subFields": []
+						},
+						{
+							"name": "Leather technology",
+							"subFields": []
+						},
+						{
+							"name": "Textile technology",
+							"subFields": []
+						},
+						{
+							"name": "Petroleum technology",
+							"subFields": []
+						},
+						{
+							"name": "Plastic technology",
+							"subFields": []
+						},
+						{
+							"name": "Rubber technology",
+							"subFields": []
+						}
+					],
+					"examinations": [
+						{
+							"name": "APRJC",
+							"website": "http://www.aprs.cgg.gov.in/"
+						},
+						{
+							"name": "Polytechnic Entrance ",
+							"website": "http://www.appolitechnic.nic/"
+						}
+					]
+				},
+				{
+					"name": "IIIT",
+					"duration": "",
+					"fields": []
+				},
+				{
+					"name": "ITI",
+					"duration": "2 years",
+					"fields": [
+						{
+							"name": "Fitter",
+							"subFields": []
+						},
+						{
+							"name": "Computer",
+							"subFields": []
+						},
+						{
+							"name": "Civil(Draughtman)",
+							"subFields": []
+						},
+						{
+							"name": "Mechanical",
+							"subFields": [
+								"Radio & TV",
+								"Motor vehicle",
+								"Diesel",
+								"Marine"
+							]
+						},
+						{
+							"name": "Plumber",
+							"subFields": []
+						},
+						{
+							"name": "Surveyor",
+							"subFields": []
+						},
+						{
+							"name": "Electrical",
+							"subFields": []
+						},
+						{
+							"name": "Machine tools",
+							"subFields": []
+						},
+						{
+							"name": "Welder",
+							"subFields": []
+						},
+						{
+							"name": "Firemen",
+							"subFields": []
+						},
+						{
+							"name": "Cookery",
+							"subFields": []
+						},
+						{
+							"name": "Paint Technology",
+							"subFields": []
+						}
+					]
+				},
+				{
+					"name": "Paramedical",
+					"duration": "3 years",
+					"fields": [
+						{
+							"name": "DLMT",
+							"subfields": []
+						},
+						{
+							"name": "DHFM",
+							"subfields": []
+						},
+						{
+							"name": "DOA",
+							"subfields": []
+						},
+						{
+							"name": "DOT",
+							"subfields": []
+						},
+						{
+							"name": "Health Inspector",
+							"subfields": []
+						},
+						{
+							"name": "Sanitary Inspector",
+							"subfields": []
+						}
+					]
+				},
+				{
+					"name": "Short term courses",
+					"duration": "6 months/ 1 year",
+					"fields": [
+						{
+							"name": "DTP",
+							"subfields": []
+						},
+						{
+							"name": "PGDCA",
+							"subfields": []
+						},
+						{
+							"name": "Tally",
+							"subfields": []
+						},
+						{
+							"name": "Internet",
+							"subfields": []
+						},
+						{
+							"name": "Graphics",
+							"subfields": []
+						},
+						{
+							"name": "Animation",
+							"subfields": []
+						},
+						{
+							"name": "Web designing",
+							"subfields": []
+						},
+						{
+							"name": "Cyber Security",
+							"subfields": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"GovtJobs":["VRA",
+				"Military",
+				"AW (Female)",
+				"Driving Posts"]
+		}
+	]
+}

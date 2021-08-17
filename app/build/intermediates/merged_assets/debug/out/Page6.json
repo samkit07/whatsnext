@@ -1,0 +1,76 @@
+{
+    "Medical Exams": [{
+        "name": "National Eligibility Cum Entrance Test (NEET)",
+        "purpose": "Admission to MBBS / BDS",
+        "eligibility": "Class 12 (PCB)",
+        "applicationMode": "online",
+        "source": "http://aipmt.nic.in/aipmt/Welcome.aspx",
+        "other exams": [
+            {
+                "name": "National Eligibility Cum Entrance Test (NEET)",
+                "source": "http://aipmt.nic.in/aipmt/Welcome.aspx"
+            },
+            {
+                "name": "AIIMS",
+                "source": "http://aiimsexams.org/"
+            },
+            {
+                "name": "CMC-Vellore",
+                "source": "http://admissions.cmcvellore.ac.in/"
+            },
+            {
+                "name": "CMC-Ludhiana",
+                "source": "http://cmcludhiana.in/"
+            },
+            {
+                "name": "COMED-K",
+                "source": "https://www.comedk.org/"
+            },
+            {
+                "name": "JIPMER",
+                "source": "http://jipmer.edu.in/"
+            },
+            {
+                "name": "Manipal (MBBS)",
+                "source": "www.admissions.manipal.edu"
+            }
+        ]
+    }],
+    "Marine, Navy, Defence Exams": [
+        {
+            "name": "Indian Maritime University Common Entrance Test",
+            "purpose": "Admission in Diploma in Nautical Science (DNS) leading to BSc. (Nautical Science)",
+            "eligibility": "Class 12 (PCM)",
+            "applicationMode": "by post",
+            "source": "www.imu.edu.in/index.php"
+        },
+        {
+            "name": "Indian Navy B.Tech Entry Scheme",
+            "purpose": "Admission in Indian Navy B.Tech course",
+            "eligibility": "Class 12 passed",
+            "applicationMode": "online",
+            "source": "www.nausena-bharti.nic.in/index.php"
+        },
+        {
+            "name": "Indian Navy Sailors Recruitment",
+            "purpose": "Admission in 24 weeks Basic training at INS Chilka followed by Professional training",
+            "eligibility": "Class 12 (Maths and Physics/Chem./Bio/Computer Sc.)",
+            "applicationMode": "online, by post",
+            "source": "www.nausena-bharti.nic.in/index.php"
+        },
+        {
+            "name": "Defence Indian Army Technical Entry Scheme (TES)",
+            "purpose": "Technical Entry to Army",
+            "eligibility": "Class 12 PCM",
+            "applicationMode": "online",
+            "source": "www.joinindianarmy.nic.in/"
+        },
+        {
+            "name": "National Defence Academy and Naval Academy Examination (I)",
+            "purpose": "Admission to Army and Air Force wings of NDA and 4 years B. Tech course for the Indian Naval Academy Course (INAC)",
+            "eligibility": "Class 12, 12 Passed",
+            "applicationMode": "online",
+            "source": "www.upsc.gov.in/"
+        }
+    ]
+}

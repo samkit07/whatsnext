@@ -1,0 +1,2 @@
+com/example/what_next/BuildConfig.java
+ com.example.what_next.BuildConfig
