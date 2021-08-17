@@ -1,5 +1,5 @@
 {
-  "What next(after Intermediate)": [
+  "data": [
     {
       "name": "Engineering",
       "duration": "4 years",
@@ -11,25 +11,25 @@
         "BITSAT"
       ],
       "fields": [
-        "CSE",
-        "IT",
-        "ECE",
-        "EEE",
-        "Civil Eng",
-        "Mechanical Eng",
-        "Chemical Eng",
-        "Aeronautical Eng",
-        "Aerospace Eng",
-        "Agricultural Eng",
-        "Automobile Eng",
-        "Bio-medical Eng",
-        "Bio-technology Eng",
-        "Ceramic Eng",
-        "Industrial Eng",
-        "Environmental Eng",
-        "Marine Eng",
-        "Mining Eng",
-        "Silk & Textile Eng"
+        {"name":"CSE"},
+        {"name":"IT"},
+        {"name":"ECE"},
+        {"name":"EEE"},
+        {"name":"Civil Eng"},
+        {"name":"Mechanical Eng"},
+        {"name":"Chemical Eng"},
+        {"name":"Aeronautical Eng"},
+        {"name":"Aerospace Eng"},
+        {"name":"Agricultural Eng"},
+        {"name":"Automobile Eng"},
+        {"name":"Bio-medical Eng"},
+        {"name":"Bio-technology Eng"},
+        {"name":"Ceramic Eng"},
+        {"name":"Industrial Eng"},
+        {"name":"Environmental Eng"},
+        {"name":"Marine Eng"},
+        {"name":"Mining Eng"},
+        {"name":"Silk & Textile Eng"}
       ]
     },
     {
@@ -38,49 +38,49 @@
       "fields": [
         {
           "name": "Medicine",
+          "duration": "5 years",
           "entranceExams": [
             "EAMCET",
             "NEET"
           ],
-          "duration": "5 years",
-          "fields": [
-            "MBBS-Allopathic",
-            "BUMS-Unani",
-            "BHMS-Homeopathy",
-            "BAMS-Ayurveda",
-            "BNYS-Naturopathy",
-            "Ag.BSc-Agricultural",
-            "BDS-Dental",
-            "BVSc-Veterinary",
-            "BPT-Physiotherapy"
+          "subFields": [
+            {"name":"MBBS-Allopathic"},
+            {"name":"BUMS-Unani"},
+            {"name":"BHMS-Homeopathy"},
+            {"name":"BAMS-Ayurveda"},
+            {"name":"BNYS-Naturopathy"},
+            {"name":"Ag.BSc-Agricultural"},
+            {"name":"BDS-Dental"},
+            {"name":"BVSc-Veterinary"},
+            {"name":"BPT-Physiotherapy"}
           ]
         },
         {
           "name": "Allied Health Sciences ",
           "duration": "2/3 years",
-          "fields": [
-            "B.Pharma Designing",
-            "BSc. Nursing",
-            "BOT-Occupational therapy",
-            "BSc-Anesthesia",
-            "BSc-Cardiac Tec",
-            "BSc-Medical Lab Tec",
-            "BSc-Radio Therapy Tec",
-            "BSc-Clinical Optometry",
-            "BSc-Nuclear Medicine",
-            "BSc-Operation Theatre",
-            "BSc-Physician assistant",
-            "BSc-Respiratory care",
-            "BMLT-Medical Lab Technology"
+          "subFields": [
+            {"name":"B.Pharma Designing"},
+            {"name":"BSc. Nursing"},
+            {"name":"BOT-Occupational therapy"},
+            {"name":"BSc-Anesthesia"},
+            {"name":"BSc-Cardiac Tec"},
+            {"name":"BSc-Medical Lab Tec"},
+            {"name":"BSc-Radio Therapy Tec"},
+            {"name":"BSc-Clinical Optometry"},
+            {"name":"BSc-Nuclear Medicine"},
+            {"name":"BSc-Operation Theatre"},
+            {"name":"BSc-Physician assistant"},
+            {"name":"BSc-Respiratory care"},
+            {"name":"BMLT-Medical Lab Technology"}
           ]
         },
         {
           "name": "Paramedical",
-          "fields": [
-            "Dialysis Technician",
-            "ECG Technician",
-            "X- Ray Technician",
-            "Operation Theatre Technician"
+          "subFields": [
+            {"name":"Dialysis Technician"},
+            {"name":"ECG Technician"},
+            {"name":"X- Ray Technician"},
+            {"name":"Operation Theatre Technician"}
           ]
         }
       ]
@@ -150,18 +150,18 @@
         {
           "name": "Dual-Degree",
           "duration": "4 years",
-          "subfields": [
-            "BA + Bed",
-            "BSc + Bed",
-            "BA + LLB",
-            "BCom + LLB ITT",
-            "BBM + LLB (100 hours)",
-            "BBA + LLB"
+          "subFields": [
+            {"name":"BA + Bed"},
+            {"name":"BSc + Bed"},
+            {"name":"BA + LLB"},
+            {"name":"BCom + LLB ITT"},
+            {"name":"BBM + LLB (100 hours)"},
+            {"name":"BBA + LLB"}
           ]
         },
         {
           "name": "Professional Courses",
-          "subfields": [
+          "fields": [
             {"name": "ICWA"},
             {"name":  "CS"},
             {"name": "CA",
@@ -198,7 +198,9 @@
     {
       "name": "NDA",
       "fields": [
-        "Army", "Navy", "Air force"
+        {
+          "name": "Army"
+        },{"name": "Navy"},{"name": "Air force" }
       ]
     },
     {
@@ -207,17 +209,17 @@
         {
           "name": "D. Ed",
           "duration": "2 years",
-          "ApplicablePost": "Primary School Teacher"
+          "applicablePost": "Primary School Teacher"
         },
         {
           "name": "UDPED",
           "duration": "2 years",
-          "ApplicablePost": "PET Teacher"
+          "applicablePost": "PET Teacher"
         },
         {
           "name": "ECCED",
           "duration": "",
-          "ApplicablePost": "Early Childhood care Education"
+          "applicablePost": "Early Childhood care Education"
         }
         ]
         },
@@ -253,16 +255,16 @@
         },
         {
           "name": "Designing",
-          "subFields": ["Fashion", "Interior", "Jewelery"]
+          "subFields": [{"name":"Fashion"}, {"name":"Interior"}, {"name":"Jewelery"}]
         },
         {
           "name": "Film making",
-          "subFields": ["Direction", "Screen Writing", "Cinematography",
-            "Sound designee", "Editing", "Action"]
+          "subFields": [{"name":"Direction"}, {"name":"Screen Writing"}, {"name":"Cinematography"},
+            {"name":"Sound designee"},{"name": "Editing"},{"name":"Action"}]
         },
         {
           "name": "Management",
-          "subFields": [  "Finance management", "Event management", "Hotel management"]
+          "subFields": [  {"name":"Finance management"}, {"name":"Event management"}, {"name":"Hotel management"}]
         }
       ]
     }
