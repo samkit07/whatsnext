@@ -13,7 +13,7 @@ class page1 {
         @SerializedName("duration")
         val duration:String=""
         @SerializedName("fields")
-        val field:ArrayList<fields> = ArrayList()
+        val fields:ArrayList<fields> = ArrayList()
     }
     class fields{
         @SerializedName("name")

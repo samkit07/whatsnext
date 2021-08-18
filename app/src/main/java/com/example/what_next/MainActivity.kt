@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         val jsonString = loadJson(this)
       //  Log.d("MainActivity","${jsonString}")
 
-        val courses = Gson().fromJson(jsonString, listpage4::class.java)
+        val courses = Gson().fromJson(jsonString, listpage3::class.java)
 
         Log.d("Page10", "$courses")
 
@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         var jsonString: String
 
         try {
-            input = context.assets.open("Page4.json")
+            input = context.assets.open("Page3.json")
             val size = input.available()
 
             val buffer = ByteArray(size)
