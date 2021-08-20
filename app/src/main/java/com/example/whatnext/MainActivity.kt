@@ -3,37 +3,56 @@ package com.example.whatnext
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
+import android.widget.ListView
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
-import models.ListModel10
 import java.io.InputStream
+import models.ListModel10
+import android.widget.ArrayAdapter
 
-class MainActivity : AppCompatActivity() {
+
+
+
+
+class MainActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        var tv1 = findViewById<TextView>(R.id.textview1)
-//        var tv2 = findViewById<TextView>(R.id.textview2)
-//        var tv3 = findViewById<TextView>(R.id.textview3)
-//        var tv4 = findViewById<TextView>(R.id.textview4)
-
-//        for(i in 10 until 11) {
-//
-//            var jsonString = loadJson(this,"Page$i.json")
-//            tv1.text = Gson().fromJson(jsonString, ListModel10::class.java).data[0].name
-//
-//            tv1.text = courses
-//        }
 
         var jsonString = loadJson(this,"Page10.json")
         var courses = Gson().fromJson(jsonString, ListModel10::class.java)
 
+        val recycler_view = findViewById<RecyclerView>(R.id.recyclerview)
+
+//        val itemsAdapter: ArrayAdapter<String> =
+//            ArrayAdapter<String>(this, R.id.listview1, items)
+//
+//        val listView = findViewById<ListView>(R.id.listview1)
+//        listView.setAdapter(itemsAdapter);
+
+        recycler_view.adapter = ExampleAdapter(courses.data)
+
+        recycler_view.layoutManager = LinearLayoutManager(this)
+
+        recycler_view.setHasFixedSize(true)
+
+
+//        JsonDeserializer<Timestamp>
+
+//        Page10Deserializer
+//        val gsonBuilder = GsonBuilder()
+
+//        val courseType = object : TypeToken<List<ListModel10?>>(){}.type
+//
+//        gsonBuilder.registerTypeAdapter(courseType)
+//        val collectionType: Type = object : TypeToken<List<ImageResult?>?>() {}.type
+//        val gson: Gson = gsonBuilder.create()
+//        val imageResults: List<ImageResult> = gson.fromJson(jsonObject, collectionType)
+
 
 //      tv1.text = Gson().fromJson(jsonString, ListModel10::class.java).data[0].name
-
-//
-
-//        Log.d("Page1", "${courses.data[0].Education[0].fields}")
+//        Log.d("Page3", "${courses}")
     }
 
     private fun loadJson(context: Context, filename: String) : String?{
@@ -59,4 +78,5 @@ class MainActivity : AppCompatActivity() {
         }
         return null
     }
+
 }
