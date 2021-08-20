@@ -31,10 +31,8 @@ class MainActivity : AppCompatActivity(){
 //        val listView = findViewById<ListView>(R.id.listview1)
 //        listView.setAdapter(itemsAdapter);
 
-        recycler_view.adapter = ExampleAdapter(courses.data)
-
+        recycler_view.adapter = ExampleAdapter10(courses.data)
         recycler_view.layoutManager = LinearLayoutManager(this)
-
         recycler_view.setHasFixedSize(true)
 
 
