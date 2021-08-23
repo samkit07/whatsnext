@@ -198,9 +198,7 @@
     {
       "name": "NDA",
       "fields": [
-        {
-          "name": "Army"
-        },{"name": "Navy"},{"name": "Air force" }
+        {"name": "Army"},{"name": "Navy"},{"name": "Air force" }
       ]
     },
     {
@@ -225,10 +223,11 @@
     },
     {
       "name": "Others(Diploma Courses)",
-      "fields": [{
+      "fields": [
+        {
         "name":"Foreign Languages" ,
         "subFields": []
-      },
+        },
         {
           "name":"Fire Safety",
           "subFields": []
@@ -264,7 +263,7 @@
         },
         {
           "name": "Management",
-          "subFields": [  {"name":"Finance management"}, {"name":"Event management"}, {"name":"Hotel management"}]
+          "subFields": [{"name":"Finance management"}, {"name":"Event management"}, {"name":"Hotel management"}]
         }
       ]
     }

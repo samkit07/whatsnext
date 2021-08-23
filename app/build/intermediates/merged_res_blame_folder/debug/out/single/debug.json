@@ -4,6 +4,10 @@
         "source": "F:\\WhatNext\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "F:\\WhatNext\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "F:\\WhatNext\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
         "merged": "F:\\WhatNext\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "F:\\WhatNext\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -32,6 +36,14 @@
         "source": "F:\\WhatNext\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "F:\\WhatNext\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.jpg.flat",
+        "source": "F:\\WhatNext\\app\\src\\main\\res\\drawable\\logo.jpg"
+    },
+    {
+        "merged": "F:\\WhatNext\\app\\build\\intermediates\\res\\merged\\debug\\layout_page7.xml.flat",
+        "source": "F:\\WhatNext\\app\\src\\main\\res\\layout\\page7.xml"
+    },
+    {
         "merged": "F:\\WhatNext\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "F:\\WhatNext\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -58,5 +70,9 @@
     {
         "merged": "F:\\WhatNext\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "F:\\WhatNext\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "F:\\WhatNext\\app\\build\\intermediates\\res\\merged\\debug\\layout_page10.xml.flat",
+        "source": "F:\\WhatNext\\app\\src\\main\\res\\layout\\page10.xml"
     }
 ]

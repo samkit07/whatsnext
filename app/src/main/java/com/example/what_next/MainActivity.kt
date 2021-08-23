@@ -5,20 +5,34 @@ import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
+import kotlinx.android.synthetic.main.activity_main.*
+import org.json.JSONException
 import java.io.InputStream
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
- //       val tvJsonString=findViewById(R.id.tvJsonString)
-        val jsonString = loadJson(this)
+
+    //    val userlist: ArrayList<page7> = ArrayList()
+        try {
+            val jsonString = loadJson(this)
+            val courses = Gson().fromJson(jsonString, listpage7::class.java)
+            rvUsersList.layoutManager = LinearLayoutManager(this)
+            val itemAdapter = UserAdapter7(courses.data)
+            rvUsersList.adapter = itemAdapter
+        }catch (e:JSONException){
+            e.printStackTrace()
+        }
+
+
       //  Log.d("MainActivity","${jsonString}")
 
-        val courses = Gson().fromJson(jsonString, listpage2::class.java)
 
-        Log.d("Page10", "$courses")
+
+       // Log.d("Page10", "$courses")
 
       //  Log.d("Page1",${courses.data.GovtJobs.get(0)})
     }
@@ -27,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         var jsonString: String
 
         try {
-            input = context.assets.open("Page2.json")
+            input = context.assets.open("Page7.json")
             val size = input.available()
 
             val buffer = ByteArray(size)

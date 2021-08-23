@@ -51,7 +51,6 @@ class SubFields{
 }
 
 class Examinations{
-
     @SerializedName("name")
     val name : String =""
     @SerializedName("eligibility")

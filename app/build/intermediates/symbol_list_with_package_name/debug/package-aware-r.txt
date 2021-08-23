@@ -1791,6 +1791,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable logo
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2038,6 +2039,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id info
@@ -2160,6 +2162,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rvUsersList
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2246,6 +2249,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2271,7 +2275,12 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvJsonString
+id tv_appliMode
+id tv_course
+id tv_eligibility
+id tv_name
+id tv_purpose
+id tv_source
 id unchecked
 id uniform
 id unlabeled
@@ -2362,6 +2371,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_splash_screen
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2427,6 +2437,8 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout page10
+layout page7
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

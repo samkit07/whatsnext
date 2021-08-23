@@ -11,7 +11,7 @@
 9-->F:\WhatNext\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->F:\WhatNext\app\src\main\AndroidManifest.xml:5:5-21:19
+11-->F:\WhatNext\app\src\main\AndroidManifest.xml:5:5-24:19
 12        android:allowBackup="true"
 12-->F:\WhatNext\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,23 +29,27 @@
 20        android:testOnly="true"
 21        android:theme="@style/Theme.WhatNext" >
 21-->F:\WhatNext\app\src\main\AndroidManifest.xml:11:9-46
-22        <activity
-22-->F:\WhatNext\app\src\main\AndroidManifest.xml:12:9-20:20
-23            android:name="com.example.what_next.MainActivity"
-23-->F:\WhatNext\app\src\main\AndroidManifest.xml:13:13-41
-24            android:exported="true" >
-24-->F:\WhatNext\app\src\main\AndroidManifest.xml:14:13-36
-25            <intent-filter>
-25-->F:\WhatNext\app\src\main\AndroidManifest.xml:15:13-19:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->F:\WhatNext\app\src\main\AndroidManifest.xml:16:17-69
-26-->F:\WhatNext\app\src\main\AndroidManifest.xml:16:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->F:\WhatNext\app\src\main\AndroidManifest.xml:18:17-77
-28-->F:\WhatNext\app\src\main\AndroidManifest.xml:18:27-74
-29            </intent-filter>
-30        </activity>
-31    </application>
-32
-33</manifest>
+22        <activity android:name="com.example.what_next.SplashScreenActivity" >
+22-->F:\WhatNext\app\src\main\AndroidManifest.xml:12:9-18:20
+22-->F:\WhatNext\app\src\main\AndroidManifest.xml:12:19-55
+23            <intent-filter>
+23-->F:\WhatNext\app\src\main\AndroidManifest.xml:13:13-17:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->F:\WhatNext\app\src\main\AndroidManifest.xml:14:17-69
+24-->F:\WhatNext\app\src\main\AndroidManifest.xml:14:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->F:\WhatNext\app\src\main\AndroidManifest.xml:16:17-77
+26-->F:\WhatNext\app\src\main\AndroidManifest.xml:16:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity
+29-->F:\WhatNext\app\src\main\AndroidManifest.xml:19:9-23:20
+30            android:name="com.example.what_next.MainActivity"
+30-->F:\WhatNext\app\src\main\AndroidManifest.xml:20:13-41
+31            android:exported="true" >
+31-->F:\WhatNext\app\src\main\AndroidManifest.xml:21:13-36
+32        </activity>
+33    </application>
+34
+35</manifest>

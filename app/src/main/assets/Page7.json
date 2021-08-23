@@ -1,6 +1,7 @@
 {
     "data": [
-        {"Engineering Exams": [
+            {"course":"Engineering Exams",
+            "exams": [
             {
                 "name": "Joint Entrance Examination (JEE) Main",
                 "purpose": "For Admission in B. E./B. Tech., B. Arch., B. Planning",
@@ -61,16 +62,15 @@
                 "source": "http://www..ap.gov.in/eamcet"
             }
         ]},
-        {"Medical Exams": [
-            {
+        {"course":"Medical Exams",
+            "exams": [
+                {
                 "name": "National Eligibility Cum Entrance Test (NEET)",
                 "purpose": "Admission to MBBS / BDS",
                 "eligibility": "Class 12 (PCB)",
-                "applicationMode": [
-                    "online"
-                ],
+                "applicationMode": ["online"],
                 "source": "http://aipmt.nic.in/aipmt/Welcome.aspx"
-            },
+                },
                 {
                     "name": "National Eligibility Cum Entrance Test (NEET)",
                     "source": "http://aipmt.nic.in/aipmt/Welcome.aspx"
@@ -102,7 +102,8 @@
             ]
         },
         {
-        "Marine, Navy, Defence Exams": [
+        "course":"Marine, Navy, Defence Exams",
+            "exams": [
             {
                 "name": "Indian Maritime University Common Entrance Test",
                 "purpose": "Admission in Diploma in Nautical Science (DNS) leading to BSc. (Nautical Science)",
@@ -140,7 +141,8 @@
             }
         ]},
         {
-            "Agriculture & Hotel Management Exams": [
+            "course":"Agriculture & Hotel Management Exams",
+            "exams": [
                 {
                     "name": "Indian Council of Agricultural Research ICAR AIEEA-UG-PG",
                     "purpose": "Admission in Bachelor, Master Degree Program, SRF (PGS) to Pursuing Ph.D in Agriculture and Allied Sciences at Agricultural Universities",
@@ -157,7 +159,8 @@
                 }
             ]},
         {
-            "Law": [
+            "course":"Law",
+            "exams": [
                 {
                     "name": "Common Law Admission Test",
                     "purpose": "Admission in B.A. LL.B (Hons), B.Com. (Hons), BBA LL.B (Hons)",
