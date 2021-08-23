@@ -1,12 +1,12 @@
-package com.example.whatnext
+package adapters
 
-import android.text.TextUtils.replace
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.whatnext.R
 import models.*
 
 class ExampleAdapter1(

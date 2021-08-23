@@ -13,7 +13,8 @@
         android:clipToPadding="false"
         android:padding="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:listitem="@layout/example_course1" />
+        tools:listitem="@layout/example_course1"/>
+
 
 
 </RelativeLayout>
