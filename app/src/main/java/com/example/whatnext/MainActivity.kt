@@ -3,16 +3,13 @@ package com.example.whatnext
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ListView
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
-import java.io.InputStream
+import models.ListModel1
 import models.ListModel10
-import android.widget.ArrayAdapter
-
-
-
+import java.io.InputStream
 
 
 class MainActivity : AppCompatActivity(){
@@ -23,14 +20,14 @@ class MainActivity : AppCompatActivity(){
         var jsonString = loadJson(this,"Page10.json")
         var courses = Gson().fromJson(jsonString, ListModel10::class.java)
 
-        val recycler_view = findViewById<RecyclerView>(R.id.recyclerview)
 
 //        val itemsAdapter: ArrayAdapter<String> =
-//            ArrayAdapter<String>(this, R.id.listview1, items)
+//            ArrayAdapter<String>(this, R.id.listview1, courses.data)
 //
 //        val listView = findViewById<ListView>(R.id.listview1)
 //        listView.setAdapter(itemsAdapter);
 
+        val recycler_view = findViewById<RecyclerView>(R.id.recyclerview)
         recycler_view.adapter = ExampleAdapter10(courses.data)
         recycler_view.layoutManager = LinearLayoutManager(this)
         recycler_view.setHasFixedSize(true)
