@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\WhatNext\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+            "outputFile": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h360dp-land-v13/values-h360dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Samkit\\.gradle\\caches\\transforms-3\\6c809ba1be2c04d50dbd65bedc7e1620\\transformed\\material-1.4.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+                    "source": "/home/samkit/.gradle/caches/transforms-3/6c809ba1be2c04d50dbd65bedc7e1620/transformed/material-1.4.0/res/values-h360dp-land-v13/values-h360dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

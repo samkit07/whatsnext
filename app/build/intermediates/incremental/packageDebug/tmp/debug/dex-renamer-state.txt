@@ -1,12 +1,12 @@
-#Mon Aug 23 17:03:40 IST 2021
+#Tue Aug 24 19:21:34 IST 2021
 path.3=5/classes.dex
 path.2=2/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=F\:\\WhatNext\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.2=F\:\\WhatNext\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.1=F\:\\WhatNext\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=F\:\\WhatNext\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.3=/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
+base.2=/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
+base.1=/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

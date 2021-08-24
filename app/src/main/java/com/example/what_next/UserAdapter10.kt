@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.JsonObject
-import kotlinx.android.synthetic.main.page7.view.*
+import kotlinx.android.synthetic.main.page10.view.*
 
 class UserAdapter10(val exlist:ArrayList<page10>) : RecyclerView.Adapter<UserAdapter10.Viewholder>() {
     class Viewholder(view: View) : RecyclerView.ViewHolder(view){
