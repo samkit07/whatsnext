@@ -1,4 +1,4 @@
-package com.example.practice2
+package com.example.whatnext.page1
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,6 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ExpandableListView
+import com.example.practice2.EListAdapter
+import com.example.whatnext.MainActivity
+import com.example.whatnext.R
 import com.google.gson.Gson
 import models.Fields
 import models.ListModel1

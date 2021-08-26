@@ -1,6 +1,5 @@
 package com.example.practice2
 
-import android.annotation.SuppressLint
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -8,11 +7,10 @@ import android.view.ViewGroup
 import android.widget.BaseExpandableListAdapter
 import android.widget.TextView
 import com.example.whatnext.R
-import models.Examinations
 import models.Fields
 import models.Model1
 
-class EListAdapter internal constructor(
+class EListAdapter1 internal constructor(
     private val context: Context, private val whatnext_1: List<Model1>,
     private val fields: HashMap<Model1, List<Fields>>
 ) :
@@ -69,7 +67,7 @@ class EListAdapter internal constructor(
 
             val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
 
-            convertView = inflater.inflate(R.layout.whatnext_1, null)
+            convertView = inflater.inflate(R.layout.parent1, null)
         }
 
 
@@ -112,7 +110,7 @@ class EListAdapter internal constructor(
 
             val inflater =
                 context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-            convertView = inflater.inflate(R.layout.fields, null)
+            convertView = inflater.inflate(R.layout.child1, null)
         }
 
         val textview1_2 = convertView!!.findViewById<TextView>(R.id.textview1_2)
