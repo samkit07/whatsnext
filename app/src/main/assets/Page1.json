@@ -241,7 +241,7 @@
     {
       "type": "Work",
       "name": "GovtJobs",
-      "jobs": [ "VRA","Military","AW (Female)", "Driving Posts"]
+      "jobs": "VRA,Military,AW(Female),Driving Posts"
     }
   ]
 }

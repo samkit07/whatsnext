@@ -1,4 +1,4 @@
-package com.example.whatnext
+package com.example.practice2
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,6 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseExpandableListAdapter
 import android.widget.TextView
+import com.example.whatnext.R
+import models.Examinations
 import models.Fields
 import models.Model1
 
@@ -52,7 +54,6 @@ class EListAdapter internal constructor(
         return false
     }
 
-    @SuppressLint("SetTextI18n")
     override fun getGroupView(
         groupPosition: Int,
         isExpanded: Boolean,
@@ -66,18 +67,31 @@ class EListAdapter internal constructor(
 
         if (convertView == null) {
 
-            val inflater =
-                context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+            val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
 
             convertView = inflater.inflate(R.layout.whatnext_1, null)
         }
 
+
         val textview1_1 = convertView!!.findViewById<TextView>(R.id.textview1_1)
-        if(textview1_1Title.duration != ""){
-        textview1_1.text = "${textview1_1Title.name} - ${textview1_1Title.duration}"}
-        else{
-            textview1_1.text = textview1_1Title.name
-        }
+        val textview2_1 = convertView!!.findViewById<TextView>(R.id.textview2_1)
+        val textview3_1 = convertView!!.findViewById<TextView>(R.id.textview3_1)
+        val textview4_1 = convertView!!.findViewById<TextView>(R.id.textview4_1)
+
+        textview1_1.text = textview1_1Title.name
+        textview2_1.text = textview1_1Title.duration
+        textview3_1.text = textview1_1Title.examinations.toString().replace("[","")
+            .replace("]","").replace(",","\n")
+        textview4_1.text = textview1_1Title.jobs.replace(",","\n")
+
+        textview2_1.visibility = View.VISIBLE
+        textview3_1.visibility = View.VISIBLE
+        textview4_1.visibility = View.VISIBLE
+
+        if(textview2_1.text == "") textview2_1.visibility = View.INVISIBLE
+        if(textview3_1.text == "[]") textview3_1.visibility = View.INVISIBLE
+        if(textview4_1.text == "") textview4_1.visibility = View.INVISIBLE
+
 
         return convertView
     }
@@ -103,17 +117,18 @@ class EListAdapter internal constructor(
 
         val textview1_2 = convertView!!.findViewById<TextView>(R.id.textview1_2)
         var textview2_2 = convertView!!.findViewById<TextView>(R.id.textview2_2)
+
         textview1_2.setText(textview1_2Title.name)
 
         if (textview1_2Title.subFields.isEmpty()) {
             textview2_2.setVisibility(View.INVISIBLE)
-        } else {
+        }else {
             textview2_2.setVisibility(View.VISIBLE)
-            textview2_2.setText(textview1_2Title.subFields.toString().replace("[","")
-                .replace("]","").replace(",","\n"))
+            textview2_2.setText(
+                textview1_2Title.subFields.toString().replace("[", "")
+                    .replace("]", "").replace(",", "\n")
+            )
         }
-
-
 
         return convertView
     }

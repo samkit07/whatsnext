@@ -34,16 +34,15 @@ class Model1{
     @SerializedName("type")
     val type :  String = ""
     @SerializedName("jobs")
-    val jobs : ArrayList<String> = ArrayList()
+    val jobs : String = ""
     @SerializedName("duration")
     val duration : String = ""
     @SerializedName("fields")
     val fields : ArrayList<Fields> = ArrayList()
     @SerializedName("examinations")
     val examinations : ArrayList<Examinations1> = ArrayList()
-
     override fun toString(): String {
-        return "$name \n $duration \n $fields \n $examinations"
+        return "$name \n $type \n $jobs \n $duration \n $fields \n $examinations"
     }
 
 }
@@ -71,10 +70,4 @@ class Fields {
         return "$name \n $subFields"
     }
 
-}
-
-class GovtJobs{
-
-    @SerializedName("name")
-    val name :  String = ""
 }

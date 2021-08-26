@@ -1,17 +1,10 @@
 package com.example.whatnext
 
-import adapters.ExampleAdapter1
-import adapters.ExampleAdapter10
-import adapters.ExampleAdapter1_1
-import adapters.ExampleAdapter2
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ArrayAdapter
 import android.widget.ExpandableListView
-import android.widget.ListView
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import com.example.practice2.EListAdapter
 import com.google.gson.Gson
 import models.*
 import java.io.InputStream
@@ -45,7 +38,7 @@ class MainActivity : AppCompatActivity(){
         what_next = arr
         listViewAdapter = EListAdapter(this, what_next, fields)
 
-        var elistview = findViewById<ExpandableListView>(R.id.elistview)
+        val elistview = findViewById<ExpandableListView>(R.id.elistview)
         elistview.setAdapter(listViewAdapter)
     }
 
