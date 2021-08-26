@@ -6,15 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/elistview"
+        android:padding="8dp"
+        android:layout_margin="12dp"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
+
+<!--  <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clipToPadding="false"
         android:padding="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:listitem="@layout/example_course1"/>
-
-
-
-</RelativeLayout>
+        tools:listitem="@layout/example_course1"/>-->

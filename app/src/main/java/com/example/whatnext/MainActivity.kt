@@ -1,14 +1,19 @@
 package com.example.whatnext
 
+import adapters.ExampleAdapter1
+import adapters.ExampleAdapter10
+import adapters.ExampleAdapter1_1
+import adapters.ExampleAdapter2
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.GridLayoutManager
+import android.widget.ArrayAdapter
+import android.widget.ExpandableListView
+import android.widget.ListView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
-import models.ListModel1
-import models.ListModel10
+import models.*
 import java.io.InputStream
 
 
@@ -17,37 +22,31 @@ class MainActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var jsonString = loadJson(this,"Page10.json")
-        var courses = Gson().fromJson(jsonString, ListModel10::class.java)
+        var jsonString = loadJson(this,"Page1.json")
+        var courses = Gson().fromJson(jsonString, ListModel1::class.java)
 
-
-//        val itemsAdapter: ArrayAdapter<String> =
-//            ArrayAdapter<String>(this, R.id.listview1, courses.data)
+//        val recycler_view = findViewById<RecyclerView>(R.id.recyclerview)
+//        recycler_view.adapter = ExampleAdapter1(courses.data)
+//        recycler_view.layoutManager = LinearLayoutManager(this)
 //
-//        val listView = findViewById<ListView>(R.id.listview1)
-//        listView.setAdapter(itemsAdapter);
+//        recycler_view.setHasFixedSize(true)
 
-        val recycler_view = findViewById<RecyclerView>(R.id.recyclerview)
-        recycler_view.adapter = ExampleAdapter10(courses.data)
-        recycler_view.layoutManager = LinearLayoutManager(this)
-        recycler_view.setHasFixedSize(true)
+        lateinit var listViewAdapter: EListAdapter
+        lateinit var what_next : ArrayList<Model1>
+        val arr : ArrayList<Model1> = ArrayList()
 
+        var fields : HashMap<Model1,List<Fields>> = HashMap()
 
-//        JsonDeserializer<Timestamp>
+        for(i in 0 until courses.data.size){
 
-//        Page10Deserializer
-//        val gsonBuilder = GsonBuilder()
+            arr.add(courses.data[i])
+            fields[courses.data[i]] = courses.data[i].fields
+        }
+        what_next = arr
+        listViewAdapter = EListAdapter(this, what_next, fields)
 
-//        val courseType = object : TypeToken<List<ListModel10?>>(){}.type
-//
-//        gsonBuilder.registerTypeAdapter(courseType)
-//        val collectionType: Type = object : TypeToken<List<ImageResult?>?>() {}.type
-//        val gson: Gson = gsonBuilder.create()
-//        val imageResults: List<ImageResult> = gson.fromJson(jsonObject, collectionType)
-
-
-//      tv1.text = Gson().fromJson(jsonString, ListModel10::class.java).data[0].name
-//        Log.d("Page3", "${courses}")
+        var elistview = findViewById<ExpandableListView>(R.id.elistview)
+        elistview.setAdapter(listViewAdapter)
     }
 
     private fun loadJson(context: Context, filename: String) : String?{
