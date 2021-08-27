@@ -1,19 +1,11 @@
 [
     {
-        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_activity_splash_screen.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/activity_splash_screen.xml"
     },
     {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_page7_1.xml.flat",
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page7_1.xml"
-    },
-    {
-        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_activity_splash_screen.xml.flat",
-        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/activity_splash_screen.xml"
     },
     {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -28,16 +20,8 @@
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/activity_main.xml"
-    },
-    {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_page7.xml.flat",
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page7.xml"
-    },
-    {
-        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
     },
     {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
@@ -48,16 +32,8 @@
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_page10.xml.flat",
-        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page10.xml"
     },
     {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.webp.flat",
@@ -68,12 +44,60 @@
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/drawable/ic_launcher_background.xml"
-    },
-    {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_fragment10.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/fragment10.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_fragment9.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/fragment9.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_sample10_1.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/sample10_1.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_fragment7.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/fragment7.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_sample10.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/sample10.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_page9.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page9.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_page10.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page10.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.webp.flat",

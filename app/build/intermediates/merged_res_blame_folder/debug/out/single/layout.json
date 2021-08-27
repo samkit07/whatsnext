@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment7.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/fragment7.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/page10.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page10.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment10.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/fragment10.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment9.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/fragment9.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/page9.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page9.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/sample10_1.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/sample10_1.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/page7_1.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page7_1.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/sample10.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/sample10.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splash_screen.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/page7.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page7.xml"
+    }
+]

@@ -23,4 +23,5 @@ data class Exams(
     val applicationMode:ArrayList<String> = ArrayList(),
     @SerializedName("source")
     val source:String = ""
+//    var expand:Boolean = false
 )
