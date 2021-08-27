@@ -1,69 +1,72 @@
-package com.example.whatnext
+package com.example.whatnext;
+
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ExpandableListView
-import com.example.practice2.EListAdapter
+import android.view.View
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentTransaction
+import com.example.whatnext.R
+import com.example.whatnext.page1.WhatAfter10th
+import com.example.whatnext.page10.CoursesOverview
 import com.google.gson.Gson
-import models.*
+import models.ListModel1
+import models.Model1
 import java.io.InputStream
 
 
-class MainActivity : AppCompatActivity(){
+class MainActivity : AppCompatActivity() {
+    lateinit var ft: FragmentTransaction
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var jsonString = loadJson(this,"Page1.json")
-        var courses = Gson().fromJson(jsonString, ListModel1::class.java)
+        ft = supportFragmentManager.beginTransaction()
+        ft.replace(R.id.wrapper, MainFragment())
+        ft.commit()
 
-//        val recycler_view = findViewById<RecyclerView>(R.id.recyclerview)
-//        recycler_view.adapter = ExampleAdapter1(courses.data)
-//        recycler_view.layoutManager = LinearLayoutManager(this)
-//
-//        recycler_view.setHasFixedSize(true)
-
-        lateinit var listViewAdapter: EListAdapter
-        lateinit var what_next : ArrayList<Model1>
-        val arr : ArrayList<Model1> = ArrayList()
-
-        var fields : HashMap<Model1,List<Fields>> = HashMap()
-
-        for(i in 0 until courses.data.size){
-
-            arr.add(courses.data[i])
-            fields[courses.data[i]] = courses.data[i].fields
-        }
-        what_next = arr
-        listViewAdapter = EListAdapter(this, what_next, fields)
-
-        val elistview = findViewById<ExpandableListView>(R.id.elistview)
-        elistview.setAdapter(listViewAdapter)
     }
 
-    private fun loadJson(context: Context, filename: String) : String?{
+    fun onClick(v: View) {
+        when (v.id) {
 
-        var input: InputStream? = null
-        var jsonString: String
+            R.id.after10th -> {
+                ft = supportFragmentManager.beginTransaction()
+                ft.replace(R.id.wrapper, WhatAfter10th())
+                ft.addToBackStack(null)
+                ft.commit()
 
-        try{
-            input = context.assets.open(filename)
-            val size = input.available()
-            val buffer = ByteArray(size)
-            input.read(buffer)
-            jsonString = String(buffer)
-            return jsonString
+            }
+//            R.id.after12th -> {
+//                ft = supportFragmentManager.beginTransaction()
+//                ft.replace(R.id.wrapper, WhatAfter12th())
+//                ft.addToBackStack(null)
+//                ft.commit();
+//            }
+//            R.id.aftergrad -> {
+//                ft = supportFragmentManager.beginTransaction()
+//                ft.replace(R.id.wrapper, WhatAfterGrad())
+//                ft.addToBackStack(null)
+//                ft.commit();
+//            }
+//            R.id.talenttests -> {
+//                ft = supportFragmentManager.beginTransaction()
+//                ft.replace(R.id.wrapper, TalentTests())
+//                ft.addToBackStack(null)
+//                ft.commit();
+//            }
+            R.id.coursesoverview -> {
+                ft = supportFragmentManager.beginTransaction()
+                ft.replace(R.id.wrapper, CoursesOverview())
+                ft.addToBackStack(null)
+                ft.commit();
+            }
         }
 
-        catch(e: Exception){
-            e.printStackTrace()
-        }
-
-        finally {
-            input?.close()
-        }
-        return null
     }
-
 }
+
+
