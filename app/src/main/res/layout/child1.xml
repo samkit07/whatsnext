@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    android:id="@+id/clinearlayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textview1_2"
+        android:id="@+id/ctextview1_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_margin="8dp"
+        android:gravity="center"
         android:padding="4dp"
-        android:text="Page1"
+        android:text="Subfield"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold"
+        app:drawableLeftCompat="@drawable/keyboard_arrow_down"
         app:layout_constraintBottom_toTopOf="@+id/textview2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textview2_2"
+        android:id="@+id/ctextview2_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:gravity="center"
         android:padding="4dp"
-        android:text="Page2"
-        android:textAlignment="center"
+        android:text="SubCourses"
+        android:textAlignment="gravity"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textview3"

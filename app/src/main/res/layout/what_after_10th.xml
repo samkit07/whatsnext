@@ -1,18 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutaftr10th"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".WhatAfter10th"
-    android:id="@+id/layoutaftr10th">
+    android:layout_height="match_parent">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativelayout1_1">
+
+        <TextView
+            android:id="@+id/ptextview4_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            android:text="Study"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+    </RelativeLayout>
 
     <ExpandableListView
+        android:id="@+id/elistview1"
+        android:layout_width="wrap_content"
+        android:layout_height="541dp"
+        android:layout_below="@+id/relativelayout1_1"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="-8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_weight="1"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:padding="8dp"
+        android:textSize="20sp" />
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/elistview"
-        android:padding="8dp"
-        android:layout_margin="12dp"
-        android:textSize="20sp"/>
+        android:layout_below="@id/elistview1">
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/ptextview4_1"
+            android:layout_width="382dp"
+            android:layout_height="68dp"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            android:text="Jobs"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

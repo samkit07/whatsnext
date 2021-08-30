@@ -4,7 +4,7 @@ import android.text.TextUtils.replace
 import android.util.Log
 import com.google.gson.annotations.SerializedName
 
-class ListModel1 {
+class ListModel1{
 
     @SerializedName("data")
     val data : ArrayList<Model1> = ArrayList()
@@ -42,9 +42,9 @@ class Model1{
     @SerializedName("examinations")
     val examinations : ArrayList<Examinations1> = ArrayList()
     override fun toString(): String {
-        return "$name \n $type \n $jobs \n $duration \n $fields \n $examinations"
+        return "$name, $type, $duration, $fields, $examinations"
     }
-
+    var expandable:Boolean=false
 }
 
 class Examinations1{
@@ -67,7 +67,9 @@ class Fields {
     val subFields : ArrayList<String> = ArrayList()
 
     override fun toString(): String {
-        return "$name \n $subFields"
+        return "$name, $subFields"
     }
+
+    var expandable:Boolean=false
 
 }

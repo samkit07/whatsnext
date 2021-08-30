@@ -1,20 +1,16 @@
-package com.example.whatnext.page1
+package com.example.whatnext.page10
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ExpandableListView
-import android.widget.TextView
-import com.example.practice2.EListAdapter1
+import com.example.practice2.EListAdapter10
 import com.example.whatnext.MainActivity
 import com.example.whatnext.R
 import com.google.gson.Gson
-import models.Fields
-import models.ListModel1
-import models.Model1
+import models.*
 import java.io.InputStream
 
 // TODO: Rename parameter arguments, choose names that match
@@ -24,47 +20,49 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [WhatAfter10th.newInstance] factory method to
+ * Use the [CoursesOverview.newInstance] factory method to
  * create an instance of this fragment.
  */
-class WhatAfter10th : Fragment() {
+class CoursesOverview : Fragment() {
 
-    lateinit var listViewAdapter: EListAdapter1
-    lateinit var what_next : ArrayList<Model1>
+    lateinit var listViewAdapter: EListAdapter10
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
         super.onCreate(savedInstanceState)
 
+        }
 
-    }
-
-    @SuppressLint("SetTextI18n")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
 
-        var jsonString = loadJson(context as MainActivity,"Page1.json")
-        var courses = Gson().fromJson(jsonString, ListModel1::class.java)
+        var jsonString = loadJson(context as MainActivity,"Page10.json")
+        var courses = Gson().fromJson(jsonString, ListModel10::class.java)
 
+//        val arr : ArrayList<Model10> = ArrayList()
 
-        val arr : ArrayList<Model1> = ArrayList()
+//        var hashmap : HashMap<Model10,List<String>> = HashMap()
 
-        var fields : HashMap<Model1,List<Fields>> = HashMap()
+        var name : ArrayList<String> = ArrayList()
+//        var coursesOverview : ArrayList<ArrayList<String>> = ArrayList()
+//        HashMap<Model1,List<Fields>> = HashMap()
+        var coursesOverview : HashMap<String, ArrayList<String>> = HashMap()
 
-        for(i in 0 until courses.data.size-1){
+        for(i in 0 until courses.data.size){
 
-            arr.add(courses.data[i])
-            fields[courses.data[i]] = courses.data[i].fields
+            name.add(courses.data[i].name)
+
+            coursesOverview[name[i]] = courses.data[i].courses
+//            coursesOverview[name[i]] = courses.data[i].courses
         }
-        what_next = arr
-        listViewAdapter = EListAdapter1(context as MainActivity, what_next, fields)
-        val view : View = inflater.inflate(R.layout.what_after_10th, container, false)
+//        what_next = arr
+        listViewAdapter = EListAdapter10(context as MainActivity,name,coursesOverview)
 
-        view.findViewById<TextView>(R.id.ptextview4_1).text =  "${courses.data[courses.data.size-1].name} \n ${courses.data[courses.data.size-1].jobs
-            .replace(",", ", ")}"
-        view.findViewById<ExpandableListView>(R.id.elistview1).setAdapter(listViewAdapter)
+        val view : View = inflater.inflate(R.layout.courses_overview, container, false)
+
+        view.findViewById<ExpandableListView>(R.id.elistview10).setAdapter(listViewAdapter)
 
         return view
 
