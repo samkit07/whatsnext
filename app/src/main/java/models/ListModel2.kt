@@ -8,6 +8,11 @@ class ListModel2 {
     @SerializedName("data")
     val data : ArrayList<Model2> = ArrayList()
 
+    override fun toString(): String {
+        return "$data"
+    }
+
+
 }
 
 class Model2 {
@@ -23,6 +28,11 @@ class Model2 {
 
     @SerializedName("fields")
     val fields : ArrayList<Fields2> = ArrayList()
+    override fun toString(): String {
+        return "$name \n $duration \n $eligibility \n $entranceExams \n $fields"
+    }
+
+
 }
 
 class Fields2{
@@ -40,6 +50,10 @@ class Fields2{
     @SerializedName("examination")
     val examination : ArrayList<Examinations> = ArrayList()
 
+    override fun toString(): String {
+        return "$name \n $duration \n $entranceExams \n $subFields \n $applicablePost \n $examination"
+    }
+
 }
 
 class SubFields{
@@ -47,6 +61,10 @@ class SubFields{
     val name : String =""
     @SerializedName("specialization")
     val specialization : ArrayList<String> = ArrayList()
+
+    override fun toString(): String {
+        return "$name \n $specialization"
+    }
 
 }
 
@@ -58,5 +76,9 @@ class Examinations{
     val eligibility : String = ""
     @SerializedName("duration")
     val duration : String =""
+    override fun toString(): String {
+        return "$name \n $eligibility \n $duration"
+    }
+
 
 }

@@ -23,7 +23,7 @@ private const val ARG_PARAM2 = "param2"
  * Use the [CoursesOverview.newInstance] factory method to
  * create an instance of this fragment.
  */
-class CoursesOverview : Fragment() {
+class FCoursesOverview : Fragment() {
 
     lateinit var listViewAdapter: EListAdapter10
 

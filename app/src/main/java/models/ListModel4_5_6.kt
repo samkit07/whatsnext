@@ -2,7 +2,13 @@ package models
 
 import com.google.gson.annotations.SerializedName
 
-class ListModel4 {
+class ListModel4_5_6 {
+
+    @SerializedName("data")
+    val data : ArrayList<Model4_5_6> = ArrayList()
+}
+
+class Model4_5_6{
 
     @SerializedName("srNo")
     val srNo:Int=0

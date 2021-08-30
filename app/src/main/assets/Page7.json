@@ -1,54 +1,62 @@
 {
-    "Agriculture & Hotel Management Exams": [
+  "data": [
+    {
+      "name": "Agriculture & Hotel Management",
+      "exams": [
         {
-            "name": "Indian Council of Agricultural Research ICAR AIEEA-UG-PG",
-            "purpose": "Admission in Bachelor, Master Degree Program, SRF (PGS) to Pursuing Ph.D in Agriculture and Allied Sciences at Agricultural Universities",
-            "eligibility": "Class 12, UG, PG",
-            "applicationMode": "online",
-            "source": "www.icar.org.in/"
+          "name": "Indian Council of Agricultural Research ICAR AIEEA-UG-PG",
+          "purpose": "Admission in Bachelor, Master Degree Program, SRF (PGS) to Pursuing Ph.D in Agriculture and Allied Sciences at Agricultural Universities",
+          "eligibility": "Class 12, UG, PG",
+          "applicationMode": "online",
+          "source": "www.icar.org.in/"
         },
         {
-            "name": "All India Hotel management Entrance Exam NCHMCT JEE",
-            "purpose": "Purpose-Admission in B.Sc. Hospitality & Hotel Administration",
-            "eligibility": "Class 12",
-            "applicationMode": "online",
-            "source": "www.nchmct.org/"
+          "name": "All India Hotel management Entrance Exam NCHMCT JEE",
+          "purpose": "Purpose-Admission in B.Sc. Hospitality & Hotel Administration",
+          "eligibility": "Class 12",
+          "applicationMode": "online",
+          "source": "www.nchmct.org/"
         }
-    ],
-    "Law": [
+      ]
+    },
+    {
+      "name": "Law",
+      "exams": [
         {
-            "name": "Common Law Admission Test",
-            "purpose": "Admission in B.A. LL.B (Hons), B.Com. (Hons), BBA LL.B (Hons)",
-            "eligibility": "Class 12, 12+",
-            "applicationMode": [
-                "online",
-                "by post"
-            ],
-            "source": "http://clat.ac.in/"
+          "name": "Common Law Admission Test",
+          "purpose": "Admission in B.A. LL.B (Hons), B.Com. (Hons), BBA LL.B (Hons)",
+          "eligibility": "Class 12, 12+",
+          "applicationMode": [
+            "online",
+            "by post"
+          ],
+          "source": "http://clat.ac.in/"
         },
         {
-            "name": "Law School Admission Test LSAT India",
-            "purpose": "Admission in B.A. LL.B (Hons), B.Com. (Hons), BBA LL.B (Hons)",
-            "eligibility": "Class 12, Graduates",
-            "applicationMode": "online",
-            "source": "www.pearsonvueindia.com/lsatindia/"
+          "name": "Law School Admission Test LSAT India",
+          "purpose": "Admission in B.A. LL.B (Hons), B.Com. (Hons), BBA LL.B (Hons)",
+          "eligibility": "Class 12, Graduates",
+          "applicationMode": "online",
+          "source": "www.pearsonvueindia.com/lsatindia/"
         },
         {
-            "name": "All India Law Entrance Test (AILET)",
-            "purpose": "Admission in B.A., LL.B. (Hons.), LLM, PhD",
-            "eligibility": "Class 12, 12+, LLB, LLM",
-            "applicationMode": "by post",
-            "source": "www.nludelhi.ac.in/"
+          "name": "All India Law Entrance Test (AILET)",
+          "purpose": "Admission in B.A., LL.B. (Hons.), LLM, PhD",
+          "eligibility": "Class 12, 12+, LLB, LLM",
+          "applicationMode": "by post",
+          "source": "www.nludelhi.ac.in/"
         },
         {
-            "name": "Lloyd Entrance Test (LET)",
-            "purpose": "Admission in B.A.,LL.B- 5-year integrated course",
-            "eligibility": "Class 12, 12+",
-            "applicationMode": [
-                "online",
-                "by post"
-            ],
-            "source": "www.lloydlawcollege.com"
+          "name": "Lloyd Entrance Test (LET)",
+          "purpose": "Admission in B.A.,LL.B- 5-year integrated course",
+          "eligibility": "Class 12, 12+",
+          "applicationMode": [
+            "online",
+            "by post"
+          ],
+          "source": "www.lloydlawcollege.com"
         }
-    ]
+      ]
+    }
+  ]
 }

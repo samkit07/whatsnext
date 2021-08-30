@@ -68,8 +68,7 @@
     },
     {
       "name": "More",
-      "courses": [
-        "Doctor of Philosophy (Ph.D)",
+      "courses": ["Doctor of Philosophy (Ph.D)",
         "Integrated / Dual Degree",
         "Diploma",
         "PG Diploma"

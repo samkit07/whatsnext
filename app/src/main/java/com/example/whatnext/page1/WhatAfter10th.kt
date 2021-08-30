@@ -62,7 +62,7 @@ class WhatAfter10th : Fragment() {
         listViewAdapter = EListAdapter1(context as MainActivity, what_next, fields)
         val view : View = inflater.inflate(R.layout.what_after_10th, container, false)
 
-        view.findViewById<TextView>(R.id.ptextview4_1).text =  "${courses.data[courses.data.size-1].name} \n ${courses.data[courses.data.size-1].jobs
+        view.findViewById<TextView>(R.id.ptextview4_1).text =  "${courses.data[courses.data.size-1].name} \n \n ${courses.data[courses.data.size-1].jobs
             .replace(",", ", ")}"
         view.findViewById<ExpandableListView>(R.id.elistview1).setAdapter(listViewAdapter)
 

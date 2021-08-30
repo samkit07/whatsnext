@@ -1,59 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/relative">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/prelative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
     <TextView
-        android:id="@+id/textview1_1"
+        android:id="@+id/ptextview1_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Page1"
-        android:textAlignment="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:padding="8dp"
-        android:layout_margin="12dp"
+        android:text="Name"
+        android:textAlignment="center"
         android:textSize="18sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textview2_1"
+        android:id="@+id/ptextview2_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="12dp"
+        android:layout_below="@+id/ptextview1_1"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
         android:padding="8dp"
-        android:text="Page2"
+        android:text="Duration"
         android:textAlignment="center"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@id/textview1_1"
-        />
-    <TextView
-        android:id="@+id/textview3_1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="12dp"
-        android:padding="8dp"
-        android:text="Page3"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@id/textview2_1"
-        />
+        android:textStyle="bold" />
+
 
     <TextView
-        android:id="@+id/textview4_1"
+        android:id="@+id/ptextview3_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="12dp"
+        android:layout_below="@+id/ptextview2_1"
+        android:layout_margin="4dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:padding="8dp"
-        android:text="Page4"
+        android:text="Exams"
         android:textAlignment="center"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@id/textview3_1"
-        />
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

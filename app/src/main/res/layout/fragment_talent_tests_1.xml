@@ -6,35 +6,37 @@
     app:cardCornerRadius="2dp"
     app:cardElevation="3dp"
     app:cardUseCompatPadding="true"
-    android:padding="3dp">
+    android:padding="3dp"
+    android:onClick="onClick"
+    android:id="@+id/card_9">
 
     <LinearLayout
+        android:id="@+id/linearlay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearlay"
+        android:background="@color/background"
         android:orientation="vertical"
-        android:padding="8dp"
-        android:background="@color/background">
+        android:padding="8dp">
 
         <TextView
+            android:id="@+id/textview1_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textview1_9"
+            android:padding="10dp"
             android:text="Test"
             android:textColor="@color/black"
-            android:textSize="22sp"
-            android:padding="10dp"/>
+            android:textSize="22sp" />
 
         <RelativeLayout
             android:id="@+id/expandable_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/white"
             android:gravity="center"
-            android:visibility="visible"
-            android:background="@color/white">
+            android:visibility="visible">
 
             <TextView
-                android:id="@+id/textview1_1_9"
+                android:id="@+id/textview2_9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
@@ -44,10 +46,10 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textview2_1_9"
+                android:id="@+id/textview3_9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/textview1_1_9"
+                android:layout_below="@+id/textview2_9"
                 android:padding="10dp"
                 android:text="Syllabus"
                 android:textColor="@color/darkGrey"
@@ -55,17 +57,16 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textview3_1_9"
+                android:id="@+id/textview4_9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/textview2_1_9"
+                android:layout_below="@+id/textview3_9"
                 android:padding="10dp"
                 android:text="Website"
                 android:textColor="@color/darkGrey"
                 android:textSize="18sp"
                 android:textStyle="bold" />
         </RelativeLayout>
-
 
 
     </LinearLayout>

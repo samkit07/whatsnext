@@ -16,51 +16,54 @@
         android:text="What next after 10th"
         android:textColor="@color/black"
         android:textSize="30sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/after12th"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/after10th"
+        android:gravity="center"
+        android:onClick="onClick"
         android:text="What next after 12th"
-        android:textSize="30sp"
-        android:gravity="center"
-        android:textStyle="bold"
         android:textColor="@color/black"
-        android:id="@+id/after12th"/>
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/aftergrad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="What next after graduation"
         android:layout_below="@+id/after12th"
-        android:textSize="30sp"
         android:gravity="center"
-        android:textStyle="bold"
+        android:text="What next after graduation"
         android:textColor="@color/black"
-        android:id="@+id/aftergrad"/>
+        android:onClick="onClick"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/talenttests"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Talent tests"
         android:layout_below="@+id/aftergrad"
-        android:textSize="30sp"
         android:gravity="center"
-        android:textStyle="bold"
+        android:onClick="onClick"
+        android:text="Talent tests"
         android:textColor="@color/black"
-        android:id="@+id/talenttests"/>
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/coursesoverview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Courses Overview"
         android:layout_below="@+id/talenttests"
-        android:textSize="30sp"
         android:gravity="center"
-        android:textStyle="bold"
+        android:onClick="onClick"
+        android:text="Courses Overview"
         android:textColor="@color/black"
-        android:id="@+id/coursesoverview"/>
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
