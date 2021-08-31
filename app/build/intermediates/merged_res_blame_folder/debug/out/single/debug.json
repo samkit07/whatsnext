@@ -20,6 +20,10 @@
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/drawable_gradientcolor.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/drawable/gradientcolor.xml"
+    },
+    {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_page7.xml.flat",
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page7.xml"
     },
@@ -30,6 +34,10 @@
     {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/drawable_gradientcolour.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/drawable/gradientcolour.xml"
     },
     {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -88,6 +96,10 @@
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page9.xml"
     },
     {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_page4.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page4.xml"
+    },
+    {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
     },
@@ -102,5 +114,9 @@
     {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_fragment4.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/fragment4.xml"
     }
 ]

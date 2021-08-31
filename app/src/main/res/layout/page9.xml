@@ -59,9 +59,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tv_syllabus"
+                android:autoLink="web"
                 android:padding="10dp"
                 android:text="Website"
                 android:textColor="@color/darkGrey"
+                android:textColorLink="#CD1515"
                 android:textSize="18sp"
                 android:textStyle="bold" />
         </RelativeLayout>

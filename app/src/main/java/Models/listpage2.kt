@@ -6,11 +6,11 @@ import org.json.JSONObject
 class listpage2 {
 
     @SerializedName("data")
-    val data : ArrayList<Model2> = ArrayList()
+    val data : ArrayList<page2> = ArrayList()
 
 }
 
-class Model2 {
+class page2 {
 
     @SerializedName("name")
     val name : String =""

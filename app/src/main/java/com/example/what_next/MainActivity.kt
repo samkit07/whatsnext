@@ -2,6 +2,7 @@ package com.example.what_next
 
 import Models.*
 import adapters.UserAdapter10
+import adapters.UserAdapter4
 import adapters.UserAdapter7
 import adapters.UserAdapter9
 import android.content.Context
@@ -27,15 +28,15 @@ class MainActivity : AppCompatActivity() {
 ////            var obj:JSONObject = JSONObject(loadJson(this))
 ////            var jArray: JSONArray = obj.getJSONArray("data")
 //
-//            val jsonString = loadJson(this,"Page9.json")
-//            val courses = Gson().fromJson(jsonString, listpage9::class.java)
+//            val jsonString = loadJson(this,"Page7.json")
+//            val courses = Gson().fromJson(jsonString, listpage7::class.java)
 //            Log.d("Page10", "$courses")
 ////            -------------Using RecyclerView-----------
 //            rvUsersList.layoutManager = LinearLayoutManager(this)
-//            val itemAdapter = UserAdapter9(courses.data)
+//            val itemAdapter = UserAdapter7(courses.data)
 //            rvUsersList.adapter = itemAdapter
 ////
-////            -------------Using ExpandableListView---------------
+////            --------------Using ExpandableListView---------------
 ////            lateinit var listviewAd: ExListAdapter10
 ////            var courselist : HashMap<page10, ArrayList<String>> = HashMap()
 ////            for(i in 0 until courses.data.size){
@@ -48,7 +49,9 @@ class MainActivity : AppCompatActivity() {
 //        }catch (e:JSONException){
 //            e.printStackTrace()
 //        }
-    }
+
+
+       }
 //            --------------------Fragments--------------------
 
     private fun replaceFragment(fragment:Fragment) {
@@ -60,7 +63,9 @@ class MainActivity : AppCompatActivity() {
 
     fun onClick(v: View) {
         when (v.id) {
-
+            R.id.fpage4 -> {
+                replaceFragment(fragment4())
+            }
             R.id.fpage7 -> {
                 replaceFragment(fragment7())
             }

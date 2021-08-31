@@ -23,6 +23,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button fpage10;
 
   @NonNull
+  public final Button fpage4;
+
+  @NonNull
   public final Button fpage7;
 
   @NonNull
@@ -35,10 +38,11 @@ public final class ActivityMainBinding implements ViewBinding {
   public final RelativeLayout maincontainer;
 
   private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull Button fpage10,
-      @NonNull Button fpage7, @NonNull Button fpage9,
+      @NonNull Button fpage4, @NonNull Button fpage7, @NonNull Button fpage9,
       @NonNull FragmentContainerView fragmentContainer, @NonNull RelativeLayout maincontainer) {
     this.rootView = rootView;
     this.fpage10 = fpage10;
+    this.fpage4 = fpage4;
     this.fpage7 = fpage7;
     this.fpage9 = fpage9;
     this.fragmentContainer = fragmentContainer;
@@ -78,6 +82,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.fpage4;
+      Button fpage4 = rootView.findViewById(id);
+      if (fpage4 == null) {
+        break missingId;
+      }
+
       id = R.id.fpage7;
       Button fpage7 = rootView.findViewById(id);
       if (fpage7 == null) {
@@ -98,7 +108,7 @@ public final class ActivityMainBinding implements ViewBinding {
 
       RelativeLayout maincontainer = (RelativeLayout) rootView;
 
-      return new ActivityMainBinding((RelativeLayout) rootView, fpage10, fpage7, fpage9,
+      return new ActivityMainBinding((RelativeLayout) rootView, fpage10, fpage4, fpage7, fpage9,
           fragmentContainer, maincontainer);
     }
     String missingId = rootView.getResources().getResourceName(id);

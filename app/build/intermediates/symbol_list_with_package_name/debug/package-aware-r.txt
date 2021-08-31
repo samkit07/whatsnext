@@ -1790,6 +1790,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable gradientcolor
+drawable gradientcolour
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2014,8 +2016,10 @@ id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
+id expand
 id expand_activities_button
 id expandable
+id expandable_Rlayout
 id expandable_layout
 id expanded_menu
 id expandlist
@@ -2030,6 +2034,7 @@ id flip
 id floating
 id forever
 id fpage10
+id fpage4
 id fpage7
 id fpage9
 id fragmentContainer
@@ -2076,6 +2081,7 @@ id line3
 id linear
 id linearclick
 id linearlay
+id linlay
 id listMode
 id list_item
 id maincontainer
@@ -2298,11 +2304,17 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_appliFor
 id tv_appliMode
+id tv_conduct
 id tv_course
 id tv_eligibility
+id tv_exam
 id tv_name
+id tv_notification
 id tv_purpose
+id tv_school
+id tv_selection
 id tv_source
 id tv_syllabus
 id tv_test
@@ -2415,6 +2427,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment10
+layout fragment4
 layout fragment7
 layout fragment9
 layout material_chip_input_combo
@@ -2476,6 +2489,7 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout page10
+layout page4
 layout page7
 layout page7_1
 layout page9

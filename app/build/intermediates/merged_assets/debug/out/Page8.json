@@ -3,25 +3,26 @@
         "name": "All India Entrance Examination for Design (AIEED)",
         "purpose": "Admission in 4 years UG level programmes in Design",
         "eligibility": "Class 11&12",
-        "applicationMode": "online",
+        "applicationMode": ["online"],
         "activity": "Series 1: November to February, Series 2: April, May",
         "source": "www.aieed.com",
         "schools": [
-            {
+            [
                 "id": 1,
                 "name": "Srishti School",
                 "website": "http://srishti.ac.in/"
-            },
-            {
+            ],
+            [
                 "id": 2,
                 "name": "School of Fashion Technology",
                 "website": "www.softpune.com/"
-            },
-            {
+            ],
+            [
                 "id": 3,
                 "name": "Pearl Academy",
                 "website": "http://pearlacademy.com"
-            },
+            ]
+        ],
             {
                 "id": 4,
                 "name": "Symbiosis Institute of Design",

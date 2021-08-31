@@ -33,9 +33,8 @@ class fragment10 : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
-//    lateinit var recyclerView:RecyclerView
     lateinit var expandView:ExpandableListView
-//    var arr: ArrayList<page10> = ArrayList()
+    var main = MainActivity()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -52,7 +51,7 @@ class fragment10 : Fragment() {
         // Inflate the layout for this fragment
         var view:View = inflater.inflate(R.layout.fragment10, container, false)
 
-        val jsonString = loadJson(context as MainActivity,"Page10.json")
+        val jsonString = main.loadJson(context as MainActivity,"Page10.json")
         val courses = Gson().fromJson(jsonString, listpage10::class.java)
 
 //            -------------Using RecyclerView-----------
@@ -72,26 +71,6 @@ class fragment10 : Fragment() {
             expandView = view.findViewById(R.id.expandlist)
             expandView.setAdapter(listviewAd)
         return view
-    }
-    fun loadJson(context: MainActivity, filename:String): String? {
-        var input: InputStream? = null
-        var jsonString: String
-
-        try {
-            input = context.assets.open(filename)
-            val size = input.available()
-
-            val buffer = ByteArray(size)
-            input.read(buffer)
-
-            jsonString = String(buffer)
-            return jsonString
-        } catch (ex: Exception) {
-            ex.printStackTrace()
-        } finally {
-            input?.close()
-        }
-        return null
     }
 
     companion object {

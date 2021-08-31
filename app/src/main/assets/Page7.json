@@ -1,6 +1,7 @@
 {
     "data": [
-            {"course":"Engineering Exams",
+        {
+            "course":"Engineering Exams",
             "exams": [
             {
                 "name": "Joint Entrance Examination (JEE) Main",
@@ -62,7 +63,8 @@
                 "source": "http://www..ap.gov.in/eamcet"
             }
         ]},
-        {"course":"Medical Exams",
+        {
+            "course":"Medical Exams",
             "exams": [
                 {
                 "name": "National Eligibility Cum Entrance Test (NEET)",
@@ -102,8 +104,15 @@
             ]
         },
         {
-        "course":"Marine, Navy, Defence Exams",
+            "course":"Marine, Navy, Defence Exams",
             "exams": [
+                {
+                    "name": "Indian Navy Sailors Recruitment",
+                    "purpose": "Admission in 24 weeks Basic training at INS Chilka followed by Professional training",
+                    "eligibility": "Class 12 (Maths and Physics/Chem./Bio/Computer Sc.)",
+                    "applicationMode": ["online", "by post"],
+                    "source": "www.nausena-bharti.nic.in/index.php"
+                },
             {
                 "name": "Indian Maritime University Common Entrance Test",
                 "purpose": "Admission in Diploma in Nautical Science (DNS) leading to BSc. (Nautical Science)",
@@ -116,13 +125,6 @@
                 "purpose": "Admission in Indian Navy B.Tech course",
                 "eligibility": "Class 12 passed",
                 "applicationMode": ["online"],
-                "source": "www.nausena-bharti.nic.in/index.php"
-            },
-            {
-                "name": "Indian Navy Sailors Recruitment",
-                "purpose": "Admission in 24 weeks Basic training at INS Chilka followed by Professional training",
-                "eligibility": "Class 12 (Maths and Physics/Chem./Bio/Computer Sc.)",
-                "applicationMode": ["online", "by post"],
                 "source": "www.nausena-bharti.nic.in/index.php"
             },
             {
@@ -200,6 +202,59 @@
                     "source": "www.lloydlawcollege.com"
                 }
             ]
+        },
+        {
+            "course": "Fashion Design",
+            "exams": [
+                {
+                "name": "All India Entrance Examination for Design (AIEED)",
+                "purpose": "Admission in 4 years UG level programmes in Design",
+                "eligibility": "Class 11&12",
+                "applicationMode": ["online"],
+                "source": "www.aieed.com",
+                "schools": [
+                    [
+                        " name: Srishti School",
+                        "website: http://srishti.ac.in/"
+                    ],
+                    [
+                        "name: School of Fashion Technology",
+                        "website: www.softpune.com/"
+                    ],
+                    [
+                        "name: Pearl Academy",
+                        "website: http://pearlacademy.com"
+                    ],
+                    [
+                        "name: Symbiosis Institute of Design",
+                        "website: http://sid.edu.in/"
+                    ],
+                    [
+                        "name: Footwear Design and Development Institute",
+                        "website: www.fddiindia.com/"
+                    ],
+                    [
+                        "name: Maeer's MIT Institute of Design",
+                        "website: www.mitid.edu.in/"
+                    ],
+                    [
+                        "name: National Institute of Design",
+                        "website: www.nid.edu/"
+                    ],
+                    [
+                        "name: National Institute of Fashion Design",
+                        "website: www.nift.ac.in/"
+                    ],
+                    [
+                        "name: National Aptitude Test in Architecture",
+                        "website: www.nata.in"
+                    ],
+                    [
+                        "name: Center for Environmental Planning and Technology (CEPT)",
+                        "website: www.cept.ac.in/"
+                    ]
+                ]
+            }]
         }
         ]
 }

@@ -7,13 +7,19 @@
     android:padding="4dp"
     android:id="@+id/maincontainer"
     tools:context=".MainActivity"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@drawable/gradientcolour">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainer"
         android:layout_width="match_parent"
-        android:layout_height="665dp" />
+        android:layout_height="665dp"
+        android:layout_marginTop="50dp" />
 
+
+    <HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,27 +27,33 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/fpage7"
+            android:id="@+id/fpage4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onClick"
-            android:text="Page7"
+            android:text="Exams After Intermediate"
+            android:textStyle="italic"
             android:layout_centerHorizontal="true"
             android:textSize="18sp"
             android:textAllCaps="false"
             android:layout_margin="2dp"/>
 
-<!--        <TextView-->
-<!--            android:id="@+id/fpage10"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:onClick="onClick"-->
-<!--            android:text="Page10"-->
-<!--            android:padding="5dp"-->
-<!--            android:layout_centerHorizontal="true"-->
-<!--            android:textSize="25sp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:layout_margin="2dp"/>-->
+        <Button
+            android:id="@+id/fpage7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:onClick="onClick"
+            android:text="Exams"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
 
         <Button
             android:id="@+id/fpage9"
@@ -51,7 +63,8 @@
             android:layout_margin="2dp"
             android:onClick="onClick"
             android:textAllCaps="false"
-            android:text="Page9"
+            android:textStyle="italic"
+            android:text="Talent Tests"
             android:textSize="18sp"/>
 
         <Button
@@ -60,14 +73,15 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:onClick="onClick"
-            android:text="Page10"
+            android:text="Courses"
+            android:textStyle="italic"
             android:textAllCaps="false"
             android:layout_centerHorizontal="true"
             android:textSize="18sp"/>
 
 
     </LinearLayout>
-
+</HorizontalScrollView>
 
 
 <!--    <androidx.recyclerview.widget.RecyclerView-->

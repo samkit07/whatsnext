@@ -28,6 +28,7 @@ class fragment7 : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
     lateinit var recyclerView: RecyclerView
+    var main = MainActivity()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,7 +44,7 @@ class fragment7 : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         var view:View = inflater.inflate(R.layout.fragment7, container, false)
-        val jsonString = loadJson(context as MainActivity,"Page7.json")
+        val jsonString = main.loadJson(context as MainActivity,"Page7.json")
         val courses = Gson().fromJson(jsonString, listpage7::class.java)
 
         val itemAdapter = UserAdapter7(courses.data)
@@ -52,26 +53,6 @@ class fragment7 : Fragment() {
         recyclerView.layoutManager = LinearLayoutManager(context)
 
         return view
-    }
-    fun loadJson(context: MainActivity, filename:String): String? {
-        var input: InputStream? = null
-        var jsonString: String
-
-        try {
-            input = context.assets.open(filename)
-            val size = input.available()
-
-            val buffer = ByteArray(size)
-            input.read(buffer)
-
-            jsonString = String(buffer)
-            return jsonString
-        } catch (ex: Exception) {
-            ex.printStackTrace()
-        } finally {
-            input?.close()
-        }
-        return null
     }
 
     companion object {

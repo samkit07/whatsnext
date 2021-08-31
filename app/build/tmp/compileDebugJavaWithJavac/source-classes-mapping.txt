@@ -16,9 +16,13 @@ com/example/what_next/databinding/Page10Binding.java
  com.example.what_next.databinding.Page10Binding
 com/example/what_next/databinding/ActivitySplashScreenBinding.java
  com.example.what_next.databinding.ActivitySplashScreenBinding
+com/example/what_next/databinding/Fragment4Binding.java
+ com.example.what_next.databinding.Fragment4Binding
 com/example/what_next/databinding/Fragment10Binding.java
  com.example.what_next.databinding.Fragment10Binding
-com/example/what_next/databinding/Fragment7Binding.java
- com.example.what_next.databinding.Fragment7Binding
+com/example/what_next/databinding/Page4Binding.java
+ com.example.what_next.databinding.Page4Binding
 com/example/what_next/databinding/ActivityMainBinding.java
  com.example.what_next.databinding.ActivityMainBinding
+com/example/what_next/databinding/Fragment7Binding.java
+ com.example.what_next.databinding.Fragment7Binding

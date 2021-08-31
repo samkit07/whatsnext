@@ -4,9 +4,12 @@ import Models.Exams
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.LinearLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.example.what_next.R
 import kotlinx.android.synthetic.main.page7_1.view.*
+import kotlinx.android.synthetic.main.page7_1.view.tv_eligibility
+import kotlinx.android.synthetic.main.page9.view.*
 
 class UserAdapter7_1(val exlist:ArrayList<Exams>) : RecyclerView.Adapter<UserAdapter7_1.Viewholder>() {
     class Viewholder(view: View) : RecyclerView.ViewHolder(view){
@@ -16,6 +19,9 @@ class UserAdapter7_1(val exlist:ArrayList<Exams>) : RecyclerView.Adapter<UserAda
         val eligibility = view.tv_eligibility
         val appliMode = view.tv_appliMode
         val source = view.tv_source
+        val school = view.tv_school
+        var linearlay:LinearLayout = view.linlay
+        var exlayout = view.expandable_Rlayout
 //        val expandable = view.expandable
     }
 
@@ -27,16 +33,21 @@ class UserAdapter7_1(val exlist:ArrayList<Exams>) : RecyclerView.Adapter<UserAda
     override fun onBindViewHolder(holder: Viewholder, position: Int) {
         var item = exlist[position]
         holder.name.text = item.name
-        var a:String = item.applicationMode.joinToString(", \n")
-
+//        var a:String = item.applicationMode.joinToString(", \n")
+//        holder.linearlay.setVisibility(View.INVISIBLE)
         holder.purpose.text = item.purpose
         holder.eligibility.text = item.eligibility
         holder.source.text = item.source
-        holder.appliMode.text = a
-//        val isExpandable = item.expand
-//        holder.expandable.visibility = if(isExpandable) View.VISIBLE else View.GONE
-//        holder.linearcl.setOnClickListener{
-//            item.expand = !item.expand
+        holder.appliMode.text = item.applicationMode.joinToString(", \n")
+        if(item.schools.size==0){holder.linearlay.setVisibility(View.GONE)}else{
+        holder.school.text = item.schools.toString().replace("[", "")
+            .replace("]", "").replace(",","\n").replace("name","Name").replace("website","Website")}
+
+//        val isExpandable = item.expandable
+//        holder.exlayout.visibility = if(isExpandable) View.VISIBLE else View.GONE
+//        holder.linearlay.setOnClickListener{
+//            val v = exlist[position]
+//            v.expandable = !v.expandable
 //            notifyItemChanged(position)
 //        }
 
