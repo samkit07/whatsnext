@@ -19,7 +19,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.WhatNext" >
-        <activity android:name="com.example.what_next.SplashScreenActivity" >
+        <activity
+            android:name="com.example.what_next.SplashScreenActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

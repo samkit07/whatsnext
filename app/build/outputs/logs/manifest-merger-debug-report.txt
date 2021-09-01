@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.databinding:viewbinding:4.2.2] /home/samkit/.gradle/caches/transforms-3/a503d37dead2570804b9e4be33397e73/transformed/jetified-viewbinding-4.2.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.6.0] /home/samkit/.gradle/caches/transforms-3/5d5aa10d24b096a1175f40626dee7ae6/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] /home/samkit/.gradle/caches/transforms-3/6c809ba1be2c04d50dbd65bedc7e1620/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
@@ -47,25 +47,25 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/s
 MERGED from [androidx.print:print:1.0.0] /home/samkit/.gradle/caches/transforms-3/a7850051916a2a93c6a29dff2d7580ad/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/samkit/.gradle/caches/transforms-3/e1049b4e24155cc85325688455ab0dbd/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/samkit/.gradle/caches/transforms-3/5437f30b2bb605224097b665096599e3/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml
 		INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml
-		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml
-		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:5:5-25:19
 MERGED from [com.google.android.material:material:1.4.0] /home/samkit/.gradle/caches/transforms-3/6c809ba1be2c04d50dbd65bedc7e1620/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /home/samkit/.gradle/caches/transforms-3/6c809ba1be2c04d50dbd65bedc7e1620/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/samkit/.gradle/caches/transforms-3/2de286b845160b1acfa90055a970924e/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
@@ -89,25 +89,27 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/samki
 	android:theme
 		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:11:9-46
 activity#com.example.what_next.SplashScreenActivity
-ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:12:9-19:20
+	android:theme
+		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:13:13-81
 	android:name
 		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:12:19-55
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:17:27-74
 activity#com.example.what_next.MainActivity
-ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:19:9-23:20
+ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:20:9-24:20
 	android:exported
-		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:21:13-36
+		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:20:13-41
+		ADDED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:21:13-41
 uses-sdk
 INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml

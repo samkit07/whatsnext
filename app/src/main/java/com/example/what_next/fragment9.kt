@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
@@ -36,6 +37,7 @@ class fragment9 : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+        (activity as AppCompatActivity?)!!.getSupportActionBar()!!.setTitle("Talent Tests")
     }
 
     override fun onCreateView(
@@ -53,6 +55,10 @@ class fragment9 : Fragment() {
         recyclerView.layoutManager = LinearLayoutManager(context)
 
         return view
+    }
+    override fun onStop() {
+        super.onStop()
+        (activity as AppCompatActivity?)!!.getSupportActionBar()!!.setTitle("What Next?")
     }
 
     companion object {

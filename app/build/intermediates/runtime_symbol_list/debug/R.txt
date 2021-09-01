@@ -1791,6 +1791,7 @@ int drawable design_password_eye 0x7f070063
 int drawable design_snackbar_background 0x7f070064
 int drawable gradientcolor 0x7f070092
 int drawable gradientcolour 0x7f070093
+int drawable ic_book 0x7f070094
 int drawable ic_clock_black_24dp 0x7f070065
 int drawable ic_keyboard_black_24dp 0x7f070066
 int drawable ic_launcher_background 0x7f070067
@@ -2021,7 +2022,8 @@ int id expandable 0x7f0801dc
 int id expandable_Rlayout 0x7f0801f7
 int id expandable_layout 0x7f0801e8
 int id expanded_menu 0x7f0800b1
-int id expandlist 0x7f0801de
+int id expandlist10 0x7f0801fc
+int id expandlist3 0x7f0801fd
 int id fade 0x7f0800b2
 int id fill 0x7f0800b3
 int id fill_horizontal 0x7f0800b4
@@ -2033,6 +2035,7 @@ int id flip 0x7f0800b9
 int id floating 0x7f0800ba
 int id forever 0x7f0800bb
 int id fpage10 0x7f0801e5
+int id fpage3 0x7f0801fe
 int id fpage4 0x7f0801f3
 int id fpage7 0x7f0801e6
 int id fpage9 0x7f0801ed
@@ -2083,7 +2086,7 @@ int id linearlay 0x7f0801e9
 int id linlay 0x7f0801f5
 int id listMode 0x7f0800e5
 int id list_item 0x7f0800e6
-int id maincontainer 0x7f0801e4
+int id mainLayout 0x7f0801f8
 int id masked 0x7f0800e7
 int id match_constraint 0x7f0800e8
 int id match_parent 0x7f0800e9
@@ -2311,10 +2314,12 @@ int id tv_eligibility 0x7f0801c1
 int id tv_exam 0x7f0801f0
 int id tv_name 0x7f0801c2
 int id tv_notification 0x7f0801f1
+int id tv_option 0x7f0801fa
 int id tv_purpose 0x7f0801c3
 int id tv_school 0x7f0801f4
 int id tv_selection 0x7f0801f2
 int id tv_source 0x7f0801c4
+int id tv_studentType 0x7f0801fb
 int id tv_syllabus 0x7f0801ea
 int id tv_test 0x7f0801eb
 int id tv_website 0x7f0801ec
@@ -2426,6 +2431,7 @@ int layout design_navigation_menu_item 0x7f0b002b
 int layout design_text_input_end_icon 0x7f0b002c
 int layout design_text_input_start_icon 0x7f0b002d
 int layout fragment10 0x7f0b0077
+int layout fragment3 0x7f0b0088
 int layout fragment4 0x7f0b0085
 int layout fragment7 0x7f0b0081
 int layout fragment9 0x7f0b0083
@@ -2488,6 +2494,8 @@ int layout notification_template_media_custom 0x7f0b0080
 int layout notification_template_part_chronometer 0x7f0b005d
 int layout notification_template_part_time 0x7f0b005e
 int layout page10 0x7f0b005f
+int layout page3 0x7f0b0086
+int layout page3_1 0x7f0b0087
 int layout page4 0x7f0b0084
 int layout page7 0x7f0b0060
 int layout page7_1 0x7f0b0074

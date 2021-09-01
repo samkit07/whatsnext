@@ -8,7 +8,6 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import com.example.what_next.R;
 import java.lang.NullPointerException;
@@ -23,6 +22,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button fpage10;
 
   @NonNull
+  public final Button fpage3;
+
+  @NonNull
   public final Button fpage4;
 
   @NonNull
@@ -32,21 +34,23 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button fpage9;
 
   @NonNull
-  public final FragmentContainerView fragmentContainer;
+  public final RelativeLayout fragmentContainer;
 
   @NonNull
-  public final RelativeLayout maincontainer;
+  public final RelativeLayout mainLayout;
 
   private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull Button fpage10,
-      @NonNull Button fpage4, @NonNull Button fpage7, @NonNull Button fpage9,
-      @NonNull FragmentContainerView fragmentContainer, @NonNull RelativeLayout maincontainer) {
+      @NonNull Button fpage3, @NonNull Button fpage4, @NonNull Button fpage7,
+      @NonNull Button fpage9, @NonNull RelativeLayout fragmentContainer,
+      @NonNull RelativeLayout mainLayout) {
     this.rootView = rootView;
     this.fpage10 = fpage10;
+    this.fpage3 = fpage3;
     this.fpage4 = fpage4;
     this.fpage7 = fpage7;
     this.fpage9 = fpage9;
     this.fragmentContainer = fragmentContainer;
-    this.maincontainer = maincontainer;
+    this.mainLayout = mainLayout;
   }
 
   @Override
@@ -82,6 +86,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.fpage3;
+      Button fpage3 = rootView.findViewById(id);
+      if (fpage3 == null) {
+        break missingId;
+      }
+
       id = R.id.fpage4;
       Button fpage4 = rootView.findViewById(id);
       if (fpage4 == null) {
@@ -100,16 +110,16 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.fragmentContainer;
-      FragmentContainerView fragmentContainer = rootView.findViewById(id);
-      if (fragmentContainer == null) {
+      RelativeLayout fragmentContainer = (RelativeLayout) rootView;
+
+      id = R.id.mainLayout;
+      RelativeLayout mainLayout = rootView.findViewById(id);
+      if (mainLayout == null) {
         break missingId;
       }
 
-      RelativeLayout maincontainer = (RelativeLayout) rootView;
-
-      return new ActivityMainBinding((RelativeLayout) rootView, fpage10, fpage4, fpage7, fpage9,
-          fragmentContainer, maincontainer);
+      return new ActivityMainBinding((RelativeLayout) rootView, fpage10, fpage3, fpage4, fpage7,
+          fpage9, fragmentContainer, mainLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

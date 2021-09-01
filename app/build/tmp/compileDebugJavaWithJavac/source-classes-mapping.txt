@@ -1,28 +1,34 @@
-com/example/what_next/BuildConfig.java
- com.example.what_next.BuildConfig
 com/example/what_next/databinding/Sample101Binding.java
  com.example.what_next.databinding.Sample101Binding
-com/example/what_next/databinding/Page71Binding.java
- com.example.what_next.databinding.Page71Binding
+com/example/what_next/databinding/Page3Binding.java
+ com.example.what_next.databinding.Page3Binding
 com/example/what_next/databinding/Page7Binding.java
  com.example.what_next.databinding.Page7Binding
 com/example/what_next/databinding/Sample10Binding.java
  com.example.what_next.databinding.Sample10Binding
-com/example/what_next/databinding/Fragment9Binding.java
- com.example.what_next.databinding.Fragment9Binding
-com/example/what_next/databinding/Page9Binding.java
- com.example.what_next.databinding.Page9Binding
-com/example/what_next/databinding/Page10Binding.java
- com.example.what_next.databinding.Page10Binding
-com/example/what_next/databinding/ActivitySplashScreenBinding.java
- com.example.what_next.databinding.ActivitySplashScreenBinding
 com/example/what_next/databinding/Fragment4Binding.java
  com.example.what_next.databinding.Fragment4Binding
-com/example/what_next/databinding/Fragment10Binding.java
- com.example.what_next.databinding.Fragment10Binding
 com/example/what_next/databinding/Page4Binding.java
  com.example.what_next.databinding.Page4Binding
 com/example/what_next/databinding/ActivityMainBinding.java
  com.example.what_next.databinding.ActivityMainBinding
+com/example/what_next/databinding/Fragment3Binding.java
+ com.example.what_next.databinding.Fragment3Binding
+com/example/what_next/databinding/Page71Binding.java
+ com.example.what_next.databinding.Page71Binding
+com/example/what_next/databinding/Fragment9Binding.java
+ com.example.what_next.databinding.Fragment9Binding
+com/example/what_next/databinding/Page9Binding.java
+ com.example.what_next.databinding.Page9Binding
+com/example/what_next/databinding/Page31Binding.java
+ com.example.what_next.databinding.Page31Binding
+com/example/what_next/databinding/Page10Binding.java
+ com.example.what_next.databinding.Page10Binding
+com/example/what_next/databinding/ActivitySplashScreenBinding.java
+ com.example.what_next.databinding.ActivitySplashScreenBinding
+com/example/what_next/databinding/Fragment10Binding.java
+ com.example.what_next.databinding.Fragment10Binding
+com/example/what_next/BuildConfig.java
+ com.example.what_next.BuildConfig
 com/example/what_next/databinding/Fragment7Binding.java
  com.example.what_next.databinding.Fragment7Binding

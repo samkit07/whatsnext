@@ -1,10 +1,7 @@
 package com.example.what_next
 
 import Models.*
-import adapters.UserAdapter10
-import adapters.UserAdapter4
-import adapters.UserAdapter7
-import adapters.UserAdapter9
+import adapters.*
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -22,29 +19,33 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        supportFragmentManager.beginTransaction().replace(R.id.maincontainer, fragment7()).commit()
+        val actionBar=supportActionBar
+        if(actionBar!=null){
+            actionBar.title="What Next?"
+        }
+
 //        val fragment: Fragment = fragment10.newInstance()
 //        try {
 ////            var obj:JSONObject = JSONObject(loadJson(this))
 ////            var jArray: JSONArray = obj.getJSONArray("data")
 //
-//            val jsonString = loadJson(this,"Page7.json")
-//            val courses = Gson().fromJson(jsonString, listpage7::class.java)
+//            val jsonString = loadJson(this,"Page3.json")
+//            val courses = Gson().fromJson(jsonString, listpage3::class.java)
 //            Log.d("Page10", "$courses")
 ////            -------------Using RecyclerView-----------
-//            rvUsersList.layoutManager = LinearLayoutManager(this)
-//            val itemAdapter = UserAdapter7(courses.data)
-//            rvUsersList.adapter = itemAdapter
+////            rvUsersList.layoutManager = LinearLayoutManager(this)
+////            val itemAdapter = UserAdapter7(courses.data)
+////            rvUsersList.adapter = itemAdapter
 ////
 ////            --------------Using ExpandableListView---------------
-////            lateinit var listviewAd: ExListAdapter10
-////            var courselist : HashMap<page10, ArrayList<String>> = HashMap()
-////            for(i in 0 until courses.data.size){
-////                courselist[courses.data[i]] = courses.data[i].courses
-////            }
-////            Log.d("Page10", "$courselist")
-////            listviewAd = ExListAdapter10(this, courses.data, courselist)
-////            expandlist.setAdapter(listviewAd)
+//            lateinit var listviewAd: ExListAdapter3
+//            var courselist : HashMap<page3, ArrayList<String>> = HashMap()
+//            for(i in 0 until courses.data.size){
+//                courselist[courses.data[i]] = courses.data[i].whatNext
+//            }
+//            Log.d("Page10", "$courselist")
+//            listviewAd = ExListAdapter3(this, courses.data, courselist)
+//            expandlist.setAdapter(listviewAd)
 //
 //        }catch (e:JSONException){
 //            e.printStackTrace()
@@ -52,17 +53,24 @@ class MainActivity : AppCompatActivity() {
 
 
        }
-//            --------------------Fragments--------------------
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        mainLayout.setVisibility(View.VISIBLE)
+    }
     private fun replaceFragment(fragment:Fragment) {
         val fmanager = supportFragmentManager.beginTransaction()
         fmanager.replace(R.id.fragmentContainer, fragment)
-//        fmanager.addToBackStack(null)
+        mainLayout.setVisibility(View.GONE)
+        fmanager.addToBackStack(null)
         fmanager.commit()
     }
 
     fun onClick(v: View) {
         when (v.id) {
+            R.id.fpage3 -> {
+                replaceFragment(fragment3())
+            }
             R.id.fpage4 -> {
                 replaceFragment(fragment4())
             }

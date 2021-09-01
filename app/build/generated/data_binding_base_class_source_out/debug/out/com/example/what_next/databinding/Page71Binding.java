@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,7 +21,16 @@ public final class Page71Binding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
+  public final TextView expand;
+
+  @NonNull
   public final LinearLayout expandable;
+
+  @NonNull
+  public final RelativeLayout expandableRlayout;
+
+  @NonNull
+  public final LinearLayout linlay;
 
   @NonNull
   public final TextView tvAppliMode;
@@ -35,17 +45,26 @@ public final class Page71Binding implements ViewBinding {
   public final TextView tvPurpose;
 
   @NonNull
+  public final TextView tvSchool;
+
+  @NonNull
   public final TextView tvSource;
 
-  private Page71Binding(@NonNull CardView rootView, @NonNull LinearLayout expandable,
-      @NonNull TextView tvAppliMode, @NonNull TextView tvEligibility, @NonNull TextView tvName,
-      @NonNull TextView tvPurpose, @NonNull TextView tvSource) {
+  private Page71Binding(@NonNull CardView rootView, @NonNull TextView expand,
+      @NonNull LinearLayout expandable, @NonNull RelativeLayout expandableRlayout,
+      @NonNull LinearLayout linlay, @NonNull TextView tvAppliMode, @NonNull TextView tvEligibility,
+      @NonNull TextView tvName, @NonNull TextView tvPurpose, @NonNull TextView tvSchool,
+      @NonNull TextView tvSource) {
     this.rootView = rootView;
+    this.expand = expand;
     this.expandable = expandable;
+    this.expandableRlayout = expandableRlayout;
+    this.linlay = linlay;
     this.tvAppliMode = tvAppliMode;
     this.tvEligibility = tvEligibility;
     this.tvName = tvName;
     this.tvPurpose = tvPurpose;
+    this.tvSchool = tvSchool;
     this.tvSource = tvSource;
   }
 
@@ -76,9 +95,27 @@ public final class Page71Binding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.expand;
+      TextView expand = rootView.findViewById(id);
+      if (expand == null) {
+        break missingId;
+      }
+
       id = R.id.expandable;
       LinearLayout expandable = rootView.findViewById(id);
       if (expandable == null) {
+        break missingId;
+      }
+
+      id = R.id.expandable_Rlayout;
+      RelativeLayout expandableRlayout = rootView.findViewById(id);
+      if (expandableRlayout == null) {
+        break missingId;
+      }
+
+      id = R.id.linlay;
+      LinearLayout linlay = rootView.findViewById(id);
+      if (linlay == null) {
         break missingId;
       }
 
@@ -106,14 +143,20 @@ public final class Page71Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_school;
+      TextView tvSchool = rootView.findViewById(id);
+      if (tvSchool == null) {
+        break missingId;
+      }
+
       id = R.id.tv_source;
       TextView tvSource = rootView.findViewById(id);
       if (tvSource == null) {
         break missingId;
       }
 
-      return new Page71Binding((CardView) rootView, expandable, tvAppliMode, tvEligibility, tvName,
-          tvPurpose, tvSource);
+      return new Page71Binding((CardView) rootView, expand, expandable, expandableRlayout, linlay,
+          tvAppliMode, tvEligibility, tvName, tvPurpose, tvSchool, tvSource);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

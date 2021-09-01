@@ -1,258 +1,121 @@
 {
     "data": [
         {
-            "courseName": "Engineering",
-            "afterGrad": [{
-                "furtherStudy": [
-                    {"name": "M.Tech"},
-                    {
-                        "name":"MBA",
-                        "eligibility": "Any Degree"
-                    }
-                ],
-                "work": "Job"
-            }]
-        },
-        {
-            "courseName": "Medical",
-            "afterGrad": [{
-                "furtherStudy": [
-                    {"name": "MD"},
-                    {"name": "MS"}
-                ],
-                "work": "Job, Practice"
-            }]
-        },
-        {
-            "courseName": "BA",
-            "afterGrad": [{
-                "furtherStudy": [
-                    {
-                        "name": "MA",
-                        "courses": [
-                            {
-                                "name": "Telugu",
-                                "eligibility": ["Any degree with one subject Telugu"]
-                            },
-                            {
-                                "name": "English",
-                                "eligibility": ["Any degree with one subject English"]
-                            },
-                            {
-                                "name": "Hindi",
-                                "eligibility": ["Any degree with one subject Hindi"]
-                            },
-                            {
-                                "name": "Economics",
-                                "eligibility": ["BA with Economics one of the sub."]
-                            },
-                            {
-                                "name": "History",
-                                "eligibility": ["BA with History one of the sub."]
-                            },
-                            {
-                                "name": "Sociology",
-                                "eligibility": ["BA"]
-                            },
-                            {
-                                "name": "Political Sci",
-                                "eligibility": ["BA"]
-                            },
-                            {
-                                "name": "Public Admin..",
-                                "eligibility": ["BA"]
-                            },
-                            {
-                                "name": "Archaeology",
-                                "eligibility": ["BA"]
-                            },
-                            {
-                                "name": "MS Public rel",
-                                "eligibility": ["BA"]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "B.Ed",
-                        "courses": [
-                            {
-                                "name": "MBA",
-                                "eligibility": ["Any Degree"]
-                            },
-                            {
-                                "name": "LLB"
-                            },
-                            {
-                                "name": "Phd"
-                            }
-                        ]
-                    }
-                ],
-                "work": "Job"
-            }]
-        },
-        {
-            "courseName": "B.Sc",
-            "afterGrad": [{
-                "furtherStudy": [
-                    {
-                        "name":"MSc",
-                        "courses": [
-                            {
-                                "name": "Computers",
-                                "eligibility": [
-                                    "B.Sc Comp",
-                                    "B.Com Comp",
-                                    "BA Comp",
-                                    "BCA"
-                                ]
-                            },
-                            {
-                                "name": "Maths",
-                                "eligibility": [
-                                    "B.Sc",
-                                    "BA with one subject Maths"
-                                ]
-                            },
-                            {
-                                "name": "Chemistry",
-                                "eligibility": ["B.Sc with Chemistry"]
-                            },
-                            {
-                                "name": "Botany",
-                                "eligibility": ["B.Sc with Botany"]
-                            },
-                            {
-                                "name": "Zoology",
-                                "eligibility": ["B.Sc with Zoology"]
-                            },
-                            {
-                                "name": "Physics",
-                                "eligibility": ["B.Sc with Physics"]
-                            },
-                            {
-                                "name": "Home Sci.",
-                                "eligibility": ["B.Sc with Botany + Zoology"]
-                            },
-                            {
-                                "name": "Anthrop",
-                                "eligibility": ["B.Sc with Zoology / BA"]
-                            },
-                            {
-                                "name": "Psychology",
-                                "eligibility": ["Any degree"]
-                            },
-                            {
-                                "name": "Bio-Chemis",
-                                "eligibility": ["B.Sc with one subject Chemi"]
-                            },
-                            {
-                                "name": "Bio-Tecno",
-                                "eligibility": ["B.Sc with one subject Bio-Tecnology"]
-                            },
-                            {
-                                "name": "Micro biolo",
-                                "eligibility": ["B.Sc with Zoology"]
-                            },
-                            {
-                                "name": "Virology",
-                                "eligibility":["B.Sc with Zoology"]
-                            }
-                        ]
-                    },
-                    {"name":"B.Ed"},
-                    {"name":"LLB"},
-                    {"name":"Phd"}
-                ],
-                "work": "Job"
-            }]
-        },
-        {
-            "courseName": "B.Com",
-            "afterGrad": [{
-                "furtherStudy": [
-                    {
-                        "name":"M.Com",
-                        "eligibility": "B.Com/ BA with Commerce one of the subject"
-                    },
-                    {
-                        "name":"MBA",
-                        "eligibility": "Any Degree"
-                    },
-                    {"name":"LLB"},
-                    {"name":"Phd"}
-                ],
-                "work": "Job"
-            }]
-        },
-        {
-            "courseName": "LLB",
-            "afterGrad": [{
-                "furtherStudy": [
-                    {"name":"DTL"},
-                    {"name":"DLL"},
-                    {
-                        "name":"LLM",
-                        "eligibility": "BL / LLB"
-                    }
-                ],
-                "work": "Job"
-            }]
-        },
-        {
-            "courseName": "BCA",
-            "afterGrad": [{
-                "furtherStudy": [
-                    {
-                        "name":"MCA",
-                        "eligibility": "BA/B.Sc with Maths."
-
-                    },
-                    {
-                        "name":"MBA",
-                        "eligibility": "Any Degree"
-                    },
-                    {"name":"MSc.Comp"},
-                    {
-                        "name": "Phd"
-                    }
-                ],
-                "work": "Job"
-            }]
-        },
-        {
-            "courseName": "BBA/BBM",
-            "afterGrad": [{
-                "furtherStudy": [
-                    {
-                        "name": "MBA",
-                        "eligibility": "Any Degree"
-                    },
-                    {"name": "Phd"}
-
-                ],
-                "work": "Job"
-            }]
-        },
-        {
-            "courseName": "Teaching Students",
-            "afterGrad": [{"furtherStudy": [{"name": "B.Ed/B.Ped"}],"work": "Job"},
-
-                {
-                    "furtherStudy": [{"name":"M.Ed/"}],
-                    "work": "Job"
-                },
-                {
-                    "furtherStudy": [{"name": "Phd"}]
-                }
+            "studentType": "Engineering Students",
+            "whatNext": [
+                "M.Tech",
+                "MBA",
+                "Job"
             ]
         },
         {
-            "courseName": "Others",
-            "afterGrad": [{
-                "furtherStudy": [{"name":"Post Graduation"}],
-                "work": "Job"
-            }]
+            "studentType": "Medical Students",
+            "whatNext": [
+                "MS",
+                "Practice",
+                "MD",
+                "Job"
+            ]
+        },
+        {
+            "studentType": "BA Students",
+            "whatNext": [
+                "MA",
+                "BEd",
+                "MBA",
+                "LLB",
+                "PhD",
+                "Job"
+            ]
+        },
+        {
+            "studentType": "BSc Students",
+            "whatNext": [
+                "MSC",
+                "BEd",
+                "LLB",
+                "PhD",
+                "Job"
+            ]
+        },
+        {
+            "studentType": "B.Com Students",
+            "whatNext": [
+                "M.Com",
+                "MBA",
+                "LLB",
+                "PhD",
+                "Job"
+            ]
+        },
+        {
+            "studentType": "LLB Students",
+            "whatNext": [
+                "DTL",
+                "DLL",
+                "LLM",
+                "Job"
+            ]
+        },
+        {
+            "studentType": "BCA Students",
+            "whatNext": [
+                "MCA",
+                "MBA",
+                "MSc.comp",
+                "PhD",
+                "Job"
+            ]
+        },
+        {
+            "studentType": "BBA/BBM Students",
+            "whatNext": [
+                "MBA",
+                "PhD",
+                "Job"
+            ]
+        },
+        {
+            "studentType": "Teaching Students",
+            "whatNext": [
+                "M.Ed",
+                "BEd/B.PEd",
+                "PhD",
+                "Job"
+            ]
+        },
+        {
+            "studentType": "Other Students",
+            "whatNext": [
+                "MA Telugu",
+                "MA English",
+                "MA Hindi",
+                "MA Economics",
+                "MA History",
+                "MA Sociology",
+                "MA Political Sci.",
+                "MA Public Adm.",
+                "MS. Public Adm.",
+                "M.Sc Computers",
+                "M.Com",
+                "MCA",
+                "MBA",
+                "MA Archaeolog",
+                "M.Sc Maths",
+                "M.Sc Chemistry",
+                "M.Sc Botany",
+                "M.Sc Zoology",
+                "M.Sc Physics",
+                "M.Sc Home Sci.",
+                "M.Sc Anthrop",
+                "M.Sc Psychology",
+                "M.Sc Bio-Chemis",
+                "M.Sc Bio-Tecno",
+                "M.Sc Micro biolo",
+                "MSc Virology",
+                "MLIC",
+                "LLM"
+            ]
         }
-    ]
-}
+        ]
+        }

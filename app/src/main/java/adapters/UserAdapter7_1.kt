@@ -43,13 +43,13 @@ class UserAdapter7_1(val exlist:ArrayList<Exams>) : RecyclerView.Adapter<UserAda
         holder.school.text = item.schools.toString().replace("[", "")
             .replace("]", "").replace(",","\n").replace("name","Name").replace("website","Website")}
 
-//        val isExpandable = item.expandable
-//        holder.exlayout.visibility = if(isExpandable) View.VISIBLE else View.GONE
-//        holder.linearlay.setOnClickListener{
-//            val v = exlist[position]
-//            v.expandable = !v.expandable
-//            notifyItemChanged(position)
-//        }
+        val isExpandable = item.expandable
+        holder.exlayout.visibility = if(isExpandable) View.VISIBLE else View.GONE
+        holder.linearlay.setOnClickListener{
+            val v = exlist[position]
+            v.expandable = !v.expandable
+            notifyItemChanged(position)
+        }
 
 
     }

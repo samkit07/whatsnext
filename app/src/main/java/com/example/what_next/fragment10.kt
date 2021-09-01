@@ -13,6 +13,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ExpandableListView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
@@ -42,6 +43,7 @@ class fragment10 : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+        (activity as AppCompatActivity?)!!.getSupportActionBar()!!.setTitle("Courses")
     }
 
     override fun onCreateView(
@@ -68,9 +70,13 @@ class fragment10 : Fragment() {
                 courselist[courses.data[i]] = courses.data[i].courses
             }
             listviewAd = ExListAdapter10(context as MainActivity, courses.data, courselist)
-            expandView = view.findViewById(R.id.expandlist)
+            expandView = view.findViewById(R.id.expandlist10)
             expandView.setAdapter(listviewAd)
         return view
+    }
+    override fun onStop() {
+        super.onStop()
+        (activity as AppCompatActivity?)!!.getSupportActionBar()!!.setTitle("What Next?")
     }
 
     companion object {

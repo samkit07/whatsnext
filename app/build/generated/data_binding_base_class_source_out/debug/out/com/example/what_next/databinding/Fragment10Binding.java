@@ -19,12 +19,12 @@ public final class Fragment10Binding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ExpandableListView expandlist;
+  public final ExpandableListView expandlist10;
 
   private Fragment10Binding(@NonNull RelativeLayout rootView,
-      @NonNull ExpandableListView expandlist) {
+      @NonNull ExpandableListView expandlist10) {
     this.rootView = rootView;
-    this.expandlist = expandlist;
+    this.expandlist10 = expandlist10;
   }
 
   @Override
@@ -54,13 +54,13 @@ public final class Fragment10Binding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.expandlist;
-      ExpandableListView expandlist = rootView.findViewById(id);
-      if (expandlist == null) {
+      id = R.id.expandlist10;
+      ExpandableListView expandlist10 = rootView.findViewById(id);
+      if (expandlist10 == null) {
         break missingId;
       }
 
-      return new Fragment10Binding((RelativeLayout) rootView, expandlist);
+      return new Fragment10Binding((RelativeLayout) rootView, expandlist10);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
