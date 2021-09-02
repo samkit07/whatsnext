@@ -1,13 +1,21 @@
+com/example/what_next/BuildConfig.java
+ com.example.what_next.BuildConfig
 com/example/what_next/databinding/Sample101Binding.java
  com.example.what_next.databinding.Sample101Binding
+com/example/what_next/databinding/Fragment21Binding.java
+ com.example.what_next.databinding.Fragment21Binding
 com/example/what_next/databinding/Page3Binding.java
  com.example.what_next.databinding.Page3Binding
 com/example/what_next/databinding/Page7Binding.java
  com.example.what_next.databinding.Page7Binding
 com/example/what_next/databinding/Sample10Binding.java
  com.example.what_next.databinding.Sample10Binding
+com/example/what_next/databinding/Page2Binding.java
+ com.example.what_next.databinding.Page2Binding
 com/example/what_next/databinding/Fragment4Binding.java
  com.example.what_next.databinding.Fragment4Binding
+com/example/what_next/databinding/ActivityPage2Binding.java
+ com.example.what_next.databinding.ActivityPage2Binding
 com/example/what_next/databinding/Page4Binding.java
  com.example.what_next.databinding.Page4Binding
 com/example/what_next/databinding/ActivityMainBinding.java
@@ -28,9 +36,9 @@ com/example/what_next/databinding/Page10Binding.java
  com.example.what_next.databinding.Page10Binding
 com/example/what_next/databinding/ActivitySplashScreenBinding.java
  com.example.what_next.databinding.ActivitySplashScreenBinding
+com/example/what_next/databinding/Page21Binding.java
+ com.example.what_next.databinding.Page21Binding
 com/example/what_next/databinding/Fragment10Binding.java
  com.example.what_next.databinding.Fragment10Binding
-com/example/what_next/BuildConfig.java
- com.example.what_next.BuildConfig
 com/example/what_next/databinding/Fragment7Binding.java
  com.example.what_next.databinding.Fragment7Binding

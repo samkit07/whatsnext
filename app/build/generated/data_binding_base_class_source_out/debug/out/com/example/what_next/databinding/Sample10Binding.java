@@ -4,7 +4,7 @@ package com.example.what_next.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -16,19 +16,19 @@ import java.lang.String;
 
 public final class Sample10Binding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
   public final TextView tvName;
 
-  private Sample10Binding(@NonNull LinearLayout rootView, @NonNull TextView tvName) {
+  private Sample10Binding(@NonNull RelativeLayout rootView, @NonNull TextView tvName) {
     this.rootView = rootView;
     this.tvName = tvName;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -59,7 +59,7 @@ public final class Sample10Binding implements ViewBinding {
         break missingId;
       }
 
-      return new Sample10Binding((LinearLayout) rootView, tvName);
+      return new Sample10Binding((RelativeLayout) rootView, tvName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

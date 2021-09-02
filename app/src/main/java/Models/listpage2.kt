@@ -14,48 +14,20 @@ class page2 {
 
     @SerializedName("name")
     val name : String =""
-    @SerializedName("duration")
-    val duration : String =""
     @SerializedName("eligibility")
     val eligibility : String = ""
     @SerializedName("entranceExams")
     val entranceExams : ArrayList<String> = ArrayList()
+    @SerializedName("degree")
+    val degree : ArrayList<Degree> = ArrayList()
+}
 
+class Degree{
+
+    @SerializedName("course")
+    val name : String =""
+    @SerializedName("duration")
+    val duration : String =""
     @SerializedName("fields")
-    val fields : ArrayList<Fields2> = ArrayList()
-}
-
-class Fields2{
-
-    @SerializedName("name")
-    val name : String =""
-    @SerializedName("duration")
-    val duration : String =""
-    @SerializedName("entranceExams")
-    val entranceExams : ArrayList<String> = ArrayList()
-    @SerializedName("subFields")
-    val subFields : ArrayList<SubFields> = ArrayList()
-    @SerializedName("applicablePost")
-    val applicablePost : String = ""
-    @SerializedName("examination")
-    val examination : ArrayList<Examinations> = ArrayList()
-
-}
-
-class SubFields{
-    @SerializedName("name")
-    val name : String =""
-    @SerializedName("specialization")
-    val specialization : ArrayList<String> = ArrayList()
-
-}
-
-class Examinations{
-    @SerializedName("name")
-    val name : String =""
-    @SerializedName("eligibility")
-    val eligibility : String = ""
-    @SerializedName("duration")
-    val duration : String =""
-
+    val subFields : ArrayList<String> = ArrayList()
 }

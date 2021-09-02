@@ -18,7 +18,7 @@ import kotlinx.android.synthetic.main.fragment10.*
 import org.json.JSONException
 import java.io.InputStream
 
-class MainActivity : AppCompatActivity(),CellClickListener {
+class MainActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -26,23 +26,22 @@ class MainActivity : AppCompatActivity(),CellClickListener {
         if(actionBar!=null){
             actionBar.title="What Next?"
         }
-        var rvList:RecyclerView
-        var manager = GridLayoutManager(this,2)
+
 
 //        val fragment: Fragment = fragment10.newInstance()
-//        try {
-////            var obj:JSONObject = JSONObject(loadJson(this))
-////            var jArray: JSONArray = obj.getJSONArray("data")
+        try {
+//            var obj:JSONObject = JSONObject(loadJson(this))
+//            var jArray: JSONArray = obj.getJSONArray("data")
+
+            val jsonString = loadJson(this,"Page2.json")
+            val courses = Gson().fromJson(jsonString, listpage2::class.java)
+            Log.d("Page10", "$courses")
+//            -------------Using RecyclerView-----------
+//            rvUsersList.layoutManager = LinearLayoutManager(this)
+//            val itemAdapter = UserAdapter7(courses.data)
+//            rvUsersList.adapter = itemAdapter
 //
-//            val jsonString = loadJson(this,"Page3.json")
-//            val courses = Gson().fromJson(jsonString, listpage3::class.java)
-//            Log.d("Page10", "$courses")
-////            -------------Using RecyclerView-----------
-////            rvUsersList.layoutManager = LinearLayoutManager(this)
-////            val itemAdapter = UserAdapter7(courses.data)
-////            rvUsersList.adapter = itemAdapter
-////
-////            --------------Using ExpandableListView---------------
+//            --------------Using ExpandableListView---------------
 //            lateinit var listviewAd: ExListAdapter3
 //            var courselist : HashMap<page3, ArrayList<String>> = HashMap()
 //            for(i in 0 until courses.data.size){
@@ -51,30 +50,40 @@ class MainActivity : AppCompatActivity(),CellClickListener {
 //            Log.d("Page10", "$courselist")
 //            listviewAd = ExListAdapter3(this, courses.data, courselist)
 //            expandlist.setAdapter(listviewAd)
-//
-//        }catch (e:JSONException){
-//            e.printStackTrace()
-//        }
+
+        }catch (e:JSONException){
+            e.printStackTrace()
+        }
+
+//        ---------------------Recycler GridView--------------------------
+        var rvList:RecyclerView
+        var manager = GridLayoutManager(this,2)
         rvList= findViewById(R.id.rvUsersList)
         rvList.layoutManager = manager
-        rvList.adapter = GridRecyclerAdapter(getData(),this)
+        rvList.adapter = GridRecyclerAdapter(this,getData())
         getData()
 
 
        }
-        override fun onCellClickListener() {
-            Toast.makeText(this, "Cell clicked", Toast.LENGTH_SHORT).show()
-        }
+//        override fun onCellClickListener() {
+//            Toast.makeText(this, "Cell clicked", Toast.LENGTH_SHORT).show()
+//        }
     private fun getData():ArrayList<gridView>{
         var list=ArrayList<gridView>()
-        var model = gridView("Intermediate",R.drawable.logo)
-        list.add(model)
-        var model1 = gridView("Intermediate Exams",R.drawable.logo)
+//        var model = gridView("After Graduation",R.drawable.logo)
+//        list.add(model)
+        var model1 = gridView("After Intermediate",R.drawable.logo)
         list.add(model1)
-        var model2 = gridView("Exams",R.drawable.logo)
+        var model2 = gridView("After Graduation",R.drawable.logo)
         list.add(model2)
-        var model3 = gridView("Courses",R.drawable.logo)
+        var model3 = gridView("Exams After Intermediate",R.drawable.logo)
         list.add(model3)
+        var model4 = gridView("Exams",R.drawable.logo)
+        list.add(model4)
+        var model5 = gridView("Talent Tests",R.drawable.logo)
+        list.add(model5)
+        var model6 = gridView("Courses",R.drawable.logo)
+        list.add(model6)
         return list
     }
 

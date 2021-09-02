@@ -28,6 +28,10 @@
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/sample10.xml"
     },
     {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/page2.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page2.xml"
+    },
+    {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/grid_layout.xml",
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/grid_layout.xml"
     },
@@ -42,6 +46,14 @@
     {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment3.xml",
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/fragment3.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_page2.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/activity_page2.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/page2_1.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page2_1.xml"
     },
     {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/page4.xml",
@@ -62,6 +74,10 @@
     {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment2_1.xml",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/fragment2_1.xml"
     },
     {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/page3.xml",

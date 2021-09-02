@@ -20,6 +20,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.WhatNext" >
         <activity
+            android:name="com.example.what_next.page2Activity"
+            android:exported="true"
+            android:parentActivityName="com.example.what_next.MainActivity" />
+        <activity
             android:name="com.example.what_next.SplashScreenActivity"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" >
             <intent-filter>
@@ -30,8 +34,7 @@
         </activity>
         <activity
             android:name="com.example.what_next.MainActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

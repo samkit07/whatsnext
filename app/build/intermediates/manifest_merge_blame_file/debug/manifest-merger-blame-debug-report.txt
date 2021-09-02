@@ -11,7 +11,7 @@
 9-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:5:5-25:19
+11-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:5:5-28:19
 12        android:allowBackup="true"
 12-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -30,29 +30,36 @@
 21        android:theme="@style/Theme.WhatNext" >
 21-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:11:9-46
 22        <activity
-22-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:12:9-19:20
-23            android:name="com.example.what_next.SplashScreenActivity"
-23-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:12:19-55
-24            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" >
-24-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:13:13-81
-25            <intent-filter>
-25-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:14:13-18:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:15:17-69
-26-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:15:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:17:17-77
-28-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:17:27-74
-29            </intent-filter>
-30        </activity>
-31        <activity
-31-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:20:9-24:20
-32            android:name="com.example.what_next.MainActivity"
-32-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:21:13-41
-33            android:exported="true" >
-33-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:22:13-36
+22-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:12:9-15:57
+23            android:name="com.example.what_next.page2Activity"
+23-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:13:13-42
+24            android:exported="true"
+24-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:14:13-36
+25            android:parentActivityName="com.example.what_next.MainActivity" />
+25-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:15:13-55
+26        <activity
+26-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:16:9-24:20
+27            android:name="com.example.what_next.SplashScreenActivity"
+27-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:17:13-49
+28            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" >
+28-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:18:13-81
+29            <intent-filter>
+29-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:20:17-69
+30-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:22:17-77
+32-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:22:27-74
+33            </intent-filter>
 34        </activity>
-35    </application>
-36
-37</manifest>
+35        <activity
+35-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:25:9-27:48
+36            android:name="com.example.what_next.MainActivity"
+36-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:26:13-41
+37            android:exported="true" />
+37-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:27:13-36
+38    </application>
+39
+40</manifest>
