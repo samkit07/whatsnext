@@ -32,79 +32,82 @@
 <!--    android:layout_height="wrap_content"-->
 <!--        android:layout_marginTop="500dp">-->
 
-    <RelativeLayout
-        android:id="@+id/mainLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="40dp">
-
-        <Button
-            android:id="@+id/fpage3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
-            android:onClick="onClick"
-            android:text="After Graduation"
-            android:textAllCaps="false"
-            android:textSize="18sp"
-            android:textStyle="italic" />
-
-        <Button
-            android:id="@+id/fpage4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
-            android:onClick="onClick"
-            android:text="Exams After Intermediate"
-            android:textAllCaps="false"
-            android:textSize="18sp"
-            android:textStyle="italic" />
-
-        <Button
-            android:id="@+id/fpage7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="300dp"
-            android:onClick="onClick"
-            android:text="Exams"
-            android:textAllCaps="false"
-            android:textSize="18sp"
-            android:textStyle="italic" />
-
-
-        <Button
-            android:id="@+id/fpage9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="400dp"
-            android:onClick="onClick"
-            android:text="Talent Tests"
-            android:textAllCaps="false"
-            android:textSize="18sp"
-            android:textStyle="italic" />
-
-        <Button
-            android:id="@+id/fpage10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="500dp"
-            android:onClick="onClick"
-            android:text="Courses"
-            android:textAllCaps="false"
-            android:textSize="18sp"
-            android:textStyle="italic" />
-
-
-    </RelativeLayout>
-
-
-
-<!--    <androidx.recyclerview.widget.RecyclerView-->
-<!--        android:id="@+id/rvUsersList"-->
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/mainLayout"-->
 <!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
-<!--        tools:listitem="@layout/page10" />-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginLeft="40dp">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/fpage3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="100dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="After Graduation"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/fpage4"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="200dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="Exams After Intermediate"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/fpage7"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="300dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="Exams"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+
+<!--        <Button-->
+<!--            android:id="@+id/fpage9"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="400dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="Talent Tests"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/fpage10"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="500dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="Courses"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+
+<!--    </RelativeLayout>-->
+
+<!--        <GridView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:id="@+id/gridView"-->
+<!--            android:numColumns="2"/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvUsersList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 
 <!--    <ExpandableListView-->
 <!--        android:id="@+id/expandlist"-->

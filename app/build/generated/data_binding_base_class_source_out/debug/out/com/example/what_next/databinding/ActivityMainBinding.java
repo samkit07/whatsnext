@@ -4,10 +4,10 @@ package com.example.what_next.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import com.example.what_next.R;
 import java.lang.NullPointerException;
@@ -19,38 +19,16 @@ public final class ActivityMainBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final Button fpage10;
-
-  @NonNull
-  public final Button fpage3;
-
-  @NonNull
-  public final Button fpage4;
-
-  @NonNull
-  public final Button fpage7;
-
-  @NonNull
-  public final Button fpage9;
-
-  @NonNull
   public final RelativeLayout fragmentContainer;
 
   @NonNull
-  public final RelativeLayout mainLayout;
+  public final RecyclerView rvUsersList;
 
-  private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull Button fpage10,
-      @NonNull Button fpage3, @NonNull Button fpage4, @NonNull Button fpage7,
-      @NonNull Button fpage9, @NonNull RelativeLayout fragmentContainer,
-      @NonNull RelativeLayout mainLayout) {
+  private ActivityMainBinding(@NonNull RelativeLayout rootView,
+      @NonNull RelativeLayout fragmentContainer, @NonNull RecyclerView rvUsersList) {
     this.rootView = rootView;
-    this.fpage10 = fpage10;
-    this.fpage3 = fpage3;
-    this.fpage4 = fpage4;
-    this.fpage7 = fpage7;
-    this.fpage9 = fpage9;
     this.fragmentContainer = fragmentContainer;
-    this.mainLayout = mainLayout;
+    this.rvUsersList = rvUsersList;
   }
 
   @Override
@@ -80,46 +58,15 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.fpage10;
-      Button fpage10 = rootView.findViewById(id);
-      if (fpage10 == null) {
-        break missingId;
-      }
-
-      id = R.id.fpage3;
-      Button fpage3 = rootView.findViewById(id);
-      if (fpage3 == null) {
-        break missingId;
-      }
-
-      id = R.id.fpage4;
-      Button fpage4 = rootView.findViewById(id);
-      if (fpage4 == null) {
-        break missingId;
-      }
-
-      id = R.id.fpage7;
-      Button fpage7 = rootView.findViewById(id);
-      if (fpage7 == null) {
-        break missingId;
-      }
-
-      id = R.id.fpage9;
-      Button fpage9 = rootView.findViewById(id);
-      if (fpage9 == null) {
-        break missingId;
-      }
-
       RelativeLayout fragmentContainer = (RelativeLayout) rootView;
 
-      id = R.id.mainLayout;
-      RelativeLayout mainLayout = rootView.findViewById(id);
-      if (mainLayout == null) {
+      id = R.id.rvUsersList;
+      RecyclerView rvUsersList = rootView.findViewById(id);
+      if (rvUsersList == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, fpage10, fpage3, fpage4, fpage7,
-          fpage9, fragmentContainer, mainLayout);
+      return new ActivityMainBinding((RelativeLayout) rootView, fragmentContainer, rvUsersList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

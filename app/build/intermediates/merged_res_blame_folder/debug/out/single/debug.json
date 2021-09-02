@@ -40,6 +40,10 @@
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/page7.xml"
     },
     {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_grid_layout.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/grid_layout.xml"
+    },
+    {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },

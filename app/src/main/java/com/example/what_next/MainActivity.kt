@@ -7,15 +7,18 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment10.*
 import org.json.JSONException
 import java.io.InputStream
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(),CellClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -23,6 +26,8 @@ class MainActivity : AppCompatActivity() {
         if(actionBar!=null){
             actionBar.title="What Next?"
         }
+        var rvList:RecyclerView
+        var manager = GridLayoutManager(this,2)
 
 //        val fragment: Fragment = fragment10.newInstance()
 //        try {
@@ -50,40 +55,59 @@ class MainActivity : AppCompatActivity() {
 //        }catch (e:JSONException){
 //            e.printStackTrace()
 //        }
+        rvList= findViewById(R.id.rvUsersList)
+        rvList.layoutManager = manager
+        rvList.adapter = GridRecyclerAdapter(getData(),this)
+        getData()
 
 
        }
-
-    override fun onBackPressed() {
-        super.onBackPressed()
-        mainLayout.setVisibility(View.VISIBLE)
+        override fun onCellClickListener() {
+            Toast.makeText(this, "Cell clicked", Toast.LENGTH_SHORT).show()
+        }
+    private fun getData():ArrayList<gridView>{
+        var list=ArrayList<gridView>()
+        var model = gridView("Intermediate",R.drawable.logo)
+        list.add(model)
+        var model1 = gridView("Intermediate Exams",R.drawable.logo)
+        list.add(model1)
+        var model2 = gridView("Exams",R.drawable.logo)
+        list.add(model2)
+        var model3 = gridView("Courses",R.drawable.logo)
+        list.add(model3)
+        return list
     }
-    private fun replaceFragment(fragment:Fragment) {
-        val fmanager = supportFragmentManager.beginTransaction()
-        fmanager.replace(R.id.fragmentContainer, fragment)
-        mainLayout.setVisibility(View.GONE)
-        fmanager.addToBackStack(null)
-        fmanager.commit()
-    }
 
-    fun onClick(v: View) {
-        when (v.id) {
-            R.id.fpage3 -> {
-                replaceFragment(fragment3())
-            }
-            R.id.fpage4 -> {
-                replaceFragment(fragment4())
-            }
-            R.id.fpage7 -> {
-                replaceFragment(fragment7())
-            }
-            R.id.fpage9 -> {
-                replaceFragment(fragment9())
-            }
-            R.id.fpage10 -> {
-                replaceFragment(fragment10())
-            }
-        }}
+//    override fun onBackPressed() {
+//        super.onBackPressed()
+//        mainLayout.setVisibility(View.VISIBLE)
+//    }
+//    private fun replaceFragment(fragment:Fragment) {
+//        val fmanager = supportFragmentManager.beginTransaction()
+//        fmanager.replace(R.id.fragmentContainer, fragment)
+//        mainLayout.setVisibility(View.GONE)
+//        fmanager.addToBackStack(null)
+//        fmanager.commit()
+//    }
+//
+//    fun onClick(v: View) {
+//        when (v.id) {
+//            R.id.fpage3 -> {
+//                replaceFragment(fragment3())
+//            }
+//            R.id.fpage4 -> {
+//                replaceFragment(fragment4())
+//            }
+//            R.id.fpage7 -> {
+//                replaceFragment(fragment7())
+//            }
+//            R.id.fpage9 -> {
+//                replaceFragment(fragment9())
+//            }
+//            R.id.fpage10 -> {
+//                replaceFragment(fragment10())
+//            }
+//        }}
 
 //    -----------------------JSON Loading--------------------------
      fun loadJson(context: Context, filename:String): String? {

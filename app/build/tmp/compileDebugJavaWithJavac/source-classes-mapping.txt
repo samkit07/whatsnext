@@ -14,6 +14,8 @@ com/example/what_next/databinding/ActivityMainBinding.java
  com.example.what_next.databinding.ActivityMainBinding
 com/example/what_next/databinding/Fragment3Binding.java
  com.example.what_next.databinding.Fragment3Binding
+com/example/what_next/databinding/GridLayoutBinding.java
+ com.example.what_next.databinding.GridLayoutBinding
 com/example/what_next/databinding/Page71Binding.java
  com.example.what_next.databinding.Page71Binding
 com/example/what_next/databinding/Fragment9Binding.java
