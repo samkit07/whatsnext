@@ -2,7 +2,6 @@
   "data": [
     {
       "name": "Engineering",
-      "eligibility": "MPC",
       "entranceExams": [
         "EAMCET",
         "IIT",
@@ -13,6 +12,7 @@
         {
           "course": "BE/B.Tech",
           "duration": "4 years",
+          "eligibility": "MPC",
           "fields": [
             "CSE",
             "IT",
@@ -39,11 +39,11 @@
     },
     {
       "name": "Medical",
-      "eligibility": "BiPC",
       "degree": [
         {
           "course": "Medicine",
           "duration": "5 years",
+          "eligibility": "BiPC",
           "fields": [
             "MBBS-Allopathic",
             "BUMS-Unani",
@@ -59,6 +59,7 @@
         {
           "course": "Allied Health Sciences",
           "duration": "2/3 years",
+          "eligibility": "BiPC",
           "fields": [
             "B.Pharma Designing",
             "BSc. Nursing",
@@ -78,6 +79,7 @@
         {
           "course": "Paramedical",
           "duration": "2/3 years",
+          "eligibility": "BiPC",
           "fields": [
             "Dialysis Technician",
             "ECG Technician",

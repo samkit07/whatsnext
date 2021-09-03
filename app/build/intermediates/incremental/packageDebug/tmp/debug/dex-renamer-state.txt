@@ -1,8 +1,10 @@
-#Fri Sep 03 00:15:59 IST 2021
+#Fri Sep 03 18:03:36 IST 2021
+path.4=12/classes.dex
 path.3=5/classes.dex
 path.2=2/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
+base.4=/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
 base.3=/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
 base.2=/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
 base.1=/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
@@ -11,3 +13,4 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
+renamed.4=classes5.dex

@@ -3,6 +3,10 @@ package Models
 import com.google.gson.JsonObject
 import com.google.gson.annotations.SerializedName
 import org.json.JSONObject
+class listpage1 {
+    @SerializedName("data")
+    val data : ArrayList<page1> = ArrayList()
+}
 
 class page1 {
     @SerializedName("Education")

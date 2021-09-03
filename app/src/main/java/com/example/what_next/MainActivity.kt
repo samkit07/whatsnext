@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity(){
         setContentView(R.layout.activity_main)
         val actionBar=supportActionBar
         if(actionBar!=null){
-            actionBar.title="What Next?"
+            actionBar.title="What Next!!"
         }
 
 

@@ -1,44 +1,54 @@
 com/example/what_next/BuildConfig.java
  com.example.what_next.BuildConfig
-com/example/what_next/databinding/Sample101Binding.java
- com.example.what_next.databinding.Sample101Binding
-com/example/what_next/databinding/Fragment21Binding.java
- com.example.what_next.databinding.Fragment21Binding
-com/example/what_next/databinding/Page3Binding.java
- com.example.what_next.databinding.Page3Binding
-com/example/what_next/databinding/Page7Binding.java
- com.example.what_next.databinding.Page7Binding
+com/example/what_next/databinding/Page10Binding.java
+ com.example.what_next.databinding.Page10Binding
+com/example/what_next/databinding/Fragment23Binding.java
+ com.example.what_next.databinding.Fragment23Binding
+com/example/what_next/databinding/Fragment10Binding.java
+ com.example.what_next.databinding.Fragment10Binding
 com/example/what_next/databinding/Sample10Binding.java
  com.example.what_next.databinding.Sample10Binding
-com/example/what_next/databinding/Page2Binding.java
- com.example.what_next.databinding.Page2Binding
+com/example/what_next/databinding/Fragment26Binding.java
+ com.example.what_next.databinding.Fragment26Binding
+com/example/what_next/databinding/Fragment25Binding.java
+ com.example.what_next.databinding.Fragment25Binding
 com/example/what_next/databinding/Fragment4Binding.java
  com.example.what_next.databinding.Fragment4Binding
+com/example/what_next/databinding/Fragment24Binding.java
+ com.example.what_next.databinding.Fragment24Binding
 com/example/what_next/databinding/ActivityPage2Binding.java
  com.example.what_next.databinding.ActivityPage2Binding
-com/example/what_next/databinding/Page4Binding.java
- com.example.what_next.databinding.Page4Binding
 com/example/what_next/databinding/ActivityMainBinding.java
  com.example.what_next.databinding.ActivityMainBinding
 com/example/what_next/databinding/Fragment3Binding.java
  com.example.what_next.databinding.Fragment3Binding
-com/example/what_next/databinding/GridLayoutBinding.java
- com.example.what_next.databinding.GridLayoutBinding
 com/example/what_next/databinding/Page71Binding.java
  com.example.what_next.databinding.Page71Binding
 com/example/what_next/databinding/Fragment9Binding.java
  com.example.what_next.databinding.Fragment9Binding
+com/example/what_next/databinding/ActivitySplashScreenBinding.java
+ com.example.what_next.databinding.ActivitySplashScreenBinding
+com/example/what_next/databinding/Fragment7Binding.java
+ com.example.what_next.databinding.Fragment7Binding
+com/example/what_next/databinding/Sample101Binding.java
+ com.example.what_next.databinding.Sample101Binding
+com/example/what_next/databinding/Page3Binding.java
+ com.example.what_next.databinding.Page3Binding
+com/example/what_next/databinding/Page7Binding.java
+ com.example.what_next.databinding.Page7Binding
+com/example/what_next/databinding/Page21Binding.java
+ com.example.what_next.databinding.Page21Binding
+com/example/what_next/databinding/Page4Binding.java
+ com.example.what_next.databinding.Page4Binding
+com/example/what_next/databinding/GridLayoutBinding.java
+ com.example.what_next.databinding.GridLayoutBinding
 com/example/what_next/databinding/Page9Binding.java
  com.example.what_next.databinding.Page9Binding
 com/example/what_next/databinding/Page31Binding.java
  com.example.what_next.databinding.Page31Binding
-com/example/what_next/databinding/Page10Binding.java
- com.example.what_next.databinding.Page10Binding
-com/example/what_next/databinding/ActivitySplashScreenBinding.java
- com.example.what_next.databinding.ActivitySplashScreenBinding
-com/example/what_next/databinding/Page21Binding.java
- com.example.what_next.databinding.Page21Binding
-com/example/what_next/databinding/Fragment10Binding.java
- com.example.what_next.databinding.Fragment10Binding
-com/example/what_next/databinding/Fragment7Binding.java
- com.example.what_next.databinding.Fragment7Binding
+com/example/what_next/databinding/Fragment22Binding.java
+ com.example.what_next.databinding.Fragment22Binding
+com/example/what_next/databinding/Fragment21Binding.java
+ com.example.what_next.databinding.Fragment21Binding
+com/example/what_next/databinding/Page2Binding.java
+ com.example.what_next.databinding.Page2Binding

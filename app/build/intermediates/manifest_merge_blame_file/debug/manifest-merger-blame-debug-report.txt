@@ -31,8 +31,8 @@
 21-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:11:9-46
 22        <activity
 22-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:12:9-15:57
-23            android:name="com.example.what_next.page2Activity"
-23-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:13:13-42
+23            android:name="Page2.page2Activity"
+23-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:13:13-47
 24            android:exported="true"
 24-->/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/AndroidManifest.xml:14:13-36
 25            android:parentActivityName="com.example.what_next.MainActivity" />

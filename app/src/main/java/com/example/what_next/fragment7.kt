@@ -58,7 +58,7 @@ class fragment7 : Fragment() {
     }
     override fun onStop() {
         super.onStop()
-        (activity as AppCompatActivity?)!!.getSupportActionBar()!!.setTitle("What Next?")
+        (activity as AppCompatActivity?)!!.getSupportActionBar()!!.setTitle("What Next!!")
     }
 
     companion object {

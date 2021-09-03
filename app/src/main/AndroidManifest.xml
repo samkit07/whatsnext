@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WhatNext">
         <activity
-            android:name=".page2Activity"
+            android:name="Page2.page2Activity"
             android:exported="true"
             android:parentActivityName=".MainActivity"/>
         <activity

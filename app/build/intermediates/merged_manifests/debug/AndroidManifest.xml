@@ -20,7 +20,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.WhatNext" >
         <activity
-            android:name="com.example.what_next.page2Activity"
+            android:name="Page2.page2Activity"
             android:exported="true"
             android:parentActivityName="com.example.what_next.MainActivity" />
         <activity

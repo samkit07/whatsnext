@@ -41,8 +41,7 @@ class UserAdapter7_1(val exlist:ArrayList<Exams>) : RecyclerView.Adapter<UserAda
         holder.appliMode.text = item.applicationMode.joinToString(", \n")
         if(item.schools.size==0){holder.linearlay.setVisibility(View.GONE)}else{
         holder.school.text = item.schools.toString().replace("[", "")
-            .replace("]", "").replace(",","\n").replace("name","Name").replace("website","Website")}
-
+            .replace("]", "").replace(", ", "\n")}
         val isExpandable = item.expandable
         holder.exlayout.visibility = if(isExpandable) View.VISIBLE else View.GONE
         holder.linearlay.setOnClickListener{

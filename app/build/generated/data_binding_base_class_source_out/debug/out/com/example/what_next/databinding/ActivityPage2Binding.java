@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,36 +19,36 @@ public final class ActivityPage2Binding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button fpage10;
+  public final Button fpage21;
 
   @NonNull
-  public final Button fpage2;
+  public final Button fpage22;
 
   @NonNull
-  public final Button fpage3;
+  public final Button fpage23;
 
   @NonNull
-  public final Button fpage4;
+  public final Button fpage24;
 
   @NonNull
-  public final Button fpage7;
+  public final Button fpage25;
 
   @NonNull
-  public final Button fpage9;
+  public final Button fpage26;
 
   @NonNull
-  public final RelativeLayout mainLayout;
+  public final ConstraintLayout mainLayout;
 
-  private ActivityPage2Binding(@NonNull ConstraintLayout rootView, @NonNull Button fpage10,
-      @NonNull Button fpage2, @NonNull Button fpage3, @NonNull Button fpage4,
-      @NonNull Button fpage7, @NonNull Button fpage9, @NonNull RelativeLayout mainLayout) {
+  private ActivityPage2Binding(@NonNull ConstraintLayout rootView, @NonNull Button fpage21,
+      @NonNull Button fpage22, @NonNull Button fpage23, @NonNull Button fpage24,
+      @NonNull Button fpage25, @NonNull Button fpage26, @NonNull ConstraintLayout mainLayout) {
     this.rootView = rootView;
-    this.fpage10 = fpage10;
-    this.fpage2 = fpage2;
-    this.fpage3 = fpage3;
-    this.fpage4 = fpage4;
-    this.fpage7 = fpage7;
-    this.fpage9 = fpage9;
+    this.fpage21 = fpage21;
+    this.fpage22 = fpage22;
+    this.fpage23 = fpage23;
+    this.fpage24 = fpage24;
+    this.fpage25 = fpage25;
+    this.fpage26 = fpage26;
     this.mainLayout = mainLayout;
   }
 
@@ -80,50 +79,46 @@ public final class ActivityPage2Binding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.fpage10;
-      Button fpage10 = rootView.findViewById(id);
-      if (fpage10 == null) {
+      id = R.id.fpage2_1;
+      Button fpage21 = rootView.findViewById(id);
+      if (fpage21 == null) {
         break missingId;
       }
 
-      id = R.id.fpage2;
-      Button fpage2 = rootView.findViewById(id);
-      if (fpage2 == null) {
+      id = R.id.fpage2_2;
+      Button fpage22 = rootView.findViewById(id);
+      if (fpage22 == null) {
         break missingId;
       }
 
-      id = R.id.fpage3;
-      Button fpage3 = rootView.findViewById(id);
-      if (fpage3 == null) {
+      id = R.id.fpage2_3;
+      Button fpage23 = rootView.findViewById(id);
+      if (fpage23 == null) {
         break missingId;
       }
 
-      id = R.id.fpage4;
-      Button fpage4 = rootView.findViewById(id);
-      if (fpage4 == null) {
+      id = R.id.fpage2_4;
+      Button fpage24 = rootView.findViewById(id);
+      if (fpage24 == null) {
         break missingId;
       }
 
-      id = R.id.fpage7;
-      Button fpage7 = rootView.findViewById(id);
-      if (fpage7 == null) {
+      id = R.id.fpage2_5;
+      Button fpage25 = rootView.findViewById(id);
+      if (fpage25 == null) {
         break missingId;
       }
 
-      id = R.id.fpage9;
-      Button fpage9 = rootView.findViewById(id);
-      if (fpage9 == null) {
+      id = R.id.fpage2_6;
+      Button fpage26 = rootView.findViewById(id);
+      if (fpage26 == null) {
         break missingId;
       }
 
-      id = R.id.mainLayout;
-      RelativeLayout mainLayout = rootView.findViewById(id);
-      if (mainLayout == null) {
-        break missingId;
-      }
+      ConstraintLayout mainLayout = (ConstraintLayout) rootView;
 
-      return new ActivityPage2Binding((ConstraintLayout) rootView, fpage10, fpage2, fpage3, fpage4,
-          fpage7, fpage9, mainLayout);
+      return new ActivityPage2Binding((ConstraintLayout) rootView, fpage21, fpage22, fpage23,
+          fpage24, fpage25, fpage26, mainLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

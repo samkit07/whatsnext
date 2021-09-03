@@ -14,7 +14,7 @@
         android:layout_marginStart="9dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="9dp"
-        android:background="#DBF2F4"
+        android:background="@drawable/radius"
         android:paddingLeft="20dp"
         android:text="Courses"
         android:textColor="@color/purple_700"

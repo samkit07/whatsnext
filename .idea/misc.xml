@@ -6,19 +6,25 @@
         <entry key="app/src/main/res/drawable/gradientcolor.xml" value="0.33" />
         <entry key="app/src/main/res/drawable/gradientcolour.xml" value="0.2140625" />
         <entry key="app/src/main/res/drawable/ic_book.xml" value="0.2140625" />
+        <entry key="app/src/main/res/drawable/radius.xml" value="0.25625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.300561797752809" />
-        <entry key="app/src/main/res/layout/activity_page2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_page2.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment10.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/fragment100.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/fragment2_1.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment2_2.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment2_3.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment2_4.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment2_5.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment2_6.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/fragment3.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/fragment4.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/fragment7.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/fragment9.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/grid_layout.xml" value="0.24010416666666667" />
         <entry key="app/src/main/res/layout/page10.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/page2.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/page2.xml" value="0.33" />
         <entry key="app/src/main/res/layout/page2_1.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/page3.xml" value="0.1" />
         <entry key="app/src/main/res/layout/page3_1.xml" value="0.35572916666666665" />
