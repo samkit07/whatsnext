@@ -25,10 +25,7 @@
             "name": "VIT University Engineering Entrance Exam (VITEEE)",
             "purpose": "Technical Entry to Army",
             "eligibility": "Class 12",
-            "applicationMode": [
-                "online",
-                "by post"
-            ],
+            "applicationMode": "online, by post",
             "source": "www.vit.ac.in"
         },
         {

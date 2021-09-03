@@ -26,10 +26,7 @@
           "name": "Common Law Admission Test",
           "purpose": "Admission in B.A. LL.B (Hons), B.Com. (Hons), BBA LL.B (Hons)",
           "eligibility": "Class 12, 12+",
-          "applicationMode": [
-            "online",
-            "by post"
-          ],
+          "applicationMode": "online, by post",
           "source": "http://clat.ac.in/"
         },
         {
@@ -50,10 +47,7 @@
           "name": "Lloyd Entrance Test (LET)",
           "purpose": "Admission in B.A.,LL.B- 5-year integrated course",
           "eligibility": "Class 12, 12+",
-          "applicationMode": [
-            "online",
-            "by post"
-          ],
+          "applicationMode": "online, by post",
           "source": "www.lloydlawcollege.com"
         }
       ]

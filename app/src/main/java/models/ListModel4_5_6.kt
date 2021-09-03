@@ -10,10 +10,16 @@ class ListModel4_5_6 {
 
 class Model4_5_6{
 
-    @SerializedName("srNo")
-    val srNo:Int=0
+    @SerializedName("type")
+    val type:String=""
     @SerializedName("name")
     val name:String=""
+    @SerializedName("purpose")
+    val purpose:String=""
+    @SerializedName("eligibility")
+    val eligibility:String=""
+    @SerializedName("applicationMode")
+    val applicationMode:String=""
     @SerializedName("conductedBy")
     val conductedBy:String=""
     @SerializedName("applicationFor")
@@ -24,4 +30,28 @@ class Model4_5_6{
     val modeOfSelection:String=""
     @SerializedName("website")
     val website:String=""
+    @SerializedName("duration")
+    val duration:String=""
+    @SerializedName("activity-")
+    val activity:String=""
+    @SerializedName("schools")
+    val schools : ArrayList<Schools2> = ArrayList()
+
+
+
+
+}
+
+class Schools2 {
+    var expandable: Boolean = false
+
+    @SerializedName("name")
+    val name: String = ""
+
+    @SerializedName("website")
+    val website: String = ""
+
+    override fun toString(): String {
+        return "Name: $name\nWebsite: $website"
+    }
 }

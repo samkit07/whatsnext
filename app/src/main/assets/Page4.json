@@ -1,7 +1,8 @@
 {
-    "Exams(CETS)- after Intermediate": [
+    "data": [
         {
             "srNo": 1,
+            "type": "Engineering",
             "name": "APEAMCET",
             "conductedBy": "Andhra Pradesh Govt.",
             "applicationFor": "APEAMCET Board",
@@ -11,7 +12,11 @@
         },
         {
             "srNo": 2,
+            "type": "Engineering",
             "name": "JEE (Main)",
+            "purpose": "For Admission in B. E./B. Tech., B. Arch., B. Planning",
+            "eligibility": "Class 12 (PCM)",
+            "applicationMode": "online",
             "conductedBy": "",
             "applicationFor": "",
             "notificationMonth": "",
@@ -20,16 +25,40 @@
         },
         {
             "srNo": 3,
+            "type": "Engineering",
             "name": "JEE (Advanced)",
+            "purpose": "Admission in UG programmes in IITs and ISM Dhanbad",
+            "eligibility": "Class 12 Pass (PCM)",
+            "applicationMode": "online",
             "conductedBy": "",
             "applicationFor": "",
             "notificationMonth": "",
             "modeOfSelection": "Through National Entrance Exam",
             "website": "http://jeeadv.iitd.ac.in"
         },
+
+        {
+            "type": "Engineering",
+            "name": "IPU-CET (B. Tech)",
+            "website": "www.ipu.ac.in"
+        },
+        {
+            "type": "Engineering",
+            "name": "Manipal (B. Tech)",
+            "website": "www.admissions.manipal.edu"
+        },
+        {
+            "type": "Engineering",
+            "name": "AMU (B. Tech)",
+            "website": "http://www.amucontrollerexams.com/"
+        },
         {
             "srNo": 4,
-            "name": "VITEEE",
+            "type": "Engineering",
+            "name": "VIT University Engineering Entrance Exam (VITEEE)",
+            "purpose": "Technical Entry to Army",
+            "eligibility": "Class 12",
+            "applicationMode": "online, by post",
             "conductedBy": "",
             "applicationFor": "",
             "notificationMonth": "",
@@ -38,6 +67,7 @@
         },
         {
             "srNo": 5,
+            "type": "Engineering",
             "name": "COMED-K",
             "conductedBy": "",
             "applicationFor": "",
@@ -46,70 +76,27 @@
             "website": "www.comedk.org"
         },
         {
-            "srNo": 6,
-            "name": "AIIMS",
-            "conductedBy": "All India Institute of Medical Sciences",
-            "applicationFor": "MBBS",
-            "notificationMonth": "Feb / March",
-            "modeOfSelection": "Through National Entrance Exam",
-            "website": "www.aiimsexams.org"
-        },
-        {
-            "srNo": 7,
-            "name": "NEET",
-            "conductedBy": "CBSE",
-            "applicationFor": "MBBS - BDS",
-            "notificationMonth": "Feb / March",
-            "modeOfSelection": "Through National Entrance Exam",
-            "website": "www.cbseneet.nic.in"
-        },
-        {
-            "srNo": 8,
-            "name": "CMCVelore",
-            "conductedBy": "",
-            "applicationFor": "",
-            "notificationMonth": "",
-            "modeOfSelection": "",
-            "website": "www.cmch-vellore.edu"
-        },
-        {
-            "srNo": 9,
-            "name": "JIPMER",
-            "conductedBy": "",
-            "applicationFor": "",
-            "notificationMonth": "",
-            "modeOfSelection": "",
-            "website": "www.jipmer.edu.in"
-        },
-        {
             "srNo": 10,
+            "type": "Engineering",
             "name": "BITSAT",
             "conductedBy": "BITS Pilani",
+            "purpose": "Admission in B Tech Courses",
+            "eligibility": "Class 12 (PCM)",
+            "applicationMode": "online",
             "applicationFor": "Integrated Degree Programmes",
             "notificationMonth": "Feb / March",
             "modeOfSelection": "Through National Entrance Exam",
             "website": "www.bitsadmission.com"
         },
         {
-            "srNo": 11,
-            "name": "CLAT",
-            "conductedBy": "Chanakya Law University",
-            "applicationFor": "Undergraduate Law Programmes",
-            "notificationMonth": "Feb / March",
-            "modeOfSelection": "Through National Entrance Exam",
-            "website": "www.clat.ac.in"
+            "type": "Engineering",
+            "name": "State Level Engineering Entrance Exams(APEAMCET)",
+            "source": "http://www..ap.gov.in/eamcet"
         },
-        {
-            "srNo": 12,
-            "name": "AIEEE",
-            "conductedBy": "Indian Council of Agricultural Research",
-            "applicationFor": "Undergraduate Programmes In Agriculture",
-            "notificationMonth": "Feb / March",
-            "modeOfSelection": "Through National Entrance Exam",
-            "website": "http://www.icar.org"
-        },
+
         {
             "srNo": 13,
+            "type": "Engineering",
             "name": "IIST",
             "conductedBy": "Indian Institute of Science & Technology",
             "applicationFor": "4 Year B.Tech & 5 Year Dual Degree",
@@ -118,39 +105,144 @@
             "website": "https://www.iist.ac"
         },
         {
+            "srNo": 6,
+            "type": "Medical",
+            "name": "AIIMS",
+            "purpose": "Admission to MBBS / BDS",
+            "eligibility": "Class 12 (PCB)",
+            "conductedBy": "All India Institute of Medical Sciences",
+            "applicationFor": "MBBS/BDS",
+            "notificationMonth": "Feb / March",
+            "modeOfSelection": "Through National Entrance Exam",
+            "website": "www.aiimsexams.org"
+        },
+        {
+            "srNo": 7,
+            "type": "Medical",
+            "name": "National Eligibility Cum Entrance Test (NEET)",
+            "eligibility": "Class 12 (PCB)",
+            "conductedBy": "CBSE",
+            "applicationFor": "MBBS - BDS",
+            "notificationMonth": "Feb / March",
+            "modeOfSelection": "Through National Entrance Exam",
+            "website": "www.cbseneet.nic.in"
+        },
+        {
+            "srNo": 8,
+            "type": "Medical",
+            "name": "CMCVelore",
+            "purpose": "Admission to MBBS / BDS",
+            "eligibility": "Class 12 (PCB)",
+            "conductedBy": "",
+            "applicationFor": "",
+            "notificationMonth": "",
+            "modeOfSelection": "",
+            "website": "www.cmch-vellore.edu"
+        },
+        {
+            "purpose": "Admission to MBBS / BDS",
+            "type": "Medical",
+            "eligibility": "Class 12 (PCB)",
+            "name": "CMC-Ludhiana",
+            "website": "http://cmcludhiana.in/"
+        },
+        {
+            "srNo": 9,
+            "type": "Medical",
+            "purpose": "Admission to MBBS / BDS",
+            "eligibility": "Class 12 (PCB)",
+            "name": "JIPMER",
+            "conductedBy": "",
+            "applicationFor": "",
+            "notificationMonth": "",
+            "modeOfSelection": "",
+            "website": "www.jipmer.edu.in"
+        },
+        {
+            "type": "Medical",
+            "purpose": "Admission to MBBS / BDS",
+            "eligibility": "Class 12 (PCB)",
+            "name": "Manipal (MBBS)",
+            "website": "www.admissions.manipal.edu"
+        },
+        {
+            "srNo": 11,
+            "type": "Law",
+            "name": "CLAT",
+            "purpose": "Admission in B.A. LL.B (Hons), B.Com. (Hons), BBA LL.B (Hons)",
+            "eligibility": "Class 12, 12+",
+            "applicationMode": "online, by post",
+            "conductedBy": "Chanakya Law University",
+            "applicationFor": "Undergraduate Law Programmes",
+            "notificationMonth": "Feb / March",
+            "modeOfSelection": "Through National Entrance Exam",
+            "website": "www.clat.ac.in"
+        },
+        {
+            "type": "Law",
+            "name": "Law School Admission Test LSAT India",
+            "purpose": "Admission in B.A. LL.B (Hons), B.Com. (Hons), BBA LL.B (Hons)",
+            "eligibility": "Class 12, Graduates",
+            "applicationMode": "online",
+            "website": "www.pearsonvueindia.com/lsatindia/"
+        },
+        {
+            "type": "Law",
+            "name": "All India Law Entrance Test (AILET)",
+            "purpose": "Admission in B.A., LL.B. (Hons.), LLM, PhD",
+            "eligibility": "Class 12, 12+, LLB, LLM",
+            "applicationMode": "by post",
+            "website": "www.nludelhi.ac.in/"
+        },
+        {
+            "type": "Law",
+            "name": "Lloyd Entrance Test (LET)",
+            "purpose": "Admission in B.A.,LL.B- 5-year integrated course",
+            "eligibility": "Class 12, 12+",
+            "applicationMode": "online, by post",
+            "website": "www.lloydlawcollege.com"
+        },
+        {
+            "type": "Others(Diploma)",
+            "name": "Indian Council of Agricultural Research ICAR AIEEA-UG-PG",
+            "purpose": "Admission in Bachelor, Master Degree Program, SRF (PGS) to Pursuing Ph.D in Agriculture and Allied Sciences at Agricultural Universities",
+            "eligibility": "Class 12, UG, PG",
+            "applicationMode": "online",
+            "website": "www.icar.org.in/"
+        },
+        {
+            "srNo": 12,
+            "type": "Others(Diploma)",
+            "name": "AIEEE",
+            "conductedBy": "Indian Council of Agricultural Research",
+            "applicationFor": "Undergraduate Programmes In Agriculture",
+            "notificationMonth": "Feb / March",
+            "modeOfSelection": "Through National Entrance Exam",
+            "website": "http://www.icar.org"
+        },
+        {
             "srNo": 14,
+            "type": "Engineering/Medical",
             "name": "IISc",
             "conductedBy": "Indian Institute of Science, Bangalore",
             "applicationFor": "Integrated Degree Programmes",
             "notificationMonth": "April",
-            "modeOfSelection": [
-                "KVPY Score",
-                "IIT-JEEAdvanced",
-                "NEET Exam"
-            ],
+            "modeOfSelection": "KVPY Score,IIT-JEEAdvanced,NEET Exam",
             "website": "www.iisc.ernet.in"
         },
         {
             "srNo": 15,
+            "type": "Engineering/Medical",
             "name": "KEAM",
             "conductedBy": "Commissioner of Entrance Examinations, Govt. of Kerala",
-            "applicationFor": [
-                "Medical,Agriculture",
-                "Forestry",
-                "Veterinary",
-                "Fisheries",
-                "Engineering",
-                "Architecture"
-            ],
+            "applicationFor": "Medical,Agriculture,Forestry,Veterinary,Fisheries,Engineering,Architecture",
             "notificationMonth": "Feb / March",
-            "modeOfSelection": [
-                "Commom Entrance Exam (For Engg.)",
-                "Based on NEET Score(For Medical)"
-            ],
+            "modeOfSelection": "Commom Entrance Exam (For Engg.),Based on NEET Score(For Medical)",
             "website": "www.cee.kerala.gov.in"
         },
         {
             "srNo": 16,
+            "type": "Defence",
             "name": "CET",
             "conductedBy": "Indian Maritime University(IMU) under Govt. of India",
             "applicationFor": "Under Graduate Course Marine Science & Technology",
@@ -159,16 +251,57 @@
             "website": "http://www.imu.edu.in"
         },
         {
-            "srNo": 17,
-            "name": "NDA",
+            "type": "Defence",
+            "name": "Indian Maritime University Common Entrance Test",
+            "purpose": "Admission in Diploma in Nautical Science (DNS) leading to BSc. (Nautical Science)",
+            "eligibility": "Class 12 (PCM)",
+            "applicationMode": "by post",
+            "website": "www.imu.edu.in/index.php"
+        },
+        {
+            "type": "Defence",
+            "name": "Indian Navy B.Tech Entry Scheme",
+            "purpose": "Admission in Indian Navy B.Tech course",
+            "eligibility": "Class 12 passed",
+            "applicationMode": "online",
+            "website": "www.nausena-bharti.nic.in/index.php"
+        },
+        {
+            "type": "Defence",
+            "name": "Indian Navy Sailors Recruitment",
+            "purpose": "Admission in 24 weeks Basic training at INS Chilka followed by Professional training",
+            "eligibility": "Class 12 (Maths and Physics/Chem./Bio/Computer Sc.)",
+            "applicationMode": "online, by post",
+            "website": "www.nausena-bharti.nic.in/index.php"
+        },
+        {
+            "type": "Defence",
+            "name": "Defence Indian Army Technical Entry Scheme (TES)",
+            "purpose": "Technical Entry to Army",
+            "eligibility": "Class 12 PCM",
             "conductedBy": "Union Public Service Commission",
             "applicationFor": "NDA & National Naval Academy",
             "notificationMonth": "February",
             "modeOfSelection": "Through National Level Entrance Exam",
-            "website": "www.upsconline.nic.in"
+            "website": "www.upsconline.nic.in",
+            "applicationMode": "online"
+        },
+        {
+            "type": "Defence",
+            "name": "NDA Entrance with PCM (MPC)",
+            "website": "http://careerairforce.nic.in"
+        },
+        {
+            "type": "Defence",
+            "name": "National Defence Academy and Naval Academy Examination (I)",
+            "purpose": "Admission to Army and Air Force wings of NDA and 4 years B. Tech course for the Indian Naval Academy Course (INAC)",
+            "eligibility": "Class 12, 12 Passed",
+            "applicationMode": "online",
+            "website": "www.upsc.gov.in/"
         },
         {
             "srNo": 18,
+            "type": "Degree",
             "name": "NEST",
             "conductedBy": "Department of Atomic Energy under Govt. of India",
             "applicationFor": "Integrated M.Sc Programmes",
@@ -178,12 +311,108 @@
         },
         {
             "srNo": 19,
+            "type": "Others(Diploma)",
             "name": "NATA",
             "conductedBy": "Council of Architecture",
             "applicationFor": "5 Year B.Arch Degree Courses",
             "notificationMonth": "February",
             "modeOfSelection": "Through National Level Entrance Exam",
             "website": "www.nata.nic.in"
+        },
+        {
+            "type": "Others(Diploma)",
+            "name": "All India Entrance Examination for Design (AIEED)",
+            "purpose": "Admission in 4 years UG level programmes in Design",
+            "eligibility": "Class 11&12",
+            "applicationMode": "online",
+            "activity-": "Series 1: November to February, Series 2: April, May",
+            "website": "www.aieed.com",
+            "schools": [
+                {
+                    "id": 1,
+                    "name": "Srishti School",
+                    "website": "http://srishti.ac.in/"
+                },
+                {
+                    "id": 2,
+                    "name": "School of Fashion Technology",
+                    "website": "www.softpune.com/"
+                },
+                {
+                    "id": 3,
+                    "name": "Pearl Academy",
+                    "website": "http://pearlacademy.com"
+                },
+                {
+                    "id": 4,
+                    "name": "Symbiosis Institute of Design",
+                    "website": "http://sid.edu.in/"
+                },
+                {
+                    "id": 5,
+                    "name": "Footwear Design and Development Institute",
+                    "website": "www.fddiindia.com/"
+                },
+                {
+                    "id": 6,
+                    "name": "Maeer's MIT Institute of Design",
+                    "website": "www.mitid.edu.in/"
+                },
+                {
+                    "id": 7,
+                    "name": "National Institute of Design",
+                    "website": "www.nid.edu/"
+                },
+                {
+                    "id": 8,
+                    "name": "National Institute of Fashion Design",
+                    "website": "www.nift.ac.in/"
+                },
+                {
+                    "id": 9,
+                    "name": "National Aptitude Test in Architecture",
+                    "website": "www.nata.in"
+                },
+                {
+                    "id": 10,
+                    "name": "Center for Environmental Planning and Technology (CEPT)",
+                    "website": "www.cept.ac.in/"
+                }
+            ]
+        },
+        {
+            "type": "Others(Diploma)",
+            "name": "All India Hotel management Entrance Exam NCHMCT JEE",
+            "purpose": "Purpose-Admission in B.Sc. Hospitality & Hotel Administration",
+            "eligibility": "Class 12",
+            "applicationMode": "online",
+            "website": "www.nchmct.org/"
+        },
+        {
+            "name": "CPT",
+            "type": "Professional Courses"
+        },
+        {
+            "type": "Professional Courses",
+            "name": "ATC",
+            "eligibility": "CPT",
+            "duration": "9 months"
+        },
+        {
+            "type": "Professional Courses",
+            "name": "IPCC",
+            "eligibility": "CPT"
+        },
+        {
+            "type": "Professional Courses",
+            "name": "ITT",
+            "duration": "100 hours",
+            "eligibility": "ATC OR IPCC"
+        },
+        {
+            "type": "Professional Courses",
+            "name": "CA Final",
+            "eligibility": "Article ship"
         }
     ]
 }

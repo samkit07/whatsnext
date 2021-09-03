@@ -26,6 +26,8 @@ class Model8{
 }
 
 class Schools {
+    var expandable: Boolean = false
+
     @SerializedName("id")
     val id: Int = 0
     @SerializedName("name")

@@ -1,4 +1,4 @@
-package adapters
+package com.example.whatnext.page9
 
 import android.view.LayoutInflater
 import android.view.View
@@ -52,7 +52,4 @@ class UserAdapter9(val exlist :ArrayList<Model9>) : RecyclerView.Adapter<UserAda
         val linearlay = view.findViewById<LinearLayout>(R.id.linearlay)
         val exlayout = view.findViewById<RelativeLayout>(R.id.expandable_layout)
     }
-
-
-
 }

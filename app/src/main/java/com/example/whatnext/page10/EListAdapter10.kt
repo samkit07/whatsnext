@@ -56,24 +56,26 @@ class EListAdapter10 internal constructor(
         isExpanded: Boolean,
         convertView: View?,
         parent: ViewGroup?
-    ): View {
+    ): View? {
 
-        var convertView = convertView
+        var convertview = convertView
 
         val textview1_1Title = getGroup(groupPosition) as String
 
-        if (convertView == null) {
+        if (convertview == null) {
 
             val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-            convertView = inflater.inflate(R.layout.parent10, null)
+            convertview = inflater.inflate(R.layout.parent10, null)
         }
 
 
-        val ptextview1_10 = convertView!!.findViewById<TextView>(R.id.ptextview1_10)
+        val ptextview1_10 = convertview?.findViewById<TextView>(R.id.ptextview1_10)
 
-        ptextview1_10.text = textview1_1Title
+        if (ptextview1_10 != null) {
+            ptextview1_10.text = textview1_1Title
+        }
 
-        return convertView
+        return convertview
     }
 
     override fun getChildView(
@@ -82,22 +84,22 @@ class EListAdapter10 internal constructor(
         isLastChild: Boolean,
         convertView: View?,
         parent: ViewGroup?
-    ): View {
+    ): View? {
 
-        var convertView = convertView
+        var convertview = convertView
 
         val textview1_2Title = getChild(groupPosition, childPosition) as String
 
-        if (convertView == null) {
+        if (convertview == null) {
 
             val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-            convertView = inflater.inflate(R.layout.child10, null)
+            convertview = inflater.inflate(R.layout.child10, null)
         }
 
-        val ctextview1_10 = convertView!!.findViewById<TextView>(R.id.ctextview1_10)
+        val ctextview1_10 = convertview!!.findViewById<TextView>(R.id.ctextview1_10)
 
         ctextview1_10.text = textview1_2Title
-        return convertView
+        return convertview
     }
 
     override fun isChildSelectable(groupPosition: Int, childPosition: Int): Boolean {

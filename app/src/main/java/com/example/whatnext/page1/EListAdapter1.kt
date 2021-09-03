@@ -1,18 +1,14 @@
 package com.example.practice2
 
 import android.content.Context
-import android.graphics.Color
 import android.graphics.drawable.Drawable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseExpandableListAdapter
-import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.appcompat.content.res.AppCompatResources
-import androidx.appcompat.content.res.AppCompatResources.getDrawable
 import com.example.whatnext.R
-import models.Examinations1
 import models.Fields
 import models.Model1
 
@@ -63,23 +59,23 @@ class EListAdapter1 internal constructor(
         isExpanded: Boolean,
         convertView: View?,
         parent: ViewGroup?
-    ): View {
+    ): View? {
 
-        var convertView = convertView
+        var convertview = convertView
 
         val parentgroup = getGroup(groupPosition) as Model1
 
-        if (convertView == null) {
+        if (convertview == null) {
 
             val inflater =
                 context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-            convertView = inflater.inflate(R.layout.parent1, null)
+            convertview = inflater.inflate(R.layout.parent1, null)
         }
 
 
-        val ptextview1_1 = convertView!!.findViewById<TextView>(R.id.ptextview1_1)
-        val ptextview2_1 = convertView!!.findViewById<TextView>(R.id.ptextview2_1)
-        val ptextview3_1 = convertView!!.findViewById<TextView>(R.id.ptextview3_1)
+        val ptextview1_1 = convertview!!.findViewById<TextView>(R.id.ptextview1_2)
+        val ptextview2_1 = convertview.findViewById<TextView>(R.id.ptextview2_1)
+        val ptextview3_1 = convertview.findViewById<TextView>(R.id.ptextview3_1)
 //        val ptextview4_1 = convertView!!.findViewById<TextView>(R.id.ptextview4_1)
 
 //        val ptextview4_1 = convertView!!.findViewById<TextView>(R.id.l)
@@ -114,7 +110,7 @@ class EListAdapter1 internal constructor(
 //        if (ptextview4_1.text == "") ptextview4_1.visibility = View.GONE
 
 
-        return convertView
+        return convertview
     }
 
     override fun getChildView(
@@ -125,28 +121,28 @@ class EListAdapter1 internal constructor(
         parent: ViewGroup?
     ): View {
 
-        var convertView = convertView
+        var convertview = convertView
 
         val textview1_2Title = getChild(groupPosition, childPosition) as Fields
 
-        if (convertView == null) {
+        if (convertview == null) {
 
             val inflater =
                 context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-            convertView = inflater.inflate(R.layout.child1, null)
+            convertview = inflater.inflate(R.layout.child1, null)
         }
 
-        val ctextview1_2 = convertView!!.findViewById<TextView>(R.id.ctextview1_1)
-        var ctextview2_2 = convertView!!.findViewById<TextView>(R.id.ctextview2_1)
+        val ctextview1_2 = convertview!!.findViewById<TextView>(R.id.ctextview1_1)
+        var ctextview2_2 = convertview.findViewById<TextView>(R.id.ctextview2_1)
 //        var prelative = convertView!!.findViewById<RelativeLayout>(R.id.prelative)
 
         ctextview1_2.setText(textview1_2Title.name)
 
         if (textview1_2Title.subFields.toString() != "[]") {
 
-            val leftDrawable: Drawable? = AppCompatResources
+            val rightDrawable: Drawable? = AppCompatResources
                 .getDrawable(context, R.drawable.keyboard_arrow_down);
-            ctextview1_2.setCompoundDrawablesWithIntrinsicBounds(leftDrawable, null, null, null);
+            ctextview1_2.setCompoundDrawablesWithIntrinsicBounds(null, null, rightDrawable, null);
         } else ctextview1_2.setCompoundDrawablesWithIntrinsicBounds(null, null, null, null);
 
         var isexpandable: Boolean = textview1_2Title.expandable
@@ -169,12 +165,12 @@ class EListAdapter1 internal constructor(
 
                 } else {
 
-                    val leftDrawable: Drawable? = AppCompatResources
+                    val rightDrawable: Drawable? = AppCompatResources
                         .getDrawable(context, R.drawable.keyboard_arrow_up)
                     ctextview1_2.setCompoundDrawablesWithIntrinsicBounds(
-                        leftDrawable,
                         null,
                         null,
+                        rightDrawable,
                         null
                     )
 
@@ -196,12 +192,12 @@ class EListAdapter1 internal constructor(
                 } else {
 
                     ctextview2_2.setVisibility(View.GONE)
-                    val leftDrawable: Drawable? = AppCompatResources
+                    val rightDrawable: Drawable? = AppCompatResources
                         .getDrawable(context, R.drawable.keyboard_arrow_down);
                     ctextview1_2.setCompoundDrawablesWithIntrinsicBounds(
-                        leftDrawable,
                         null,
                         null,
+                        rightDrawable,
                         null
                     );
 
@@ -211,10 +207,7 @@ class EListAdapter1 internal constructor(
             }
         }
 
-
-//        if(isexpandable) View.VISIBLE else View.GONE
-
-        return convertView
+        return convertview
     }
 
     override fun isChildSelectable(groupPosition: Int, childPosition: Int): Boolean {

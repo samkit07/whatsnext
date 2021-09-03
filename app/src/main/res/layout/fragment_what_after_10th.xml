@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutaftr10th"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/textview4_1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#72B2E3"
+        android:padding="8dp"
+        android:text="Study"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ExpandableListView
+        android:id="@+id/elistview1"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_below="@+id/textview4_1_1"
+        android:layoutDirection="rtl"
+        android:textAlignment="textStart"
+        android:textDirection="ltr"
+        android:textSize="20sp"
+        android:verticalScrollbarPosition="right" />
+
+    <TextView
+        android:id="@+id/textview4_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/elistview1"
+        android:background="#CC3030"
+        android:padding="8dp"
+        android:text="Jobs"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

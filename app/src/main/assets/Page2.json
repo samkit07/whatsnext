@@ -1,422 +1,194 @@
 {
   "data": [
-    {
-      "name": "Engineering",
-      "duration": "4 years",
-      "eligibility": "MPC",
-      "entranceExams": [
-        "EAMCET",
-        "IIT",
-        "AIEEE",
-        "BITSAT"
-      ],
-      "fields": [
-        {
-          "name": "CSE"
-        },
-        {
-          "name": "IT"
-        },
-        {
-          "name": "ECE"
-        },
-        {
-          "name": "EEE"
-        },
-        {
-          "name": "Civil Eng"
-        },
-        {
-          "name": "Mechanical Eng"
-        },
-        {
-          "name": "Chemical Eng"
-        },
-        {
-          "name": "Aeronautical Eng"
-        },
-        {
-          "name": "Aerospace Eng"
-        },
-        {
-          "name": "Agricultural Eng"
-        },
-        {
-          "name": "Automobile Eng"
-        },
-        {
-          "name": "Bio-medical Eng"
-        },
-        {
-          "name": "Bio-technology Eng"
-        },
-        {
-          "name": "Ceramic Eng"
-        },
-        {
-          "name": "Industrial Eng"
-        },
-        {
-          "name": "Environmental Eng"
-        },
-        {
-          "name": "Marine Eng"
-        },
-        {
-          "name": "Mining Eng"
-        },
-        {
-          "name": "Silk & Textile Eng"
-        }
-      ]
-    },
-    {
-      "name": "Medical",
-      "eligibility": "BiPC",
-      "fields": [
-        {
-          "name": "Medicine",
-          "duration": "5 years",
-          "entranceExams": [
-            "EAMCET",
-            "NEET"
-          ],
-          "subFields": [
-            {
-              "name": "MBBS-Allopathic"
-            },
-            {
-              "name": "BUMS-Unani"
-            },
-            {
-              "name": "BHMS-Homeopathy"
-            },
-            {
-              "name": "BAMS-Ayurveda"
-            },
-            {
-              "name": "BNYS-Naturopathy"
-            },
-            {
-              "name": "Ag.BSc-Agricultural"
-            },
-            {
-              "name": "BDS-Dental"
-            },
-            {
-              "name": "BVSc-Veterinary"
-            },
-            {
-              "name": "BPT-Physiotherapy"
-            }
-          ]
-        },
-        {
-          "name": "Allied Health Sciences ",
-          "duration": "2/3 years",
-          "subFields": [
-            {
-              "name": "B.Pharma Designing"
-            },
-            {
-              "name": "BSc. Nursing"
-            },
-            {
-              "name": "BOT-Occupational therapy"
-            },
-            {
-              "name": "BSc-Anesthesia"
-            },
-            {
-              "name": "BSc-Cardiac Tec"
-            },
-            {
-              "name": "BSc-Medical Lab Tec"
-            },
-            {
-              "name": "BSc-Radio Therapy Tec"
-            },
-            {
-              "name": "BSc-Clinical Optometry"
-            },
-            {
-              "name": "BSc-Nuclear Medicine"
-            },
-            {
-              "name": "BSc-Operation Theatre"
-            },
-            {
-              "name": "BSc-Physician assistant"
-            },
-            {
-              "name": "BSc-Respiratory care"
-            },
-            {
-              "name": "BMLT-Medical Lab Technology"
-            }
-          ]
-        },
-        {
-          "name": "Paramedical",
-          "subFields": [
-            {
-              "name": "Dialysis Technician"
-            },
-            {
-              "name": "ECG Technician"
-            },
-            {
-              "name": "X- Ray Technician"
-            },
-            {
-              "name": "Operation Theatre Technician"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Degree",
-      "fields": [
-        {
-          "name": "Degree",
-          "duration": "3 years",
-          "subFields": [
-            {
-              "name": "BA",
-              "specialization": [
-                "BA –HEP",
-                "BA-HTP",
-                "BA-Linguistics",
-                "BA-Economics",
-                "BA- Psychology",
-                "BA-Fin arts",
-                "BA- Political Sci.",
-                "BA-Sociology",
-                "BA- Library Sci."
-              ]
-            },
-            {
-              "name": "B.Sc",
-              "specialization": [
-                "B.Sc- MPC",
-                "B.Sc- MEC",
-                "B.Sc-Appli. Math",
-                "B.Sc- BZC/CBZ",
-                "B.Sc-CPZ",
-                "B.Sc-Horticulture",
-                "B.Sc- Computer Sci.",
-                "B.Sc-Home Science",
-                "B.Sc-Bio-chemistry",
-                "B.Sc-Micro bio.",
-                "B.Sc-Bio-Tec..",
-                "B.Sc-AnthroP.",
-                "B.Sc-Dairy sci"
-              ]
-            },
-            {
-              "name": "B.Com",
-              "specialization": [
-                "B.Com-Regular",
-                "B.Com-Computers",
-                "B.Com-Bank Mana.",
-                "B.Com-Tax Proce."
-              ]
-            },
-            {
-              "name": "Other Degrees",
-              "specialization": [
-                "LLB",
-                "BAF(Bach.in Accou&Fin)",
-                "BFM(Bach.in Fin. Mane)",
-                "BMS(Bach.in Manag, Stu.)",
-                "BBA(Bach.in Busi. Admin)",
-                "BCA(Bach.in Com. Appli)",
-                "BBM(Bach.in Busi. Mane)"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Dual-Degree",
-          "duration": "4 years",
-          "subFields": [
-            {
-              "name": "BA + Bed"
-            },
-            {
-              "name": "BSc + Bed"
-            },
-            {
-              "name": "BA + LLB"
-            },
-            {
-              "name": "BCom + LLB ITT"
-            },
-            {
-              "name": "BBM + LLB (100 hours)"
-            },
-            {
-              "name": "BBA + LLB"
-            }
-          ]
-        },
-        {
-          "name": "Professional Courses",
-          "fields": [
-            {
-              "name": "ICWA"
-            },
-            {
-              "name": "CS"
-            },
-            {
-              "name": "CA",
-              "examination": [
-                {
-                  "name": "CPT"
-                },
-                {
-                  "name": "ATC",
-                  "eligibility": "CPT",
-                  "duration": "9 months"
-                },
-                {
-                  "name": "IPCC",
-                  "eligibility": "CPT"
-                },
-                {
-                  "name": "ITT",
-                  "duration": "100 hours",
-                  "eligibility": "ATC OR IPCC"
-                },
-                {
-                  "name": "CA Final",
-                  "eligibility": "Article ship"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "NDA",
-      "fields": [
-        {
-          "name": "Army"
-        },
-        {
-          "name": "Navy"
-        },
-        {
-          "name": "Air force"
-        }
-      ]
-    },
-    {
-      "name": "Teaching",
-      "fields": [
-        {
-          "name": "D. Ed",
-          "duration": "2 years",
-          "applicablePost": "Primary School Teacher"
-        },
-        {
-          "name": "UDPED",
-          "duration": "2 years",
-          "applicablePost": "PET Teacher"
-        },
-        {
-          "name": "ECCED",
-          "duration": "",
-          "applicablePost": "Early Childhood care Education"
-        }
-      ]
-    },
-    {
-      "name": "Others(Diploma Courses)",
-      "fields": [
-        {
-          "name": "Foreign Languages",
-          "subFields": []
-        },
-        {
-          "name": "Fire Safety",
-          "subFields": []
-        },
-        {
-          "name": "Journalism",
-          "subFields": []
-        },
-        {
-          "name": "Home Science",
-          "subFields": []
-        },
-        {
-          "name": "Tourism",
-          "subFields": []
-        },
-        {
-          "name": "Hotel management",
-          "subFields": []
-        },
-        {
-          "name": "Rural development",
-          "subFields": []
-        },
-        {
-          "name": "Designing",
-          "subFields": [
-            {
-              "name": "Fashion"
-            },
-            {
-              "name": "Interior"
-            },
-            {
-              "name": "Jewelery"
-            }
-          ]
-        },
-        {
-          "name": "Film making",
-          "subFields": [
-            {
-              "name": "Direction"
-            },
-            {
-              "name": "Screen Writing"
-            },
-            {
-              "name": "Cinematography"
-            },
-            {
-              "name": "Sound designee"
-            },
-            {
-              "name": "Editing"
-            },
-            {
-              "name": "Action"
-            }
-          ]
-        },
-        {
-          "name": "Management",
-          "subFields": [
-            {
-              "name": "Finance management"
-            },
-            {
-              "name": "Event management"
-            },
-            {
-              "name": "Hotel management"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+      {
+        "name": "BE/B.Tech",
+        "type": "Engineering",
+        "duration": "4 years",
+        "eligibility": "MPC",
+        "fields": [
+          "CSE",
+          "IT",
+          "ECE",
+          "EEE",
+          "Civil Eng",
+          "Mechanical Eng",
+          "Chemical Eng",
+          "Aeronautical Eng",
+          "Aerospace Eng",
+          "Agricultural Eng",
+          "Automobile Eng",
+          "Bio-medical Eng",
+          "Bio-technology Eng",
+          "Ceramic Eng",
+          "Industrial Eng",
+          "Environmental Eng",
+          "Marine Eng",
+          "Mining Eng",
+          "Silk & Textile Eng"
+        ]
+      },
+      {
+        "type": "Medical",
+        "eligibility": "BiPC",
+        "name": "Medicine",
+        "duration": "5 years",
+        "fields": [
+          "MBBS-Allopathic",
+          "BUMS-Unani",
+          "BHMS-Homeopathy",
+          "BAMS-Ayurveda",
+          "BNYS-Naturopathy",
+          "Ag.BSc-Agricultural",
+          "BDS-Dental",
+          "BVSc-Veterinary",
+          "BPT-Physiotherapy"
+        ]
+      },
+      {
+        "type": "Medical",
+        "eligibility": "BiPC",
+        "name": "Allied Health Sciences ",
+        "duration": "2/3 years",
+        "fields": [
+          "B.Pharma Designing",
+          "BSc. Nursing",
+          "BOT-Occupational therapy",
+          "BSc-Anesthesia",
+          "BSc-Cardiac Tec",
+          "BSc-Medical Lab Tec",
+          "BSc-Radio Therapy Tec",
+          "BSc-Clinical Optometry",
+          "BSc-Nuclear Medicine",
+          "BSc-Operation Theatre",
+          "BSc-Physician assistant",
+          "BSc-Respiratory care",
+          "BMLT-Medical Lab Technology"
+        ]
+      },
+      {
+        "type": "Medical",
+        "eligibility": "BiPC",
+        "name": "Paramedical",
+        "fields": [
+          "Dialysis Technician",
+          "ECG Technician",
+          "X- Ray Technician",
+          "Operation Theatre Technician"
+        ]
+      },
+      {
+        "type": "Degree",
+        "name": "Degree",
+        "duration": "3 years",
+        "fields": [
+          "BA –HEP",
+          "BA-HTP",
+          "BA-Linguistics",
+          "BA-Economics",
+          "BA- Psychology",
+          "BA-Fin arts",
+          "BA- Political Sci.",
+          "BA-Sociology",
+          "BA- Library Sci.",
+          "B.Sc- MPC",
+          "B.Sc- MEC",
+          "B.Sc-Appli. Math",
+          "B.Sc- BZC/CBZ",
+          "B.Sc-CPZ",
+          "B.Sc-Horticulture",
+          "B.Sc- Computer Sci.",
+          "B.Sc-Home Science",
+          "B.Sc-Bio-chemistry",
+          "B.Sc-Micro bio.",
+          "B.Sc-Bio-Tec..",
+          "B.Sc-AnthroP.",
+          "B.Sc-Dairy sci",
+          "B.Com-Regular",
+          "B.Com-Computers",
+          "B.Com-Bank Mana.",
+          "B.Com-Tax Proce."
+        ]
+      },
+      {
+        "name": "Other Degrees",
+        "fields": [
+          "LLB",
+          "BAF(Bach.in Accounts&Finance)",
+          "BFM(Bach.in Fin. Management)",
+          "BMS(Bach.in Manag. Studies)",
+          "BBA(Bach.in Business Admin)",
+          "BCA(Bach.in Comp. Applications)",
+          "BBM(Bach.in Busi. Management)"
+        ]
+      },
+      {
+        "type": "Degree",
+        "name": "Dual-Degree",
+        "duration": "4 years",
+        "fields": [
+          "BA + Bed",
+          "BSc + Bed",
+          "BA + LLB",
+          "BCom + LLB ITT",
+          "BBM + LLB (100 hours)",
+          "BBA + LLB"
+        ]
+      },
+      {
+        "type": "Degree",
+        "name": "Professional Courses",
+        "fields": [
+          "ICWA",
+          "CS",
+          "CA"
+        ]
+      },
+      {
+        "type": "Defence",
+        "name": "NDA",
+        "fields": [
+          "Army",
+          "Navy",
+          "Air force"
+        ]
+      },
+      {
+        "name": "Teaching",
+        "fields": [
+          "D.Ed (2 years) for Primary School Teacher",
+          "UDPED (2 years) for PET Teacher",
+          "ECCED for Early Childhood care Education"
+        ]
+      },
+      {
+        "type": "Others",
+        "name": "Diploma Courses",
+        "fields": [
+          "Foreign Languages",
+          "Fire Safety",
+          "Journalism",
+          "Home Science",
+          "Tourism",
+          "Hotel management",
+          "Rural development",
+          "Fashion Designing",
+          "Interior Designing",
+          "Jewelery Designing",
+          "Film Direction",
+          "Screen Writing",
+          "Cinematography",
+          "Sound designee",
+          "Film Editing",
+          "Film Action"
+        ]
+      },
+      {
+        "name": "Management",
+        "fields": [
+          "Finance management",
+          "Event management",
+          "Hotel management"
+        ]
+      }
+    ]
 }

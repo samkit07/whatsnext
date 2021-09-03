@@ -1,60 +1,78 @@
 package com.example.whatnext.page2
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
+import android.widget.ExpandableListView
+import android.widget.TextView
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.practice2.EListAdapter1
+import com.example.whatnext.MainActivity
 import com.example.whatnext.R
+//import com.example.whatnext.page2.EListAdapter2
+import com.google.gson.Gson
+import models.*
+import java.io.InputStream
+import java.text.ParsePosition
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [WhatAfter12th.newInstance] factory method to
- * create an instance of this fragment.
- */
 class WhatAfter12th : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+
+//    lateinit var listViewAdapter: EListAdapter2
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
+        getActivity()?.setTitle("Courses After 12th");
+    }
+
+    override fun onStop() {
+        super.onStop()
+
+        getActivity()?.setTitle("What After 12th?");
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_what_after12th, container, false)
-    }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment WhatAfter12th.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            WhatAfter12th().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+
+        var courses = Gson().fromJson(
+            context?.let { MainActivity().loadJson(it,"Page2.json") },
+            ListModel2::class.java)
+
+//
+//        val arr : ArrayList<Model2> = ArrayList()
+//
+//        var examsMap : HashMap<Model2,List<Examinations2>> = HashMap()
+//
+//        for(i in 0 until courses.data.size){
+//
+//                arr.add(courses.data[i])
+//                examsMap[courses.data[i]] = courses.data[i].exams
+//        }
+//
+//        listViewAdapter = EListAdapter2(context as MainActivity, arr, examsMap)
+//
+        val view : View = inflater.inflate(R.layout.fragment_what_after_12th, container, false)
+//
+//        view.findViewById<ExpandableListView>(R.id.elistview1_2).setAdapter(listViewAdapter)
+
+        val rv =  view?.findViewById<RecyclerView>(R.id.recycle1_2)
+        rv?.layoutManager = LinearLayoutManager(context, RecyclerView.VERTICAL, false)
+
+        rv?.adapter = UserAdapter1_2(courses.data)
+
+//        view.findViewById<ExpandableListView>(R.id.elistview1_2).setGroupIndicator(null)
+//        view.findViewById<ExpandableListView>(R.id.elistview1_2).setOnChildClickListener(this)
+
+        return view
+
     }
 }

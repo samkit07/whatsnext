@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page2.WhatAfter12th">
+
+<!--    <include layout="@layout/parent1_2"-->
+<!--        android:id="@+id/include1_2"/>-->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle1_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/card1_2"
+        android:orientation="vertical"/>
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_below="@+id/recycle1_2">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:nestedScrollingEnabled="true">-->
+
+<!--            <ListView-->
+<!--                android:id="@+id/ptextview5_2"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="0dp"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:layout_marginBottom="8dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:padding="8dp"-->
+<!--                android:text="Fields"-->
+<!--                android:textAlignment="textStart"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:verticalScrollbarPosition="right"-->
+<!--                />-->
+<!--        </LinearLayout>-->
+<!--    </RelativeLayout>-->
+
+
+</RelativeLayout>

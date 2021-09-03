@@ -3,14 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:isScrollContainer="false"
+    android:verticalScrollbarPosition="right"
     tools:context=".page10.CoursesOverview">
 
     <ExpandableListView
+        android:id="@+id/elistview10"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/elistview10"
-        android:padding="8dp"
         android:layout_margin="12dp"
-        android:textSize="20sp"/>
+        android:layoutDirection="rtl"
+        android:padding="8dp"
+        android:textDirection="ltr"
+        android:textSize="20sp" />
 
 </FrameLayout>
