@@ -116,6 +116,10 @@
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/fragment9.xml"
     },
     {
+        "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_fragment2.xml.flat",
+        "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/fragment2.xml"
+    },
+    {
         "merged": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/res/merged/debug/layout_sample10_1.xml.flat",
         "source": "/home/samkit/AndroidStudioProjects/whatsnext/app/src/main/res/layout/sample10_1.xml"
     },

@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity(){
         if(actionBar!=null){
             actionBar.title="What Next!!"
         }
+        supportFragmentManager.addOnBackStackChangedListener { setupHomeAsUp() }
+        setupHomeAsUp()
 
 
 //        val fragment: Fragment = fragment10.newInstance()
@@ -65,9 +67,14 @@ class MainActivity : AppCompatActivity(){
 
 
        }
-//        override fun onCellClickListener() {
-//            Toast.makeText(this, "Cell clicked", Toast.LENGTH_SHORT).show()
-//        }
+        private fun setupHomeAsUp() {
+            val shouldShow = 0 < supportFragmentManager.backStackEntryCount
+            supportActionBar?.setDisplayHomeAsUpEnabled(shouldShow)
+        }
+
+        override fun onSupportNavigateUp(): Boolean =
+                supportFragmentManager.popBackStack().run { true }
+
     private fun getData():ArrayList<gridView>{
         var list=ArrayList<gridView>()
 //        var model = gridView("After Graduation",R.drawable.logo)

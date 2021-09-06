@@ -14,8 +14,6 @@ class page2 {
 
     @SerializedName("name")
     val name : String =""
-    @SerializedName("eligibility")
-    val eligibility : String = ""
     @SerializedName("entranceExams")
     val entranceExams : ArrayList<String> = ArrayList()
     @SerializedName("degree")
@@ -25,9 +23,11 @@ class page2 {
 class Degree{
 
     @SerializedName("course")
-    val name : String =""
+    val course : String =""
     @SerializedName("duration")
     val duration : String =""
+    @SerializedName("eligibility")
+    val eligibility : String = ""
     @SerializedName("fields")
-    val subFields : ArrayList<String> = ArrayList()
+    val fields : ArrayList<String> = ArrayList()
 }
