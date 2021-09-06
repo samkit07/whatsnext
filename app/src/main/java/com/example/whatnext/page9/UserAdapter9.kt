@@ -23,9 +23,13 @@ class UserAdapter9(val exlist :ArrayList<Model9>) : RecyclerView.Adapter<UserAda
         val item = exlist[position]
 
         holder.test.text = item.test
-        holder.eligibility.text = item.eligibility
-        holder.syllabus.text = item.syllabus
-        holder.website.text = item.website
+
+        val str1 : String = "Eligibility: ${item.eligibility}"
+        val str2 : String = "Syllabus: ${item.syllabus}"
+        val str3 : String ="Website: ${item.website}"
+        holder.eligibility.text = str1
+        holder.syllabus.text = str2
+        holder.website.text = str3
 
         val isexpandable: Boolean = exlist[position].expandable
 

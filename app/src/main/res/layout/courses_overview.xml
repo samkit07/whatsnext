@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="4dp"
     android:isScrollContainer="false"
     tools:context=".page10.CoursesOverview">
 
@@ -10,7 +11,6 @@
         android:id="@+id/elistview10"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="4dp"
         android:layoutDirection="rtl"
         android:textDirection="ltr"
         android:verticalScrollbarPosition="right" />

@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".page2.Fragment2_6">
+    tools:context=".page2.Fragment2_6"
+    android:layout_margin="4dp">
 
     <ExpandableListView
         android:id="@+id/expandlist2_6"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layoutDirection="rtl"
-        android:padding="10dp"
         android:scrollbars="vertical"
         android:textDirection="ltr"
         android:verticalScrollbarPosition="right" />

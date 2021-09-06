@@ -58,13 +58,30 @@ class EListAdapter2 internal constructor(
                 context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             convertView = inflater.inflate(R.layout.page2, null)
         }
+
+        val iconId : Int = 0
+        var expandableGroupResId : Int = 0
+
+        if (getChildrenCount(groupPosition) > 0) {
+            expandableGroupResId = if (isExpanded) R.drawable.keyboard_arrow_up;
+            else R.drawable.keyboard_arrow_down;
+        }
+
         val courseTypeTv=convertView!!.findViewById<TextView>(R.id.tv_parent)
         val courseDurationTv=convertView!!.findViewById<TextView>(R.id.tv_duration)
         val courseEligTv=convertView!!.findViewById<TextView>(R.id.tv_eligible)
 
+        courseTypeTv.setCompoundDrawablesWithIntrinsicBounds(iconId, 0, expandableGroupResId, 0)
+
+        val str1 = "Eligibility - ${title.eligibility}"
+        val str2 = "Duration - ${title.duration}"
+
         courseTypeTv.text = title.course
-        courseDurationTv.text = title.duration
-        courseEligTv.text = title.eligibility
+        courseDurationTv.text = str2
+        courseEligTv.text = str1
+
+        courseDurationTv.visibility = if(title.duration == "") View.GONE else View.VISIBLE
+        courseEligTv.visibility = if(title.eligibility == "") View.GONE else View.VISIBLE
 
         return convertView
     }

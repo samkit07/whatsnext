@@ -43,6 +43,7 @@ class Fragment2_1 : Fragment() {
         expandView = view.findViewById(R.id.expandlist2_1)
         expandView.setAdapter(listviewAd)
 
+        expandView.setGroupIndicator(null)
         return view
     }
 

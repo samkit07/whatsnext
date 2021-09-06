@@ -6,45 +6,50 @@
     android:clickable="true">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="320dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_margin="8dp"
         app:cardCornerRadius="10sp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <RelativeLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center">
 
-            <ImageView
-                android:id="@+id/gridimg"
-                android:layout_width="250dp"
-                android:layout_height="250dp"
-                android:layout_gravity="center"
-                android:scaleType="fitXY"
-                android:src="@drawable/logo" />
-
-            <RelativeLayout
+            <LinearLayout
+                android:id="@+id/lineargridimg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center">
 
-                <TextView
-                    android:id="@+id/gridtext"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginEnd="4dp"
-                    android:fontFamily="@font/roboto_medium"
-                    android:padding="8dp"
-                    android:text="Intermediate"
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="22sp"
-                    android:textStyle="bold|italic" />
-            </RelativeLayout>
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
+                <ImageView
+                    android:id="@+id/gridimg"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
 
+            <TextView
+                android:id="@+id/gridtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lineargridimg"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="8dp"
+                android:text="Intermediate"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"  />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
 </LinearLayout>
+
+

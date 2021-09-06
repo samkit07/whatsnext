@@ -22,12 +22,12 @@
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.16" />
         <entry key="app/src/main/res/layout/bg_gradient.xml" value="0.1" />
         <entry key="app/src/main/res/layout/card1_2.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/child1.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/child1.xml" value="0.22" />
         <entry key="app/src/main/res/layout/child10.xml" value="0.22" />
         <entry key="app/src/main/res/layout/child1_2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/child3.xml" value="0.25" />
         <entry key="app/src/main/res/layout/childschools2.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/courses_overview.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/courses_overview.xml" value="0.33" />
         <entry key="app/src/main/res/layout/examination2.xml" value="0.33" />
         <entry key="app/src/main/res/layout/example_course.xml" value="0.18" />
         <entry key="app/src/main/res/layout/example_course1.xml" value="0.18" />
@@ -58,6 +58,7 @@
         <entry key="app/src/main/res/layout/fragment_what_after_12th.xml" value="0.2752808988764045" />
         <entry key="app/src/main/res/layout/fragment_what_after_grad.xml" value="0.18" />
         <entry key="app/src/main/res/layout/grid_layout.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/grid_layout1.xml" value="0.1" />
         <entry key="app/src/main/res/layout/list_fragment.xml" value="0.2685624012638231" />
         <entry key="app/src/main/res/layout/listlayout.xml" value="0.25" />
         <entry key="app/src/main/res/layout/listview1.xml" value="0.2" />

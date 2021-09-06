@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
+import com.bumptech.glide.Glide
 import com.example.whatnext.page1.WhatAfter10th
 import com.example.whatnext.page10.CoursesOverview
 import com.example.whatnext.page2.WhatAfter12th
@@ -18,7 +19,10 @@ import com.example.whatnext.page2.WhatAfter12th
 import com.example.whatnext.page2.WhatAfter12th_1
 import com.example.whatnext.page3.WhatAfterGrad
 import com.example.whatnext.page9.TalentTests
-
+import com.bumptech.glide.annotation.GlideModule
+import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.bumptech.glide.module.AppGlideModule
+import com.bumptech.glide.request.RequestOptions
 
 class GridRecyclerAdapter(private val context: Context, var exlist:ArrayList<CustomGridView>): RecyclerView.Adapter<GridRecyclerAdapter.Viewholder>() {
 
@@ -40,9 +44,16 @@ class GridRecyclerAdapter(private val context: Context, var exlist:ArrayList<Cus
         val data = exlist[position]
 
         holder.text.text = data.text
-        holder.img.setImageResource(data.img)
+        Glide.with(context)
+            .load(data.img)
+            .override(300, 300)
+            .centerCrop()
+            .apply(
+                RequestOptions.diskCacheStrategyOf(DiskCacheStrategy.RESOURCE)
+                .error(R.drawable.keyboard_arrow_down))
+            .into(holder.img)
+
         holder.itemView.setOnClickListener{
-//            Toast.makeText(context,"Clicked on : "+ position,Toast.LENGTH_SHORT).show()
 
             when(position) {
                 0 -> {

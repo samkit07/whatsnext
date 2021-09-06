@@ -44,7 +44,7 @@ class Fragment2_5 : Fragment() {
         listviewAd = EListAdapter2(context as MainActivity, courses.data[4].degree, degreeMap)
         expandView = view.findViewById(R.id.expandlist2_5)
         expandView.setAdapter(listviewAd)
-
+        expandView.setGroupIndicator(null)
         return view
 
     }

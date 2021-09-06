@@ -32,26 +32,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun getData():ArrayList<CustomGridView>{
-
-        val list=ArrayList<CustomGridView>()
-
-        val model1 = CustomGridView("After 10th",R.drawable.logo)
-        list.add(model1)
-        val model2 = CustomGridView("Talent Tests",R.drawable.logo)
-        list.add(model2)
-        val model3 = CustomGridView("After Intermediate",R.drawable.logo)
-        list.add(model3)
-        val model4 = CustomGridView("Exams After Intermediate",R.drawable.logo)
-        list.add(model4)
-        val model5 = CustomGridView("After Graduation",R.drawable.logo)
-        list.add(model5)
-        val model6 = CustomGridView("Courses Overview",R.drawable.logo)
-        list.add(model6)
-
-        return list
-    }
-
 
     fun loadJson(context: Context, filename: String): String? {
 

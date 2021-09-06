@@ -62,7 +62,6 @@ class EListAdapter1 internal constructor(
     ): View? {
 
         var convertview = convertView
-
         val parentgroup = getGroup(groupPosition) as Model1
 
         if (convertview == null) {
@@ -72,13 +71,21 @@ class EListAdapter1 internal constructor(
             convertview = inflater.inflate(R.layout.parent1, null)
         }
 
+        val iconId : Int = 0
+        var expandableGroupResId : Int = 0
+
+        if (getChildrenCount(groupPosition) > 0) {
+            expandableGroupResId = if (isExpanded) R.drawable.keyboard_arrow_up;
+            else R.drawable.keyboard_arrow_down;
+        }
 
         val ptextview1_1 = convertview!!.findViewById<TextView>(R.id.ptextview1_2)
         val ptextview2_1 = convertview.findViewById<TextView>(R.id.ptextview2_1)
         val ptextview3_1 = convertview.findViewById<TextView>(R.id.ptextview3_1)
-//        val ptextview4_1 = convertView!!.findViewById<TextView>(R.id.ptextview4_1)
 
-//        val ptextview4_1 = convertView!!.findViewById<TextView>(R.id.l)
+        ptextview1_1.setCompoundDrawablesWithIntrinsicBounds(iconId, 0, expandableGroupResId, 0)
+//        ptextview2_1.setCompoundDrawablesWithIntrinsicBounds(iconId, 0, expandableGroupResId, 0)
+//        ptextview3_1.setCompoundDrawablesWithIntrinsicBounds(iconId, 0, expandableGroupResId, 0)
 
         ptextview1_1.text = parentgroup.name
         ptextview2_1.text = "Duration - ${parentgroup.duration}"
@@ -87,28 +94,18 @@ class EListAdapter1 internal constructor(
 
         if(parentgroup.examinations.isNotEmpty()) {
 
-            ptextview3_1.text = "Exams \n \n ${parentgroup.examinations.toString().replace(",","\n")
-                .replace("[","").replace("]","")}"
-//            ptextview3_1_1.text = parentgroup.examinations.toString()
+            val str = "Exams \n \n ${parentgroup.examinations.toString()
+                .replace(",","\n")
+                .replace("[","")
+                .replace("]","")}"
 
+            ptextview3_1.text = str
             ptextview3_1.visibility = View.VISIBLE
 
         }
-
-//            .toString().replace("[", "")
-//            .replace("]", "").replace(",", "\n")
-
-
         ptextview2_1.visibility = View.VISIBLE
-//        ptextview3_1.visibility = View.VISIBLE
-//        ptextview3_1_1.visibility = View.VISIBLE
-//        prelativelayout_1.visibility = View.VISIBLE
-//        ptextview4_1.visibility = View.VISIBLE
 
         if (ptextview2_1.text == "") ptextview2_1.visibility = View.GONE
-
-//        if (ptextview4_1.text == "") ptextview4_1.visibility = View.GONE
-
 
         return convertview
     }
@@ -122,21 +119,18 @@ class EListAdapter1 internal constructor(
     ): View {
 
         var convertview = convertView
-
         val textview1_2Title = getChild(groupPosition, childPosition) as Fields
 
         if (convertview == null) {
 
-            val inflater =
-                context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+            val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             convertview = inflater.inflate(R.layout.child1, null)
         }
 
         val ctextview1_2 = convertview!!.findViewById<TextView>(R.id.ctextview1_1)
         var ctextview2_2 = convertview.findViewById<TextView>(R.id.ctextview2_1)
-//        var prelative = convertView!!.findViewById<RelativeLayout>(R.id.prelative)
 
-        ctextview1_2.setText(textview1_2Title.name)
+        ctextview1_2.text = textview1_2Title.name
 
         if (textview1_2Title.subFields.toString() != "[]") {
 
@@ -146,65 +140,11 @@ class EListAdapter1 internal constructor(
         } else ctextview1_2.setCompoundDrawablesWithIntrinsicBounds(null, null, null, null);
 
         var isexpandable: Boolean = textview1_2Title.expandable
-        ctextview2_2.setVisibility(View.GONE)
+        ctextview2_2.visibility = View.GONE
 
         ctextview1_2.setOnClickListener {
-
             isexpandable = !isexpandable
-
-            if (isexpandable) {
-
-                if (textview1_2Title.subFields.toString() == "[]") {
-                    ctextview1_2.setCompoundDrawablesWithIntrinsicBounds(
-                        null,
-                        null,
-                        null,
-                        null
-                    )
-                    ctextview2_2.setVisibility(View.GONE)
-
-                } else {
-
-                    val rightDrawable: Drawable? = AppCompatResources
-                        .getDrawable(context, R.drawable.keyboard_arrow_up)
-                    ctextview1_2.setCompoundDrawablesWithIntrinsicBounds(
-                        null,
-                        null,
-                        rightDrawable,
-                        null
-                    )
-
-                    ctextview2_2.setVisibility(View.VISIBLE)
-                    ctextview2_2.setText(
-                        textview1_2Title.subFields.toString().replace("[", "")
-                            .replace("]", "")
-                    )
-                }
-            } else {
-
-                if (textview1_2Title.subFields.toString() == "[]") {
-                    ctextview1_2.setCompoundDrawablesWithIntrinsicBounds(
-                        null,
-                        null,
-                        null,
-                        null
-                    )
-                } else {
-
-                    ctextview2_2.setVisibility(View.GONE)
-                    val rightDrawable: Drawable? = AppCompatResources
-                        .getDrawable(context, R.drawable.keyboard_arrow_down);
-                    ctextview1_2.setCompoundDrawablesWithIntrinsicBounds(
-                        null,
-                        null,
-                        rightDrawable,
-                        null
-                    );
-
-                }
-
-
-            }
+            subfieldsView(ctextview1_2, ctextview2_2, textview1_2Title, convertview, isexpandable)
         }
 
         return convertview
@@ -214,6 +154,67 @@ class EListAdapter1 internal constructor(
 
         return true
     }
+
+
+    private fun subfieldsView(ctextview1_2: TextView, ctextview2_2: TextView, textview1_2Title: Fields, convertview : View, isexpandable : Boolean){
+
+
+        if (isexpandable) {
+
+            if (textview1_2Title.subFields.toString() == "[]") {
+                ctextview1_2.setCompoundDrawablesWithIntrinsicBounds(
+                    null,
+                    null,
+                    null,
+                    null
+                )
+                ctextview2_2.setVisibility(View.GONE)
+
+            } else {
+
+                val rightDrawable: Drawable? = AppCompatResources
+                    .getDrawable(context, R.drawable.keyboard_arrow_up)
+                ctextview1_2.setCompoundDrawablesWithIntrinsicBounds(
+                    null,
+                    null,
+                    rightDrawable,
+                    null
+                )
+
+                ctextview2_2.setVisibility(View.VISIBLE)
+                ctextview2_2.setText(
+                    textview1_2Title.subFields.toString().replace("[", "")
+                        .replace("]", "")
+                )
+            }
+        } else {
+
+            if (textview1_2Title.subFields.toString() == "[]") {
+                ctextview1_2.setCompoundDrawablesWithIntrinsicBounds(
+                    null,
+                    null,
+                    null,
+                    null
+                )
+            } else {
+
+                ctextview2_2.visibility = View.GONE
+                val rightDrawable: Drawable? = AppCompatResources
+                    .getDrawable(context, R.drawable.keyboard_arrow_down);
+                ctextview1_2.setCompoundDrawablesWithIntrinsicBounds(
+                    null,
+                    null,
+                    rightDrawable,
+                    null
+                )
+
+            }
+
+        }
+
+    }
+
+
 
 
 }

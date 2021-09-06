@@ -1,28 +1,20 @@
 package com.example.whatnext.page2
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
-import android.widget.ExpandableListView
-import android.widget.TextView
 import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.practice2.EListAdapter1
-import com.example.whatnext.GridRecyclerAdapter
+import com.bumptech.glide.Glide
 import com.example.whatnext.GridRecyclerAdapter1
 import com.example.whatnext.MainActivity
 import com.example.whatnext.R
 //import com.example.whatnext.com.example.whatnext.page2.EListAdapter2
 import com.google.gson.Gson
 import models.*
-import java.io.InputStream
-import java.text.ParsePosition
 
 class WhatAfter12th : Fragment() {
 
@@ -128,6 +120,8 @@ class WhatAfter12th : Fragment() {
 //            ft.commit()
 //        }
 
+
+
         return view
 
     }
@@ -135,17 +129,17 @@ class WhatAfter12th : Fragment() {
     private fun getData():ArrayList<CustomGridView>{
         val list=ArrayList<CustomGridView>()
 
-        val model1 = CustomGridView("Engineering",R.drawable.logo)
+        val model1 = CustomGridView("Engineering", "https://images.unsplash.com/photo-1592659762303-90081d34b277")
         list.add(model1)
-        val model2 = CustomGridView("Medical",R.drawable.logo)
+        val model2 = CustomGridView("Medical", "https://images.unsplash.com/photo-1576091160550-2173dba999ef")
         list.add(model2)
-        val model3 = CustomGridView("Degree",R.drawable.logo)
+        val model3 = CustomGridView("Degree", "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8")
         list.add(model3)
-        val model4 = CustomGridView("NDA",R.drawable.logo)
+        val model4 = CustomGridView("NDA", "https://images.unsplash.com/photo-1534724364725-325f10a8e182")
         list.add(model4)
-        val model5 = CustomGridView("Teaching",R.drawable.logo)
+        val model5 = CustomGridView("Teaching", "https://images.unsplash.com/photo-1573166364524-d9dbfd8bbf83")
         list.add(model5)
-        val model6 = CustomGridView("Others",R.drawable.logo)
+        val model6 = CustomGridView("Others", "https://images.unsplash.com/photo-1495446815901-a7297e633e8d")
         list.add(model6)
 
         return list
