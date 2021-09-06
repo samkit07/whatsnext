@@ -6,12 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ExpandableListView
-import com.example.practice2.EListAdapter10
 import com.example.whatnext.MainActivity
 import com.example.whatnext.R
 import com.google.gson.Gson
 import models.*
-import java.io.InputStream
 
 class CoursesOverview : Fragment() {
 

@@ -7,12 +7,14 @@
         android:id="@+id/ptextview1_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Name"
-        android:gravity="start"
+        android:background="#F9E4B7"
         android:clipToPadding="false"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="start"
+        android:padding="8dp"
+        android:text="Name"
         android:textColor="@color/black"
-        android:textSize="28sp"
-        android:layout_margin="8dp"
-        android:textStyle="bold" />
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
 
 </RelativeLayout>

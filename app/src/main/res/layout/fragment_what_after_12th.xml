@@ -5,46 +5,119 @@
     android:layout_height="match_parent"
     tools:context=".page2.WhatAfter12th">
 
-<!--    <include layout="@layout/parent1_2"-->
-<!--        android:id="@+id/include1_2"/>-->
-
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycle1_2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:listitem="@layout/card1_2"
-        android:orientation="vertical"/>
-
 
 <!--    <RelativeLayout-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="match_parent"-->
-<!--        android:layout_below="@+id/recycle1_2">-->
+<!--        android:layout_marginLeft="40dp">-->
 
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
+<!--        <Button-->
+<!--            android:id="@+id/fpage2_1"-->
+<!--            android:layout_width="300dp"-->
 <!--            android:layout_height="wrap_content"-->
-<!--            android:orientation="vertical"-->
-<!--            android:nestedScrollingEnabled="true">-->
+<!--            android:layout_marginTop="100dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="Engineering"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
 
-<!--            <ListView-->
-<!--                android:id="@+id/ptextview5_2"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="0dp"-->
-<!--                android:layout_marginStart="8dp"-->
-<!--                android:layout_marginEnd="8dp"-->
-<!--                android:layout_marginBottom="8dp"-->
-<!--                android:layout_weight="1"-->
-<!--                android:padding="8dp"-->
-<!--                android:text="Fields"-->
-<!--                android:textAlignment="textStart"-->
-<!--                android:textSize="18sp"-->
-<!--                android:textStyle="bold"-->
-<!--                android:verticalScrollbarPosition="right"-->
-<!--                />-->
-<!--        </LinearLayout>-->
+<!--        <Button-->
+<!--            android:id="@+id/fpage2_2"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="170dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="Medical"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/fpage2_3"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="240dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="Degree"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/fpage2_4"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="310dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="NDA"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/fpage2_5"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="380dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="Teaching"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/fpage2_6"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="450dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="Others"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+<!--&lt;!&ndash;    <include layout="@layout/parent1_2"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/include1_2"/>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;    <androidx.recyclerview.widget.RecyclerView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/recycle1_2"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        tools:listitem="@layout/card1_2"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:orientation="vertical"/>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;    <RelativeLayout&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_below="@+id/recycle1_2">&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:orientation="vertical"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:nestedScrollingEnabled="true">&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <ListView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/ptextview5_2"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginStart="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginEnd="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginBottom="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:padding="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:text="Fields"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textAlignment="textStart"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textSize="18sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:verticalScrollbarPosition="right"&ndash;&gt;-->
+<!--&lt;!&ndash;                />&ndash;&gt;-->
+<!--&lt;!&ndash;        </LinearLayout>&ndash;&gt;-->
+<!--&lt;!&ndash;    </RelativeLayout>&ndash;&gt;-->
+
 <!--    </RelativeLayout>-->
-
 
 </RelativeLayout>

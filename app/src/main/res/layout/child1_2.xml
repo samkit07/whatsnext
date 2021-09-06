@@ -2,66 +2,69 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/child1_2"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="4dp"
-    android:layout_marginEnd="4dp"
-    android:layout_marginBottom="4dp">
+    android:layout_height="wrap_content">
 
     <RelativeLayout
         android:id="@+id/relative1_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#41E2F6">
+        android:layout_margin="4dp"
+        android:layout_marginTop="6dp"
+        android:background="#026C6C">
 
         <TextView
             android:id="@+id/ptextview1_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#A9E6AB"
-            android:paddingStart="12dp"
+            android:background="#F9E4B7"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="14dp"
             android:paddingTop="8dp"
             android:paddingEnd="8dp"
             android:paddingBottom="8dp"
             android:text="Name"
             android:textAlignment="textStart"
             android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textSize="22sp"
+            android:textStyle="bold|italic" />
 
         <LinearLayout
             android:id="@+id/linear1_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/ptextview1_4"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="4dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Type:"
-            android:textColor="@color/purple_500"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Type:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
-        <TextView
-            android:id="@+id/ptextview2_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginBottom="4dp"
-            android:padding="8dp"
-            android:layout_weight="1"
-            android:text="Type"
-            android:textAlignment="textStart"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ptextview2_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Type"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
         </LinearLayout>
 
@@ -70,70 +73,76 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/linear1_4"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="4dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Purpose:"
-            android:textColor="@color/purple_500"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Purpose:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
-        <TextView
-            android:id="@+id/ptextview3_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:padding="8dp"
-            android:text="Purpose"
-            android:textAlignment="textStart"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ptextview3_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Purpose"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
         </LinearLayout>
 
         <LinearLayout
-        android:id="@+id/linear3_4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linear2_4"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="ApplicationMode:"
-            android:textColor="@color/purple_500"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
-
-        <TextView
-            android:id="@+id/ptextview4_4"
+            android:id="@+id/linear3_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/ptextview3_4"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:text="applicationMode"
-            android:textAlignment="textStart"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:layout_below="@+id/linear2_4"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="ApplicationMode:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/ptextview4_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ptextview3_4"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="applicationMode"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
         </LinearLayout>
 
         <LinearLayout
@@ -141,34 +150,38 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/linear3_4"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="4dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Duration:"
-            android:textColor="@color/purple_500"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
-        <TextView
-            android:id="@+id/ptextview5_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/ptextview4_4"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:text="Duration"
-            android:textAlignment="textStart"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Duration:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/ptextview5_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ptextview4_4"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Duration"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
         </LinearLayout>
 
@@ -177,34 +190,40 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/linear4_4"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="4dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Website:"
-            android:textColor="@color/purple_500"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
-        <TextView
-            android:id="@+id/ptextview6_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/ptextview5_4"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:text="Website"
-            android:textAlignment="textStart"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Website:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/ptextview6_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ptextview5_4"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
+                android:autoLink="web"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Website"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textColorLink="#0000FF"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
         </LinearLayout>
 
@@ -213,34 +232,38 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/linear5_4"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="4dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Eligibility:"
-            android:textColor="@color/purple_500"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
-        <TextView
-            android:id="@+id/ptextview7_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/ptextview6_4"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:text="Eligibility"
-            android:textAlignment="textStart"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Eligibility:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/ptextview7_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ptextview6_4"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Eligibility"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
         </LinearLayout>
 
         <LinearLayout
@@ -248,34 +271,38 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/linear6_4"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="4dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Mode of Selection:"
-            android:textColor="@color/purple_500"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
-        <TextView
-            android:id="@+id/ptextview8_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/ptextview7_4"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:text="Mode of Selection"
-            android:textAlignment="textStart"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Mode of Selection:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/ptextview8_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ptextview7_4"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Mode of Selection"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
         </LinearLayout>
 
@@ -284,19 +311,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/linear7_4"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="4dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Conducted By:"
-            android:textColor="@color/purple_500"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Conducted By:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
             <TextView
                 android:id="@+id/ptextview9_4"
@@ -307,12 +336,13 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="8dp"
-                android:padding="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
                 android:text="Conducted By"
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textSize="20sp"
+                android:textStyle="normal" />
         </LinearLayout>
 
         <LinearLayout
@@ -320,34 +350,38 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/linear8_4"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="4dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="ApplicationFor:"
-            android:textColor="@color/purple_500"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
-        <TextView
-            android:id="@+id/ptextview10_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/ptextview10_4"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:text="application For"
-            android:textAlignment="textStart"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="ApplicationFor:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/ptextview10_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ptextview10_4"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="application For"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
         </LinearLayout>
 
@@ -356,71 +390,77 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/linear9_4"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="4dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="NotificationMonth:"
-            android:textColor="@color/purple_500"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="NotificationMonth:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
-        <TextView
-            android:id="@+id/ptextview11_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/ptextview10_4"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:text="notification month"
-            android:textAlignment="textStart"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ptextview11_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ptextview10_4"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="notification month"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
         </LinearLayout>
-
 
         <LinearLayout
             android:id="@+id/linear11_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/linear10_4"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="4dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Activity:"
-            android:textColor="@color/purple_500"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
-        <TextView
-            android:id="@+id/ptextview12_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/ptextview11_4"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:text="Activity"
-            android:textAlignment="textStart"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Activity:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/ptextview12_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ptextview11_4"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Activity"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
         </LinearLayout>
 
@@ -429,43 +469,48 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/linear11_4"
-            android:orientation="horizontal">
+            android:clipToPadding="true"
+            android:orientation="horizontal"
+            android:padding="4dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Schools:"
-            android:textColor="@color/purple_500"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
-            android:padding="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="4dp"
+                android:text="Schools:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
             <TextView
                 android:id="@+id/ptextview13_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/ptextview13_1_4"
-                android:layout_marginTop="4dp"
                 android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
+                android:fontFamily="@font/roboto_medium"
                 android:lineSpacingExtra="10sp"
+                android:padding="4dp"
                 android:paddingLeft="8dp"
-                android:paddingEnd="8dp"
                 android:paddingTop="8dp"
+                android:paddingEnd="8dp"
                 android:paddingBottom="8dp"
                 android:text="Schools"
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
         </LinearLayout>
 
-
-
     </RelativeLayout>
+
+
 </androidx.cardview.widget.CardView>

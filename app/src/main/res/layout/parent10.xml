@@ -7,15 +7,14 @@
         android:id="@+id/ptextview1_10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="12dp"
+        android:background="#F9E4B7"
+        android:fontFamily="@font/roboto_medium"
         android:layoutDirection="rtl"
         android:padding="8dp"
         android:text="Page1"
         android:textAlignment="textStart"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
 
 </RelativeLayout>

@@ -23,7 +23,7 @@ class UserAdapter9(val exlist :ArrayList<Model9>) : RecyclerView.Adapter<UserAda
         val item = exlist[position]
 
         holder.test.text = item.test
-        holder.eligibility.text = item.eligibilty
+        holder.eligibility.text = item.eligibility
         holder.syllabus.text = item.syllabus
         holder.website.text = item.website
 

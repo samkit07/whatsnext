@@ -35,9 +35,7 @@ class UserAdapter2_2(val exlist: ArrayList<Model4_5_6>) :
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = exlist[position]
 
-
         putData(holder, item)
-
 
     }
 
@@ -61,8 +59,21 @@ class UserAdapter2_2(val exlist: ArrayList<Model4_5_6>) :
         val ptextview12_4 = view.findViewById<TextView>(R.id.ptextview12_4)
         val ptextview13_4 = view.findViewById<TextView>(R.id.ptextview13_4)
 
-    }
 
+        val linear1_4 = view.findViewById<LinearLayout>(R.id.linear1_4)
+        val linear2_4 = view.findViewById<LinearLayout>(R.id.linear2_4)
+        val linear3_4 = view.findViewById<LinearLayout>(R.id.linear3_4)
+        val linear4_4 = view.findViewById<LinearLayout>(R.id.linear4_4)
+        val linear5_4 = view.findViewById<LinearLayout>(R.id.linear5_4)
+        val linear6_4 = view.findViewById<LinearLayout>(R.id.linear6_4)
+        val linear7_4 = view.findViewById<LinearLayout>(R.id.linear7_4)
+        val linear8_4 = view.findViewById<LinearLayout>(R.id.linear8_4)
+        val linear9_4 = view.findViewById<LinearLayout>(R.id.linear9_4)
+        val linear10_4 = view.findViewById<LinearLayout>(R.id.linear10_4)
+        val linear11_4 = view.findViewById<LinearLayout>(R.id.linear11_4)
+        val linear12_4 = view.findViewById<LinearLayout>(R.id.linear12_4)
+
+    }
 
     private fun putData(holder: ViewHolder, item: Model4_5_6) {
 
@@ -91,20 +102,18 @@ class UserAdapter2_2(val exlist: ArrayList<Model4_5_6>) :
     private fun setDisplay(holder: ViewHolder, item: Model4_5_6) {
 
         holder.ptextview1_4.visibility = if (item.name == "") View.GONE else View.VISIBLE
-        holder.ptextview2_4.visibility = if (item.type == "") View.GONE else View.VISIBLE
-        holder.ptextview3_4.visibility = if (item.purpose == "") View.GONE else View.VISIBLE
-        holder.ptextview4_4.visibility = if (item.applicationMode == "") View.GONE else View.VISIBLE
-        holder.ptextview5_4.visibility = if (item.duration == "") View.GONE else View.VISIBLE
-        holder.ptextview6_4.visibility = if (item.website == "") View.GONE else View.VISIBLE
-        holder.ptextview7_4.visibility = if (item.eligibility == "") View.GONE else View.VISIBLE
-        holder.ptextview8_4.visibility = if (item.modeOfSelection == "") View.GONE else View.VISIBLE
-        holder.ptextview9_4.visibility = if (item.conductedBy == "") View.GONE else View.VISIBLE
-        holder.ptextview10_4.visibility = if (item.applicationFor == "") View.GONE else View.VISIBLE
-        holder.ptextview11_4.visibility = if (item.notificationMonth == "") View.GONE else View.VISIBLE
-        holder.ptextview12_4.visibility = if (item.activity == "") View.GONE else View.VISIBLE
-
-        holder.ptextview13_4.visibility = if (item.activity == "") View.GONE else View.VISIBLE
-
+        holder.linear1_4.visibility = if (item.type == "") View.GONE else View.VISIBLE
+        holder.linear2_4.visibility = if (item.purpose == "") View.GONE else View.VISIBLE
+        holder.linear3_4.visibility = if (item.applicationMode == "") View.GONE else View.VISIBLE
+        holder.linear4_4.visibility = if (item.duration == "") View.GONE else View.VISIBLE
+        holder.linear5_4.visibility = if (item.website == "") View.GONE else View.VISIBLE
+        holder.linear6_4.visibility = if (item.eligibility == "") View.GONE else View.VISIBLE
+        holder.linear7_4.visibility = if (item.modeOfSelection == "") View.GONE else View.VISIBLE
+        holder.linear8_4.visibility = if (item.conductedBy == "") View.GONE else View.VISIBLE
+        holder.linear9_4.visibility = if (item.applicationFor == "") View.GONE else View.VISIBLE
+        holder.linear10_4.visibility = if (item.notificationMonth == "") View.GONE else View.VISIBLE
+        holder.linear11_4.visibility = if (item.activity == "") View.GONE else View.VISIBLE
+        holder.linear12_4.visibility = if (item.schools.toString() == "[]") View.GONE else View.VISIBLE
 
     }
 }

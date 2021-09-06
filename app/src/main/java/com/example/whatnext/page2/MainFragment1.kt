@@ -19,7 +19,13 @@ class MainFragment1 : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        getActivity()?.setTitle("What After 12th?");
+    }
 
+    override fun onStop() {
+        super.onStop()
+
+        getActivity()?.setTitle("What After 12th?");
     }
 
     override fun onCreateView(

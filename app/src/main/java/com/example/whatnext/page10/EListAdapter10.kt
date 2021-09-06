@@ -1,4 +1,4 @@
-package com.example.practice2
+package com.example.whatnext.page10
 
 import android.content.Context
 import android.view.LayoutInflater

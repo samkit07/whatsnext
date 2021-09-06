@@ -19,13 +19,13 @@ class WhatAfter12th_1 : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-        getActivity()?.setTitle("Exams After 12th");
+        activity?.title = "Exams After 12th";
     }
 
     override fun onStop() {
         super.onStop()
 
-        getActivity()?.setTitle("What After 12th?");
+        activity?.title = "What After 12th?";
     }
 
     override fun onCreateView(
@@ -39,9 +39,9 @@ class WhatAfter12th_1 : Fragment() {
             ListModel4_5_6::class.java)
 
 //
-//        val arr : ArrayList<Model2> = ArrayList()
+//        val arr : ArrayList<models.Model2> = ArrayList()
 //
-//        var examsMap : HashMap<Model2,List<Examinations2>> = HashMap()
+//        var examsMap : HashMap<models.Model2,List<Examinations2>> = HashMap()
 //
 //        for(i in 0 until courses.data.size){
 //
@@ -57,7 +57,6 @@ class WhatAfter12th_1 : Fragment() {
 
         val rv =  view?.findViewById<RecyclerView>(R.id.recycle2_2)
         rv?.layoutManager = LinearLayoutManager(context, RecyclerView.VERTICAL, false)
-
         rv?.adapter = UserAdapter2_2(courses.data)
 
 //        view.findViewById<ExpandableListView>(R.id.elistview1_2).setGroupIndicator(null)

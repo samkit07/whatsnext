@@ -1,69 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainfragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainFragment"
     android:gravity="center"
-    android:id="@+id/mainfragment">
+    android:background="#F9E4B7"
+    tools:context=".MainFragment">
 
-    <TextView
-        android:id="@+id/after10th"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvUsersList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:onClick="onClick"
-        android:text="What next after 10th"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+        tools:listitem="@layout/grid_layout" />
 
-    <TextView
-        android:id="@+id/after12th"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/after10th"
-        android:gravity="center"
-        android:onClick="onClick"
-        android:text="What next after 12th"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/after10th"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:gravity="center"-->
+    <!--        android:onClick="onClick"-->
+    <!--        android:text="What next after 10th"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:textStyle="bold|italic" />-->
 
-    <TextView
-        android:id="@+id/aftergrad"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/after12th"
-        android:gravity="center"
-        android:text="What next after graduation"
-        android:textColor="@color/black"
-        android:onClick="onClick"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/after12th"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/after10th"-->
+    <!--        android:gravity="center"-->
+    <!--        android:onClick="onClick"-->
+    <!--        android:text="What next after 12th"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:textStyle="bold|italic" />-->
 
-    <TextView
-        android:id="@+id/talenttests"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/aftergrad"
-        android:gravity="center"
-        android:onClick="onClick"
-        android:text="Talent tests"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/aftergrad"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/after12th"-->
+    <!--        android:gravity="center"-->
+    <!--        android:onClick="onClick"-->
+    <!--        android:text="What next after graduation"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:textStyle="bold|italic" />-->
 
-    <TextView
-        android:id="@+id/coursesoverview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/talenttests"
-        android:gravity="center"
-        android:onClick="onClick"
-        android:text="Courses Overview"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/talenttests"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/aftergrad"-->
+    <!--        android:gravity="center"-->
+    <!--        android:onClick="onClick"-->
+    <!--        android:text="Talent tests"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:textStyle="bold|italic" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/coursesoverview"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/talenttests"-->
+    <!--        android:gravity="center"-->
+    <!--        android:onClick="onClick"-->
+    <!--        android:text="Courses Overview"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:textStyle="bold|italic" />-->
 
 </RelativeLayout>

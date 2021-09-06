@@ -8,8 +8,14 @@
         android:id="@+id/ctextview1_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#026C6C"
+        android:clipToPadding="false"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="start"
+        android:padding="8dp"
         android:text="Courses"
+        android:textColor="@color/black"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="normal" />
 
 </RelativeLayout>

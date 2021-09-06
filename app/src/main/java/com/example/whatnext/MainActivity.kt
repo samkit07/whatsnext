@@ -2,40 +2,56 @@ package com.example.whatnext;
 
 
 import android.content.Context
-import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.AlarmClock.EXTRA_MESSAGE
-import android.view.View
-import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
-import com.example.whatnext.page1.WhatAfter10th
-import com.example.whatnext.page10.CoursesOverview
-import com.example.whatnext.page2.WhatAfter12th
-import com.example.whatnext.page2.Engineering
-import com.example.whatnext.page3.WhatAfterGrad
-import com.example.whatnext.page9.TalentTests
+import models.CustomGridView
 import java.io.InputStream
-import android.app.Application
-import android.text.method.ScrollingMovementMethod
-import android.widget.TextView
-import com.example.whatnext.page2.MainFragment1
 
 
 class MainActivity : AppCompatActivity() {
+
     lateinit var ft: FragmentTransaction
+    lateinit var fm: FragmentManager
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#003153")))
         setContentView(R.layout.activity_main)
-        ft = supportFragmentManager.beginTransaction()
+
+//        val fm = supportFragmentManager.findFragmentById(R.id.mainfragment)
+
+        fm = supportFragmentManager
+        ft = fm.beginTransaction()
         ft.replace(R.id.wrapper, MainFragment())
         ft.commit()
 
-
     }
+
+    fun getData():ArrayList<CustomGridView>{
+
+        val list=ArrayList<CustomGridView>()
+
+        val model1 = CustomGridView("After 10th",R.drawable.logo)
+        list.add(model1)
+        val model2 = CustomGridView("Talent Tests",R.drawable.logo)
+        list.add(model2)
+        val model3 = CustomGridView("After Intermediate",R.drawable.logo)
+        list.add(model3)
+        val model4 = CustomGridView("Exams After Intermediate",R.drawable.logo)
+        list.add(model4)
+        val model5 = CustomGridView("After Graduation",R.drawable.logo)
+        list.add(model5)
+        val model6 = CustomGridView("Courses Overview",R.drawable.logo)
+        list.add(model6)
+
+        return list
+    }
+
 
     fun loadJson(context: Context, filename: String): String? {
 
@@ -57,51 +73,48 @@ class MainActivity : AppCompatActivity() {
         return null
     }
 
-
-
-    fun onClick(v: View) {
-        when (v.id) {
-
-            R.id.after10th -> {
-                ft = supportFragmentManager.beginTransaction()
-                ft.replace(R.id.wrapper, WhatAfter10th())
-                ft.addToBackStack(null)
-                ft.commit()
-            }
-            R.id.after12th -> {
-
-//                val intent = Intent(this, AWhatAfter12th::class.java)
-//                startActivity(intent)
-//                supportActionBar?.setTitle("What after 12th")
-                ft = supportFragmentManager.beginTransaction()
-                ft.replace(R.id.wrapper, MainFragment1())
-                ft.addToBackStack(null)
-                ft.commit();
-            }
-            R.id.aftergrad -> {
-//            supportActionBar?.setTitle("What after Graduation")
-                ft = supportFragmentManager.beginTransaction()
-                ft.replace(R.id.wrapper, WhatAfterGrad())
-                ft.addToBackStack(null)
-                ft.commit();
-            }
-            R.id.talenttests -> {
-
-                ft = supportFragmentManager.beginTransaction()
-                ft.replace(R.id.wrapper, TalentTests())
-                ft.addToBackStack(null)
-                ft.commit();
-            }
-
-            R.id.coursesoverview -> {
-                ft = supportFragmentManager.beginTransaction()
-                ft.replace(R.id.wrapper, CoursesOverview())
-                ft.addToBackStack(null)
-                ft.commit();
-            }
-        }
-
-    }
+//    fun onClick(v: View) {
+//        when (v.id) {
+//
+//            R.id.after10th -> {
+//                ft = supportFragmentManager.beginTransaction()
+//                ft.replace(R.id.wrapper, WhatAfter10th())
+//                ft.addToBackStack(null)
+//                ft.commit()
+//            }
+//            R.id.after12th -> {
+//
+////                val intent = Intent(this, AWhatAfter12th::class.java)
+////                startActivity(intent)
+////                supportActionBar?.setTitle("What after 12th")
+//                ft = supportFragmentManager.beginTransaction()
+//                ft.replace(R.id.wrapper, MainFragment1())
+//                ft.addToBackStack(null)
+//                ft.commit();
+//            }
+//            R.id.aftergrad -> {
+//                ft = supportFragmentManager.beginTransaction()
+//                ft.replace(R.id.wrapper, WhatAfterGrad())
+//                ft.addToBackStack(null)
+//                ft.commit();
+//            }
+//            R.id.talenttests -> {
+//
+//                ft = supportFragmentManager.beginTransaction()
+//                ft.replace(R.id.wrapper, TalentTests())
+//                ft.addToBackStack(null)
+//                ft.commit();
+//            }
+//
+//            R.id.coursesoverview -> {
+//                ft = supportFragmentManager.beginTransaction()
+//                ft.replace(R.id.wrapper, CoursesOverview())
+//                ft.addToBackStack(null)
+//                ft.commit();
+//            }
+//        }
+//
+//    }
 }
 
 

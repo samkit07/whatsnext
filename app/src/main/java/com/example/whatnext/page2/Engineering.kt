@@ -31,9 +31,9 @@ class Engineering : Fragment() {
 
         val view : View = inflater.inflate(R.layout.fragment_what_after_12th, container, false)
 
-//        val arr : ArrayList<Model2> = ArrayList()
+//        val arr : ArrayList<models.Model2> = ArrayList()
 
-//        var examsMap : HashMap<Model2,List<Examinations2>> = HashMap()
+//        var examsMap : HashMap<models.Model2,List<Examinations2>> = HashMap()
 //
 //        for(i in 0 until courses.data.size){
 //

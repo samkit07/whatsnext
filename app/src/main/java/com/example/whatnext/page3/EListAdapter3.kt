@@ -2,6 +2,7 @@ package com.example.whatnext.page3
 
 import android.content.Context
 import android.graphics.Color
+import android.graphics.Color.parseColor
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -86,9 +87,9 @@ class EListAdapter3 internal constructor(private val context: Context,
 
         ctextview1_3.text = childgroup
 
-        if(childgroup == "Job") ctextview1_3.setBackgroundColor(Color.LTGRAY)
+        if(childgroup == "Job") ctextview1_3.setBackgroundColor(parseColor("#58A25D"))
 
-        else ctextview1_3.setBackgroundColor(Color.CYAN)
+        else ctextview1_3.setBackgroundColor(parseColor("#026C6C"))
 
         return convertView
     }

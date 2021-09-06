@@ -9,7 +9,7 @@
         android:id="@+id/recycle2_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:listitem="@layout/child1_2"
-        android:orientation="vertical"/>
+        android:orientation="vertical"
+        tools:listitem="@layout/child1_2" />
 
 </FrameLayout>

@@ -10,13 +10,12 @@ class ListModel9 {
 
 class Model9{
 
-
     @SerializedName("srNo")
     val srNo:Int=0
     @SerializedName("test")
     val test:String=""
-    @SerializedName("eligibilty")
-    val eligibilty:String=""
+    @SerializedName("eligibility")
+    val eligibility:String=""
     @SerializedName("syllabus")
     val syllabus:String=""
     @SerializedName("website")
