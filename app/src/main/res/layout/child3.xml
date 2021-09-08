@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
-        android:background="#026C6C"
+        android:background="@drawable/gradientcolour"
         android:clipToPadding="false"
         android:fontFamily="@font/roboto_medium"
         android:gravity="start"

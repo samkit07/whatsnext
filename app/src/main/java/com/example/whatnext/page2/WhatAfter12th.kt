@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.example.whatnext.GridRecyclerAdapter1
 import com.example.whatnext.MainActivity
 import com.example.whatnext.R

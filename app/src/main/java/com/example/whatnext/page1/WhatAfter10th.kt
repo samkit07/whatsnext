@@ -1,6 +1,5 @@
 package com.example.whatnext.page1
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -15,7 +14,6 @@ import com.google.gson.Gson
 import models.Fields
 import models.ListModel1
 import models.Model1
-import java.io.InputStream
 
 class WhatAfter10th : Fragment() {
 

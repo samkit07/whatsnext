@@ -6,17 +6,17 @@
     android:clickable="true">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         app:cardCornerRadius="10sp">
 
         <RelativeLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <LinearLayout
                 android:id="@+id/lineargridimg"
@@ -26,8 +26,8 @@
 
                 <ImageView
                     android:id="@+id/gridimg"
-                    android:layout_width="300dp"
-                    android:layout_height="300dp"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
                     android:scaleType="fitXY" />
             </LinearLayout>
 
@@ -44,7 +44,7 @@
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="22sp"
-                android:textStyle="bold|italic"  />
+                android:textStyle="bold|italic" />
 
 
         </RelativeLayout>

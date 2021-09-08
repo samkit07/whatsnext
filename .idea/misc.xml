@@ -8,6 +8,7 @@
         <entry key="../../Android/Sdk/platforms/android-30/data/res/layout/simple_list_item_2.xml" value="0.10416666666666667" />
         <entry key="app/src/main/res/drawable/bg_gradient.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/gradientcolor.xml" value="0.1046875" />
+        <entry key="app/src/main/res/drawable/gradientcolour.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.16203703703703703" />
         <entry key="app/src/main/res/drawable/keyboard_arrow_down.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/keyboard_arrow_up.xml" value="0.1" />
@@ -54,7 +55,7 @@
         <entry key="app/src/main/res/layout/fragment_talent_tests.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_talent_tests_1.xml" value="0.2949640287769784" />
         <entry key="app/src/main/res/layout/fragment_what_after12th_1.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/fragment_what_after_10th.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_what_after_10th.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_what_after_12th.xml" value="0.2752808988764045" />
         <entry key="app/src/main/res/layout/fragment_what_after_grad.xml" value="0.18" />
         <entry key="app/src/main/res/layout/grid_layout.xml" value="0.22" />

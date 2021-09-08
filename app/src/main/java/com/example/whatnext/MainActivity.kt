@@ -23,7 +23,8 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#003153")))
         setContentView(R.layout.activity_main)
 
-//        val fm = supportFragmentManager.findFragmentById(R.id.mainfragment)
+        supportFragmentManager.addOnBackStackChangedListener { setupHomeAsUp() }
+//        setupHomeAsUp()
 
         fm = supportFragmentManager
         ft = fm.beginTransaction()
@@ -31,6 +32,14 @@ class MainActivity : AppCompatActivity() {
         ft.commit()
 
     }
+
+    private fun setupHomeAsUp() {
+        val shouldShow = 0 < supportFragmentManager.backStackEntryCount
+        supportActionBar?.setDisplayHomeAsUpEnabled(shouldShow)
+    }
+
+    override fun onSupportNavigateUp(): Boolean =
+        supportFragmentManager.popBackStack().run { true }
 
 
     fun loadJson(context: Context, filename: String): String? {

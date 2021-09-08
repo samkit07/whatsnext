@@ -13,6 +13,7 @@
         android:layout_height="match_parent"
         android:clipToPadding="true"
         android:layoutDirection="rtl"
-        android:textDirection="ltr" />
+        android:textDirection="ltr"
+        android:verticalScrollbarPosition="right" />
 
 </FrameLayout>

@@ -60,8 +60,18 @@ class EListAdapter3 internal constructor(private val context: Context,
                 context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             convertView = inflater.inflate(R.layout.parent3, null)
         }
+
+        val iconId : Int = 0
+        var expandableGroupResId : Int = 0
+
+        if (getChildrenCount(groupPosition) > 0) {
+            expandableGroupResId = if (isExpanded) R.drawable.keyboard_arrow_up;
+            else R.drawable.keyboard_arrow_down;
+        }
+
         val ptextview1_3 = convertView!!.findViewById<TextView>(R.id.ptextview1_3)
 
+        ptextview1_3.setCompoundDrawablesWithIntrinsicBounds(iconId, 0, expandableGroupResId, 0)
         ptextview1_3.text = parentgroup.studentType
 
         return convertView
@@ -83,13 +93,14 @@ class EListAdapter3 internal constructor(private val context: Context,
                 context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             convertView = inflater.inflate(R.layout.child3, null)
         }
+
         val ctextview1_3 = convertView!!.findViewById<TextView>(R.id.ctextview1_3)
 
         ctextview1_3.text = childgroup
 
-        if(childgroup == "Job") ctextview1_3.setBackgroundColor(parseColor("#58A25D"))
+//        if(childgroup == "Job") ctextview1_3.setBackgroundColor(parseColor("#58A25D"))
 
-        else ctextview1_3.setBackgroundColor(parseColor("#026C6C"))
+//        ctextview1_3.setBackgroundColor(R.drawable.gradientcolour)
 
         return convertView
     }

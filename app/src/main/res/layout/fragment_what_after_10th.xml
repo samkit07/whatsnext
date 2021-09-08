@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layoutaftr10th"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="4dp">
+    android:layout_margin="4dp"
+    tools:context=".page1.WhatAfter10th"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textview4_1_1"
@@ -18,29 +20,35 @@
         android:textSize="22sp"
         android:textStyle="bold|italic" />
 
-    <ExpandableListView
-        android:id="@+id/elistview1"
+        <ExpandableListView
+            android:id="@+id/elistview1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layoutDirection="rtl"
+            android:textAlignment="textStart"
+            android:textDirection="ltr"
+            android:textSize="20sp"
+            android:verticalScrollbarPosition="right"
+           />
+
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="455dp"
-        android:layout_below="@+id/textview4_1_1"
-        android:layoutDirection="rtl"
-        android:textAlignment="textStart"
-        android:textDirection="ltr"
-        android:textSize="20sp"
-        android:verticalScrollbarPosition="right" />
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/textview4_1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/elistview1"
-        android:background="#026C6C"
-        android:padding="8dp"
-        android:text="Jobs"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/textview4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#026C6C"
+            android:padding="8dp"
+            android:text="Jobs"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
 
 
-</RelativeLayout>
+</LinearLayout>

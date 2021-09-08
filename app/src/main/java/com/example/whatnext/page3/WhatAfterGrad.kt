@@ -49,6 +49,7 @@ class WhatAfterGrad : Fragment() {
         listviewAd = EListAdapter3(context as MainActivity, courses.data, courselist)
         elist1_3.setAdapter(listviewAd)
 
+        elist1_3.setGroupIndicator(null)
         return view
 
     }
