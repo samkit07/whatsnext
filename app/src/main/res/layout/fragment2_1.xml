@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="4dp"
+    android:background="@color/white"
     android:textDirection="ltr"
     tools:context=".page2.Fragment2_1">
 

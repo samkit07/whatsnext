@@ -5,16 +5,22 @@
     android:id="@+id/mainfragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:background="#F9E4B7"
+    android:gravity="center"
     tools:context=".MainFragment">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvUsersList"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:listitem="@layout/grid_layout" />
+        android:layout_height="match_parent"
+        android:background="#F9E4B7">
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvUsersList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F9E4B7"
+            tools:listitem="@layout/grid_layout" />
+    </LinearLayout>
     <!--    <TextView-->
     <!--        android:id="@+id/after10th"-->
     <!--        android:layout_width="match_parent"-->

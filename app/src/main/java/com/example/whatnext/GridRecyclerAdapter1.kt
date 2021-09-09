@@ -13,7 +13,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.bumptech.glide.request.RequestOptions
 
 import com.example.whatnext.page1.WhatAfter10th
 import com.example.whatnext.page10.CoursesOverview
@@ -21,6 +20,7 @@ import com.example.whatnext.page2.*
 //import com.example.whatnext.page2.WhatAfter12th
 import com.example.whatnext.page3.WhatAfterGrad
 import com.example.whatnext.page9.TalentTests
+import com.google.android.gms.fido.fido2.api.common.RequestOptions
 
 
 class GridRecyclerAdapter1(private val context: Context, var exlist:ArrayList<CustomGridView>): RecyclerView.Adapter<GridRecyclerAdapter1.Viewholder>() {
@@ -44,23 +44,15 @@ class GridRecyclerAdapter1(private val context: Context, var exlist:ArrayList<Cu
 
         holder.text.text = data.text
 
-
-        Glide
-            .with(context)
+        Glide.with(context)
             .load(data.img)
-            .apply(RequestOptions().override(200, 200).centerCrop())
+            .apply(
+                com.bumptech.glide.request.RequestOptions.diskCacheStrategyOf(DiskCacheStrategy.RESOURCE)
+                    .error(R.drawable.keyboard_arrow_down).override(250, 250).centerCrop())
             .into(holder.img)
-//        Glide.with(context)
-//            .load(data.img)
-//            .override(300, 300)
-//            .centerCrop()
-//            .apply(
-//                RequestOptions.diskCacheStrategyOf(DiskCacheStrategy.RESOURCE)
-//                    .error(R.drawable.keyboard_arrow_down))
-//            .into(holder.img)
 
         holder.itemView.setOnClickListener{
-//            Toast.makeText(context,"Clicked on : "+ position,Toast.LENGTH_SHORT).show()
+
 
             when(position) {
                 0 -> {
