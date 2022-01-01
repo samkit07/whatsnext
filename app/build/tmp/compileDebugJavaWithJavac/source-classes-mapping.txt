@@ -1,13 +1,9 @@
-com/example/what_next/BuildConfig.java
- com.example.what_next.BuildConfig
 com/example/what_next/databinding/Fragment22Binding.java
  com.example.what_next.databinding.Fragment22Binding
 com/example/what_next/databinding/Fragment23Binding.java
  com.example.what_next.databinding.Fragment23Binding
 com/example/what_next/databinding/Fragment21Binding.java
  com.example.what_next.databinding.Fragment21Binding
-com/example/what_next/databinding/Fragment2Binding.java
- com.example.what_next.databinding.Fragment2Binding
 com/example/what_next/databinding/Sample10Binding.java
  com.example.what_next.databinding.Sample10Binding
 com/example/what_next/databinding/Fragment26Binding.java
@@ -54,3 +50,5 @@ com/example/what_next/databinding/Page21Binding.java
  com.example.what_next.databinding.Page21Binding
 com/example/what_next/databinding/Fragment10Binding.java
  com.example.what_next.databinding.Fragment10Binding
+com/example/what_next/BuildConfig.java
+ com.example.what_next.BuildConfig

@@ -1,14 +1,14 @@
-#Mon Sep 06 16:20:04 IST 2021
-path.4=12/classes.dex
-path.3=5/classes.dex
-path.2=2/classes.dex
+#Sat Jan 01 20:58:51 IST 2022
+path.4=5/classes.dex
+path.3=2/classes.dex
+path.2=12/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.4=/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
-base.3=/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
-base.2=/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
-base.1=/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.0=/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.4=/home/samkit/AndroidStudioProjects/what_next/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
+base.3=/home/samkit/AndroidStudioProjects/what_next/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
+base.2=/home/samkit/AndroidStudioProjects/what_next/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
+base.1=/home/samkit/AndroidStudioProjects/what_next/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/home/samkit/AndroidStudioProjects/what_next/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

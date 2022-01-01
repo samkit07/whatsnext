@@ -2446,7 +2446,6 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment10
-layout fragment2
 layout fragment2_1
 layout fragment2_2
 layout fragment2_3

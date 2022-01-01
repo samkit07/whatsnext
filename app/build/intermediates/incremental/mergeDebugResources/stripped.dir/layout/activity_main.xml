@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragmentContainer"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradientcolour"
+    android:orientation="vertical">
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#1F1FB8"-->
+<!--        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+<!--        app:logo="@drawable/ic_book"-->
+<!--        app:title="WhatNext?"-->
+<!--        app:subtitle="Educational App"-->
+<!--        app:titleMarginStart="30dp"/>-->
+
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:id="@+id/fragmentContainer"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="665dp"-->
+<!--        android:layout_marginTop="50dp"/>-->
+
+
+<!--    <HorizontalScrollView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="500dp">-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/mainLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginLeft="40dp">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/fpage3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="100dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="After Graduation"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/fpage4"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="200dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="Exams After Intermediate"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/fpage7"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="300dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="Exams"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+
+<!--        <Button-->
+<!--            android:id="@+id/fpage9"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="400dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="Talent Tests"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/fpage10"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="500dp"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="Courses"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="italic" />-->
+
+
+<!--    </RelativeLayout>-->
+
+<!--        <GridView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:id="@+id/gridView"-->
+<!--            android:numColumns="2"/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvUsersList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+<!--    <ExpandableListView-->
+<!--        android:id="@+id/expandlist"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+
+
+</RelativeLayout>

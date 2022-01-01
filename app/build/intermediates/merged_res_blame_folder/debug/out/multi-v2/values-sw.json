@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/samkit/AndroidStudioProjects/whatsnext/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "outputFile": "/home/samkit/AndroidStudioProjects/what_next/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
             "map": [
                 {
                     "source": "/home/samkit/.gradle/caches/transforms-3/6c809ba1be2c04d50dbd65bedc7e1620/transformed/material-1.4.0/res/values-sw/values-sw.xml",
